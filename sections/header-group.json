@@ -1,0 +1,64 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free CAN Shipping on Orders over $100",
+            "link": ""
+          }
+        },
+        "adb5e9de-5329-4557-80f0-5801fddcbb56": {
+          "type": "announcement",
+          "settings": {
+            "text": "NEW Book - Sun Steak Steel",
+            "link": ""
+          }
+        },
+        "f6e0aaab-62ca-4708-8237-bd8ff034039a": {
+          "type": "announcement",
+          "settings": {
+            "text": "Fix Your Hormones in our new Masterclass",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "adb5e9de-5329-4557-80f0-5801fddcbb56",
+        "f6e0aaab-62ca-4708-8237-bd8ff034039a"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "show_line_separator": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "menu-2023",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "inverse",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

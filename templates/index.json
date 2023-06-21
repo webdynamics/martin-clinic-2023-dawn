@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "blah blah",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GET THE FREE VIDEO",
+            "button_link_1": "https:\/\/martinclinic.com\/pages\/on-demand-sign-up-beat-fatigue",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Beat_Fatigue_Once_And_For_All_4000_x_2067_px_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "d4737265-c783-4ef0-aadd-0233455c1906": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Join The Martin Clinic Club<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Exclusive Private Facebook Group Where Our Team Of Health Coaches Answer Your Health Questions.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN NOW!",
+            "button_link": "https:\/\/www.facebook.com\/groups\/martinclinicclub\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-0",
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-1",
+        "template--15921761124504__d4737265-c783-4ef0-aadd-0233455c1906-168727278046e08a76-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/753458_MC-ClubGraphic_062320.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "73b79261-308f-46a1-9cd1-efa6bcd3bf1b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Not Sure Where To Start?<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let me help you find the best information you need to overcome your symptoms.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "START HERE",
+            "button_link": "https:\/\/martinclinic.com\/pages\/quiz-lets-get-started"
+          }
+        }
+      },
+      "block_order": [
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-0",
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-1",
+        "template--15921761124504__73b79261-308f-46a1-9cd1-efa6bcd3bf1b-168727278046e08a76-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Copy_of_june_2_2020.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "90283501-b643-40aa-a79c-2d19534deaf3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Doctor Is In Podcast<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over 1.3 million downloads.<\/p><p>A brand new episode 5 days a week!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LISTEN NOW",
+            "button_link": "https:\/\/martinclinic.com\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-0",
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-1",
+        "template--15921761124504__90283501-b643-40aa-a79c-2d19534deaf3-168727278046e08a76-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Doctor_Is_In_Podcast_Views.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "ea4144e9-e6a9-44a5-b8e2-857e863dad67": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/low-energy.jpg",
+            "title": "<strong>Are Your Cortisol Levels Higher Than Normal?<\/strong>",
+            "text": "",
+            "link_label": "TAKE THE CORTISOL QUIZ!",
+            "link": "https:\/\/martinclinic.com\/pages\/cortisol-quiz"
+          }
+        },
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thyroid.jpg",
+            "title": "<strong>Is Your Thyroid Running At A Normal Speed?<\/strong>",
+            "text": "",
+            "link_label": "TAKE THE THYROID QUIZ!",
+            "link": ""
+          }
+        },
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gut-problem.jpg",
+            "title": "<strong>Do You Have A Hidden Gut Problem?<\/strong>",
+            "text": "",
+            "link_label": "TAKE THE HEALTHY GUT QUIZ!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-0",
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-1",
+        "template--15921761124504__ea4144e9-e6a9-44a5-b8e2-857e863dad67-168727491366518422-2"
+      ],
+      "settings": {
+        "title": "Wondering about an issue? Take the Quiz.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "See All Quizzes",
+        "button_link": "https:\/\/martinclinic.com\/pages\/quizzes-1",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "d4737265-c783-4ef0-aadd-0233455c1906",
+    "73b79261-308f-46a1-9cd1-efa6bcd3bf1b",
+    "90283501-b643-40aa-a79c-2d19534deaf3",
+    "featured_collection",
+    "ea4144e9-e6a9-44a5-b8e2-857e863dad67"
+  ]
+}
