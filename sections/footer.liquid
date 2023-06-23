@@ -88,6 +88,11 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+                  {%- when 'klaviyo_signup' -%}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.subtext }}
+                      {{ block.settings.k_form_id }}
+                    </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -356,7 +361,7 @@
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+        {% comment %} <small class="copyright__content">{{ powered_by_link }}</small> {% endcomment %}
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -441,6 +446,30 @@
           "id": "subtext",
           "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
+        }
+      ]
+    },
+    {
+      "type": "klaviyo_signup",
+      "name": "Klaviyo Signup",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Newsletter Signup",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "default": "<p>Signup for our newsletter to receive health tips from Dr. Martin, as well as exclusive offers on Martin Clinic products.</p>",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "k_form_id",
+          "default": "Enter the Klaviyo form ID string including <div> tags",
+          "label": "Klaviyo Form ID"
         }
       ]
     },
