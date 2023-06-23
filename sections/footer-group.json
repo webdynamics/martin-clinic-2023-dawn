@@ -12,25 +12,26 @@
             "subtext": "<p>Our offline office has closed. Please order supplements online.<br\/>Toll-free 1.866.660.6607<\/p><p><a href=\"mailto:info@martinclinic.com\">info@martinclinic.com<\/a><\/p><p><\/p>"
           }
         },
-        "3f4495cc-9087-484a-a175-2593c28b9246": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Info",
             "menu": "footer"
           }
+        },
+        "5a8bd1c0-d941-409c-a1c7-727831e76ffe": {
+          "type": "klaviyo_signup",
+          "settings": {
+            "heading": "Newsletter Signup",
+            "subtext": "<p>Signup for our newsletter to receive health tips from Dr. Martin, as well as exclusive offers on Martin Clinic products.<\/p>",
+            "k_form_id": "<div class=\"klaviyo-form-HQF2j8\"><\/div>"
+          }
         }
       },
       "block_order": [
         "footer-2",
-        "3f4495cc-9087-484a-a175-2593c28b9246",
-        "footer-1"
+        "footer-1",
+        "5a8bd1c0-d941-409c-a1c7-727831e76ffe"
       ],
       "settings": {
         "color_scheme": "inverse",
