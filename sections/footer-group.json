@@ -19,19 +19,17 @@
             "menu": "footer"
           }
         },
-        "5a8bd1c0-d941-409c-a1c7-727831e76ffe": {
-          "type": "klaviyo_signup",
+        "fd9f077a-8348-461d-8a68-7ed5f4aea9c9": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "heading": "Newsletter Signup",
-            "subtext": "<p>Signup for our newsletter to receive health tips from Dr. Martin, as well as exclusive offers on Martin Clinic products.<\/p>",
-            "k_form_id": "<div class=\"klaviyo-form-HQF2j8\"><\/div>"
+            "formId": "HQF2j8"
           }
         }
       },
       "block_order": [
         "footer-2",
         "footer-1",
-        "5a8bd1c0-d941-409c-a1c7-727831e76ffe"
+        "fd9f077a-8348-461d-8a68-7ed5f4aea9c9"
       ],
       "settings": {
         "color_scheme": "inverse",
