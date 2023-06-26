@@ -282,12 +282,26 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "8ff294cc-be12-4322-bd4b-26d4838f426d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Probiotics are the fancy word for friendly bacteria. it means \"pro-life.\"<br\/>and…<br\/>Probiotics help you digest your food, boost your immune system, and control yeast and harmful bacteria (like those that cause excessive gas and ulcers).<br\/>I want you to know probiotics do so much more than keep your gut healthy.<br\/>   They Keep Your Whole Body Healthy.<\/p>"
+          }
+        },
+        "cb7d9052-6ccf-4d4d-97b1-375069990653": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As i said earlier, your gut contains over 80 trillion bacteria.<br\/>But…so do your lungs, skin, heart, joints….and brain.<br\/>And, it turns out…<br\/>There's communication going on between the bacteria in your gut and the bacteria in your lungs, brain, skin, joints, heart, and liver…<br\/>(researchers call it crosstalk)<br\/>meaning…<br\/>Whatever affects the bacteria in your gut…<br\/>Also affects the bacteria everywhere else in your body.<br\/><\/p>"
+          }
         }
       },
       "block_order": [
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-1",
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-0",
-        "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-2"
+        "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-2",
+        "8ff294cc-be12-4322-bd4b-26d4838f426d",
+        "cb7d9052-6ccf-4d4d-97b1-375069990653"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -297,6 +311,106 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "c1e671bd-50e2-4ec0-96ed-cb91d8f23680": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-0": {
+          "type": "column",
+          "settings": {
+            "title": "Digestive problems like:",
+            "text": "<ul><li><strong>Indigestion<\/strong><\/li><li><strong>Gas Or Bloating<\/strong><\/li><li><strong>Abdominal Pain Or Discomfort<\/strong><\/li><li><strong>Lack Of Energy<\/strong><\/li><li><strong>Frequent Constipation Or<\/strong><\/li><li><strong>Diarrhea<\/strong><\/li><li><strong>Food Allergies<\/strong><\/li><li><strong>Irritable Bowel<\/strong><\/li><li><strong>Acid Reflux<\/strong><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-1": {
+          "type": "column",
+          "settings": {
+            "title": "And with other issues like:",
+            "text": "<ul><li><strong>Itchy Skin, Rashes, Or Acne<\/strong><\/li><li><strong>Asthma <\/strong><\/li><li><strong>Nasal Allergies<\/strong><\/li><li><strong>Chronic Bad Breath<\/strong><\/li><li><strong>Anxiety Or Depression<\/strong><\/li><li><strong>PMS<\/strong><\/li><li><strong>Vaginal Itching<\/strong><\/li><li><strong>Frequent Infections<\/strong><\/li><li><strong>Colds And Flu<\/strong><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-2": {
+          "type": "column",
+          "settings": {
+            "title": "And:",
+            "text": "<ul><li><strong>Frequent Headaches Or Migraines<\/strong><\/li><li><strong>Yeast Infections Or Overgrowth <\/strong><\/li><li><strong>Sinus Inflammation Or Recurring Sinus Infections<\/strong><\/li><li><strong>Joint Pain<\/strong><\/li><li><strong>Inflammation<\/strong><\/li><li><strong>Hormones<\/strong><\/li><li><strong>Autoimmune Diseases<\/strong><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-0",
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-1",
+        "template--15923211337880__c1e671bd-50e2-4ec0-96ed-cb91d8f23680-16877989585ee47dd9-2"
+      ],
+      "settings": {
+        "title": "That's why probiotics can help with...",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "51ed333d-8f97-429c-b463-cc564f314e3b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>It's time to Put Back the healthy intestinal bacteria modern life takes out with Daily Probiotics<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-0",
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-1",
+        "template--15923211337880__51ed333d-8f97-429c-b463-cc564f314e3b-1687799910a74f9be3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/probiotic_90_and_180_c.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -305,6 +419,8 @@
     "441bff99-447b-41dd-a781-d6a9ab99a8d6",
     "a1ed3219-b448-4811-8674-85f2f90018c5",
     "fe34cdb3-1261-45cf-a2be-45e700ccde61",
-    "b83e2de2-291d-45d2-83ab-29363dfac14d"
+    "b83e2de2-291d-45d2-83ab-29363dfac14d",
+    "c1e671bd-50e2-4ec0-96ed-cb91d8f23680",
+    "51ed333d-8f97-429c-b463-cc564f314e3b"
   ]
 }
