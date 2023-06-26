@@ -261,7 +261,7 @@
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Humans eat 5 grams of small plastics particles every week…which is the weight of a credit card. <\/p><p>These tiny plastics can change your gut bacteria composition…<br\/>Wreaking havoc on your gut.<br\/>But it gets worse.<\/p><p>According to the researchers…<br\/><br\/>The plastic particles you're eating cause an immune response and activate inflammation…<br\/>And they \"trigger chemical pathways involved in the formation of cancer.\"<br\/>according to the study, the health effects of plastic…<\/p><p>\"May be irreversible.\"<\/p>"
+            "text": "<p>Humans eat 5 grams of small plastics particles every week…which is the weight of a credit card. <\/p><p>These tiny plastics can change your gut bacteria composition…<br\/>Wreaking havoc on your gut.<br\/>But it gets worse.<\/p><p>According to the researchers…<br\/><br\/>The plastic particles you're eating cause an immune response and activate inflammation…<br\/>And they \"trigger chemical pathways involved in the formation of cancer.\"<br\/>according to the study, the health effects of plastic…<\/p><p><em><strong>\"May be irreversible.\"<\/strong><\/em><\/p>"
           }
         },
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-0": {
@@ -302,6 +302,9 @@
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-2",
         "8ff294cc-be12-4322-bd4b-26d4838f426d",
         "cb7d9052-6ccf-4d4d-97b1-375069990653"
+      ],
+      "custom_css": [
+        "h2 {background-color: #752182; width: 100%; padding: 10px; color: white;}"
       ],
       "settings": {
         "desktop_content_position": "center",
