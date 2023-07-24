@@ -511,59 +511,6 @@
         "padding_bottom": 36
       }
     },
-    "9667868d-ec22-4411-8641-87d0281440fa": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p><strong>Digestive health is far and away the biggest problem<\/strong> we see every single day inside of our clinic.<br\/><br\/>And with everything we know about probiotics, we went looking for the best one that we could recommend to our patients.<br\/><br\/>We wanted something that we could confidently give to our patients that worked…<br\/><br\/>But didn’t cost them an arm and a leg.<br\/><br\/>After months of buying, testing, and monitoring we found that there was <strong>nothing on the market that could do the job<\/strong>.<br\/><br\/>That’s when we decided to create our own! <br\/><br\/>I’m proud to introduce our…<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-0",
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-1",
-        "template--15923211337880__9667868d-ec22-4411-8641-87d0281440fa-16878678913b98bc27-2"
-      ],
-      "settings": {
-        "title": "<strong>How to get the right strains, the right amount and the right quality for the lowest price possible<\/strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "ebad8055-4333-4f5e-b16c-c4618e11cfc2": {
       "type": "rich-text",
       "blocks": {
@@ -586,16 +533,30 @@
             "image": "shopify:\/\/shop_images\/probiotic_strains.webp",
             "image_full_width": true
           }
+        },
+        "567da47b-d55c-4ad4-85da-91fc72dc16a0": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>★ ★ ★ ★ ★ <\/h3><p>My husband and I take probiotics everyday. I can’t imagine being without them.<br\/>So good for your digestive system. I had gut issues before, but not anymore. Thanks Martin clinic<\/p><p>-Anne H. <\/p><p><\/p>"
+          }
+        },
+        "51127c29-8228-4363-84e0-625a59787ac3": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>★ ★ ★ ★ ★ <\/h3><p>\"My health would be still be suffering without them.  My partner and I noticed we don’t get the flu anymore. If there’s one supplement I will be taking for life it’s Dr. Martins probiotic complex. They have the best quality and value.\"<\/p><p>- David M.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-heading-1",
         "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-text-1",
-        "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd"
+        "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd",
+        "567da47b-d55c-4ad4-85da-91fc72dc16a0",
+        "51127c29-8228-4363-84e0-625a59787ac3"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -614,7 +575,6 @@
     "51ed333d-8f97-429c-b463-cc564f314e3b",
     "700ee158-ed20-4202-b03e-3e5d0482b945",
     "faa64d6b-8c38-4c03-b6ad-c6adaeb355a7",
-    "9667868d-ec22-4411-8641-87d0281440fa",
     "ebad8055-4333-4f5e-b16c-c4618e11cfc2"
   ]
 }
