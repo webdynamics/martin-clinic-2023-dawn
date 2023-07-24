@@ -87,6 +87,16 @@
                   </a>
                 {%- endif -%}
               </div>
+            {%- when 'image' -%}
+            <div>
+              {{
+                block.settings.image
+               | image_url: width: 1500
+               | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+              }}
+
+            </div>
+            
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -320,6 +330,24 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Choose an image"
+        },
+        {
+          "type": "checkbox",
+          "id": "image_full_width",
+          "default": false,
+          "label": "Full width"
         }
       ]
     }
