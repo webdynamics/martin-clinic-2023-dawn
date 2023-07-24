@@ -585,12 +585,19 @@
             "image": "shopify:\/\/shop_images\/yogurt.webp",
             "image_full_width": false
           }
+        },
+        "0c8fe972-a3f9-48fc-bbd8-8d6ac1fd1f33": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is why getting probiotics from food alone is never a good idea.<br\/><br\/>Truth of the matter is they just can’t deliver the load of probiotics that your body needs.<br\/><br\/>Plus, as you already know, you need different strains of probiotics for different health problems…<br\/><br\/>Which means you’d need large amounts of different foods for each problem you’re facing.<br\/><br\/>No one has the time or money for that!<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15923211337880__323d83a7-b124-4d22-9ee3-e12ae57cb5c3-heading-1",
         "template--15923211337880__323d83a7-b124-4d22-9ee3-e12ae57cb5c3-text-1",
-        "84db2f9c-b597-453d-9888-ed128cf4f892"
+        "84db2f9c-b597-453d-9888-ed128cf4f892",
+        "0c8fe972-a3f9-48fc-bbd8-8d6ac1fd1f33"
       ],
       "settings": {
         "desktop_content_position": "center",
