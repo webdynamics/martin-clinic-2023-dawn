@@ -583,7 +583,8 @@
         "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd": {
           "type": "image",
           "settings": {
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/probiotic_strains.webp",
+            "image_full_width": true
           }
         }
       },
