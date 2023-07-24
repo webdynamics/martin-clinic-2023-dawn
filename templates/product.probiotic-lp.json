@@ -511,50 +511,6 @@
         "padding_bottom": 36
       }
     },
-    "40fbd05c-245f-4446-91cf-787576faf328": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-0",
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-1",
-        "template--15923211337880__40fbd05c-245f-4446-91cf-787576faf328-1687867810bf9f1ef8-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "9667868d-ec22-4411-8641-87d0281440fa": {
       "type": "multicolumn",
       "blocks": {
@@ -607,6 +563,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ebad8055-4333-4f5e-b16c-c4618e11cfc2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How to get the right strains, the right amount and the right quality for the lowest price possible<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Digestive health is far and away the biggest problem<\/strong> we see every single day inside of our clinic.<br\/><br\/>And with everything we know about probiotics, we went looking for the best one that we could recommend to our patients.<br\/><br\/>We wanted something that we could confidently give to our patients that worked…<br\/><br\/>But didn’t cost them an arm and a leg.<br\/><br\/>After months of buying, testing, and monitoring we found that there was <strong>NOTHING on the market that could do the job<\/strong>.<br\/><br\/>That’s when we decided to create our own! <br\/><br\/>I’m proud to introduce our…<\/p>"
+          }
+        },
+        "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd": {
+          "type": "image",
+          "settings": {
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-heading-1",
+        "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-text-1",
+        "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -620,7 +613,7 @@
     "51ed333d-8f97-429c-b463-cc564f314e3b",
     "700ee158-ed20-4202-b03e-3e5d0482b945",
     "faa64d6b-8c38-4c03-b6ad-c6adaeb355a7",
-    "40fbd05c-245f-4446-91cf-787576faf328",
-    "9667868d-ec22-4411-8641-87d0281440fa"
+    "9667868d-ec22-4411-8641-87d0281440fa",
+    "ebad8055-4333-4f5e-b16c-c4618e11cfc2"
   ]
 }
