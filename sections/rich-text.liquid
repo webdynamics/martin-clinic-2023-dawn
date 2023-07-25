@@ -88,7 +88,8 @@
                 {%- endif -%}
               </div>
             {%- when 'image' -%}
-            <div>
+            {%- if block.settings.image != blank -%}
+            <div class="banner__content banner__content--middle-center page-width scroll-trigger animate--slide-in scroll-trigger--design-mode">
               {{
                 block.settings.image
                | image_url: width: 1500
@@ -96,7 +97,7 @@
               }}
 
             </div>
-            
+            {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
