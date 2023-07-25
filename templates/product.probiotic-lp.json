@@ -607,6 +607,51 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "7ca12ded-d910-4377-90ac-d60dc423c290": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15923211337880__7ca12ded-d910-4377-90ac-d60dc423c290-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Finally! a full spectrum, multi-strain probiotic designed by doctors who know what they’re doing",
+            "heading_size": "h1"
+          }
+        },
+        "bdb17a01-f3b4-4aa0-b73d-ec65edefb424": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FirstClinic.webp",
+            "image_full_width": false
+          }
+        },
+        "template--15923211337880__7ca12ded-d910-4377-90ac-d60dc423c290-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our small town clinic <strong>opened its doors in 1911. <\/strong><br\/><br\/>Since then we’ve provided a groundbreaking natural solution to our patients on the front lines of health.<br\/><br\/>If something doesn’t work, we don’t continue to use it. period.<br\/><br\/>And that matters a lot to us.<br\/><br\/>But here’s why that should matter to you...<br\/><br\/>We treat real people every day in our clinic and they look to us for solutions.<br\/><br\/>They don’t want “maybe’s” or another lecture. they want results.<br\/><br\/>When other supplement manufacturers sell you something that doesn’t work, they can refund your money (maybe) and go about their business.<br\/><br\/>But when we give a customer something that doesn't work, we have to look them in the eye at the next appointment.<\/p>"
+          }
+        },
+        "440f5de5-56e5-455a-a6ec-d2b821b2a353": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__7ca12ded-d910-4377-90ac-d60dc423c290-heading-1",
+        "bdb17a01-f3b4-4aa0-b73d-ec65edefb424",
+        "template--15923211337880__7ca12ded-d910-4377-90ac-d60dc423c290-text-1",
+        "440f5de5-56e5-455a-a6ec-d2b821b2a353"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -621,6 +666,7 @@
     "700ee158-ed20-4202-b03e-3e5d0482b945",
     "faa64d6b-8c38-4c03-b6ad-c6adaeb355a7",
     "ebad8055-4333-4f5e-b16c-c4618e11cfc2",
-    "323d83a7-b124-4d22-9ee3-e12ae57cb5c3"
+    "323d83a7-b124-4d22-9ee3-e12ae57cb5c3",
+    "7ca12ded-d910-4377-90ac-d60dc423c290"
   ]
 }
