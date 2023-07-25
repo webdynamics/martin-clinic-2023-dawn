@@ -12,6 +12,12 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .rich-text-image {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -89,7 +95,7 @@
               </div>
             {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-            <div class="banner__content banner__content--middle-center page-width scroll-trigger animate--slide-in scroll-trigger--design-mode">
+            <div class="rich-text-image">
               {{
                 block.settings.image
                | image_url: width: 1500
