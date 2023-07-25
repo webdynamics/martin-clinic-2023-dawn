@@ -634,7 +634,7 @@
         "440f5de5-56e5-455a-a6ec-d2b821b2a353": {
           "type": "text",
           "settings": {
-            "text": "<h3>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/h3>"
+            "text": "<h3><strong>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/strong><\/h3>"
           }
         }
       },
@@ -652,6 +652,165 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "b5fe30d3-ec73-4837-98f1-bdb62d8baf21": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15923211337880__b5fe30d3-ec73-4837-98f1-bdb62d8baf21-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to an advanced probiotic formula",
+            "heading_size": "h1"
+          }
+        },
+        "template--15923211337880__b5fe30d3-ec73-4837-98f1-bdb62d8baf21-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our goal was to develop a research-quality probiotic at an amazing price. we made sure to check off “yes” on every requirement for probiotic effectiveness - just like clinical researchers do.<br\/><br\/>The result is probiotic complex and here’s what you get in each bottle:<br\/><br\/>✅ 11 high-quality probiotic strains. you get a scientifically formulated balance of clinically tested probiotics including all 11 strains that we've named above<br\/><br\/>✅ The top strains for immune health which have been clinically shown to help combat colds and other seasonal illnesses that become more dangerous as we grow older.<br\/><br\/>✅ A full 50 billion cfu serving size in each capsule. this is an “extra-strength” dose that works best for individuals over 40. Most formulas carry less than half this amount.<br\/><br\/>✅ Not 1 but two immune support probiotics to optimize your immune system. Every capsule includes our proprietary immune support combination of lactobacillus rhamnosus and lactobacillus reuteri that support robust immunity.<br\/><br\/>✅ A 30 day return policy. if for any reason you feel this isn’t for you, we’ll refund every penny.<\/p>"
+          }
+        },
+        "91437512-7233-446a-9163-b62bc6ed9cd4": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Stop paying higher prices for lower quality probiotics!<\/strong><\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__b5fe30d3-ec73-4837-98f1-bdb62d8baf21-heading-1",
+        "template--15923211337880__b5fe30d3-ec73-4837-98f1-bdb62d8baf21-text-1",
+        "91437512-7233-446a-9163-b62bc6ed9cd4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "30f1628c-de2c-46d3-b677-4ec1003ee754": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15923211337880__30f1628c-de2c-46d3-b677-4ec1003ee754-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our promise to you",
+            "heading_size": "h1"
+          }
+        },
+        "template--15923211337880__30f1628c-de2c-46d3-b677-4ec1003ee754-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Either you love our probiotic complex and it works for you or you get your money back.<\/p><p>Plus, i’ll personally email you to offer you an apology for having wasted your time just like i would with any of the patients in our clinic.<\/p><p>We can’t promise to be perfect, no one can. but when something's not right, we work to make it right.<\/p><p>That’s why you’ll have a full 30 days to try probiotic complex and see if it’s for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__30f1628c-de2c-46d3-b677-4ec1003ee754-heading-1",
+        "template--15923211337880__30f1628c-de2c-46d3-b677-4ec1003ee754-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "a979d089-e526-43c6-ae2b-39ef96289c3e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15923211337880__a979d089-e526-43c6-ae2b-39ef96289c3e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our #1 doctor formulated probiotic is now available to help you win the war of good gut health",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__a979d089-e526-43c6-ae2b-39ef96289c3e-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "71d2a372-dec3-4eac-9ede-f33aa25f25b8": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-text-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-title-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-price-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-variant_picker-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-quantity_selector-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-buy_buttons-1",
+        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-share-1"
+      ],
+      "settings": {
+        "product": "probiotic-complex",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -667,6 +826,10 @@
     "faa64d6b-8c38-4c03-b6ad-c6adaeb355a7",
     "ebad8055-4333-4f5e-b16c-c4618e11cfc2",
     "323d83a7-b124-4d22-9ee3-e12ae57cb5c3",
-    "7ca12ded-d910-4377-90ac-d60dc423c290"
+    "7ca12ded-d910-4377-90ac-d60dc423c290",
+    "b5fe30d3-ec73-4837-98f1-bdb62d8baf21",
+    "30f1628c-de2c-46d3-b677-4ec1003ee754",
+    "a979d089-e526-43c6-ae2b-39ef96289c3e",
+    "71d2a372-dec3-4eac-9ede-f33aa25f25b8"
   ]
 }
