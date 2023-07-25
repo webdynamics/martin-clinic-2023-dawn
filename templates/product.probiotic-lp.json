@@ -340,7 +340,7 @@
           "type": "column",
           "settings": {
             "title": "And:",
-            "text": "<ul><li><strong>Frequent Headaches Or Migraines<\/strong><\/li><li><strong>Yeast Infections Or Overgrowth <\/strong><\/li><li><strong>Sinus Inflammation Or Recurring Sinus Infections<\/strong><\/li><li><strong>Joint Pain<\/strong><\/li><li><strong>Inflammation<\/strong><\/li><li><strong>Hormones<\/strong><\/li><li><strong>Autoimmune Diseases<\/strong><\/li><\/ul>",
+            "text": "<ul><li><strong>Frequent Headaches\/Migraines<\/strong><\/li><li><strong>Yeast Infection - Overgrowth <\/strong><\/li><li><strong>Recurring Sinus Infections<\/strong><\/li><li><strong>Joint Pain<\/strong><\/li><li><strong>Inflammation<\/strong><\/li><li><strong>Hormones<\/strong><\/li><li><strong>Autoimmune Diseases<\/strong><\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
