@@ -726,7 +726,7 @@
         "template--15923211337880__a979d089-e526-43c6-ae2b-39ef96289c3e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Our #1 doctor formulated probiotic is now available to help you win the war of good gut health",
+            "heading": "<strong>Our #1 doctor formulated probiotic is now available to help you win the war of good gut health<\/strong>",
             "heading_size": "h1"
           }
         }
@@ -746,13 +746,6 @@
     "71d2a372-dec3-4eac-9ede-f33aa25f25b8": {
       "type": "featured-product",
       "blocks": {
-        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-title-1": {
           "type": "title",
           "settings": {
@@ -789,7 +782,6 @@
         }
       },
       "block_order": [
-        "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-text-1",
         "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-title-1",
         "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-price-1",
         "template--15923211337880__71d2a372-dec3-4eac-9ede-f33aa25f25b8-variant_picker-1",
