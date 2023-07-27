@@ -77,7 +77,8 @@
                 {% for i in (1..block.settings.stars) %}
                 <span>★</span>
                 {% endfor %}
-                {% for i in (1..(5 - block.settings.stars)) %}
+                {% assign empty_stars = 5 | minus: block.settings.stars %}
+                {% for i in (1..empty_stars) %}
                 <span>☆</span>
                 {% endfor %}
               {%- if block.settings.caption -%}
@@ -312,3 +313,4 @@
   ]
 }
 {% endschema %}
+
