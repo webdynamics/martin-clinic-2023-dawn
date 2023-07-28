@@ -7,7 +7,7 @@
   }
   .stars {
     color: #FFD700;
-    font-size: 1.5rem;
+    font-size: {{ section.settings.star_size }};
   }
 
   .reviewer {
@@ -100,6 +100,24 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "select",
+      "id": "star-size",
+      "options": [
+        {
+          "value": "1.5rem",
+          "label": "Small"
+        },
+        {
+          "value": "2rem",
+          "label": "Medium"
+        },
+        {
+          "value": "3rem",
+          "label": "Large"
+        }
+      ],
+    },
     {
       "type": "select",
       "id": "heading_size",
