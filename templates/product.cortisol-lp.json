@@ -325,6 +325,58 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "af9b9627-ce80-4f98-bbee-f5894616e714": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__af9b9627-ce80-4f98-bbee-f5894616e714-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Here's what else cortisol controls:<br\/><br\/>Blood Sugar<br\/>Blood Pressure<br\/>Digestion<br\/>Hunger Cravings<br\/>Sleep Patterns<br\/>Physical Activity...<br\/><br\/>Cortisol is mission control for being a functional human being.<\/strong><\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__af9b9627-ce80-4f98-bbee-f5894616e714-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ab4a53a6-0949-4643-815c-b86ca5526cc3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__ab4a53a6-0949-4643-815c-b86ca5526cc3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Promise To You",
+            "heading_size": "h1"
+          }
+        },
+        "template--15940800970904__ab4a53a6-0949-4643-815c-b86ca5526cc3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Either you love our Cortisol Control Formula or you<strong> get your money back<\/strong>.<br\/><br\/>It’s that simple.<br\/><br\/>We can’t promise to be perfect, no one can.  But when something’s not right, we work to make it right.<br\/><br\/>That’s why you’ll have a full 30 days to try Cortisol Control and see if it’s for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__ab4a53a6-0949-4643-815c-b86ca5526cc3-heading-1",
+        "template--15940800970904__ab4a53a6-0949-4643-815c-b86ca5526cc3-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -336,6 +388,8 @@
     "related-products",
     "9c407e2e-6bed-4040-9ff1-7fa05140eb73",
     "8ffad81d-aa07-4d11-9f3e-287b8ba26acf",
-    "023dae9c-b629-4c5d-930f-d17546499b29"
+    "023dae9c-b629-4c5d-930f-d17546499b29",
+    "af9b9627-ce80-4f98-bbee-f5894616e714",
+    "ab4a53a6-0949-4643-815c-b86ca5526cc3"
   ]
 }
