@@ -156,6 +156,68 @@
         "row_padding_bottom": 16
       }
     },
+    "c80be14c-1d30-432f-923f-65b1ac0aa7ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__c80be14c-1d30-432f-923f-65b1ac0aa7ba-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "This Is A Normal Cortisol Pattern",
+            "heading_size": "h1"
+          }
+        },
+        "2306781b-c04f-4254-a1ec-052a2781537a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cortisol-healthy-1.webp",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__c80be14c-1d30-432f-923f-65b1ac0aa7ba-heading-1",
+        "2306781b-c04f-4254-a1ec-052a2781537a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8776270d-1998-4e62-a649-7348adc10126": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__8776270d-1998-4e62-a649-7348adc10126-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "This Is What Happens When Cortisol Levels Get Out Of \"Whack\"",
+            "heading_size": "h1"
+          }
+        },
+        "9f76917b-ad49-4479-b5a3-3479d87706fe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-reverse-curve.webp",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__8776270d-1998-4e62-a649-7348adc10126-heading-1",
+        "9f76917b-ad49-4479-b5a3-3479d87706fe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -173,12 +235,57 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "9c407e2e-6bed-4040-9ff1-7fa05140eb73": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "High Cortisol Causes Insomnia In Men And Women Over 40.",
+            "heading_size": "h1"
+          }
+        },
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over 70% of people struggle to get a good night's sleep at least once weekly.<br\/><br\/>They can't fall asleep.<br\/><br\/>They can't stay asleep (they awaken in the middle of the night or way too early in the morning and spend too long fighting hard trying to get back to sleep).<br\/><br\/>The truth is…many struggles with both.<br\/><br\/>To make matters worse…<br\/><br\/>If they manage to fall asleep and stay asleep throughout the night…<br\/><br\/>They wake up feeling EXHAUSTED or IRRITABLE which can affect your relationships.<br\/><br\/><strong>How High Cortisol KILLS Your Sleep<\/strong><br\/><br\/>Your cortisol levels are supposed to be connected to your circadian rhythm…<br\/><br\/>This means your cortisol levels should be highest in the morning and lower at night.<br\/><br\/>This makes sense because you need more energy in the morning than at night when you're sleeping.<br\/><br\/>But, for many people — cortisol levels are high ALL THE TIME!<br\/><br\/>This KILLS your sleep.<\/p>"
+          }
+        },
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-heading-1",
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-text-1",
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "f27f2826-97a1-4319-aeb7-af401dca1568",
     "d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c",
-    "related-products"
+    "c80be14c-1d30-432f-923f-65b1ac0aa7ba",
+    "8776270d-1998-4e62-a649-7348adc10126",
+    "related-products",
+    "9c407e2e-6bed-4040-9ff1-7fa05140eb73"
   ]
 }
