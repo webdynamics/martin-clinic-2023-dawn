@@ -377,6 +377,75 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "fbb3b142-a264-4158-a2bc-202024462e4f": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-text-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-title-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-price-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-variant_picker-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-quantity_selector-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-buy_buttons-1",
+        "template--15940800970904__fbb3b142-a264-4158-a2bc-202024462e4f-share-1"
+      ],
+      "settings": {
+        "product": "cortisol-control-formula",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -390,6 +459,7 @@
     "8ffad81d-aa07-4d11-9f3e-287b8ba26acf",
     "023dae9c-b629-4c5d-930f-d17546499b29",
     "af9b9627-ce80-4f98-bbee-f5894616e714",
-    "ab4a53a6-0949-4643-815c-b86ca5526cc3"
+    "ab4a53a6-0949-4643-815c-b86ca5526cc3",
+    "fbb3b142-a264-4158-a2bc-202024462e4f"
   ]
 }
