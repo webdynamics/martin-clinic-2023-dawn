@@ -10,6 +10,13 @@
     font-size: 1.5rem;
   }
 
+  .reviewer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-style: italic;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -66,11 +73,6 @@
                 <span class="stars">☆</span>
                 {% endfor %}
                 </div>
-              {%- if block.settings.caption -%}
-                <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium">
-                  {{ block.settings.caption | escape }}
-                </p>
-              {%- endif -%}
               {%- if block.settings.heading -%}
                 <h2 class="image-with-text__heading {{ section.settings.heading_size }} rte">
                   {{ block.settings.heading }}
@@ -79,17 +81,8 @@
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
-              {%- if block.settings.button_label != blank -%}
-                <a
-                  {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link }}"
-                  {% endif %}
-                  class="button button--{{ section.settings.button_style }}"
-                >
-                  {{ block.settings.button_label | escape }}
-                </a>
+              {%- if block.settings.reviewer -%}
+                <div class="reviewer image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.reviewer }}</div>
               {%- endif -%}
             </div>
           </div>
