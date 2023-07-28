@@ -99,28 +99,28 @@
         "template--15940800970904__d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c-row-1": {
           "type": "row",
           "settings": {
-            "stars": 3,
-            "heading": "Cortisol Control lowered my cortisol levels",
-            "text": "<p>My cortisol level was at 720 and in one year it came down to 435 (normal levels are between 125 and 500). It works!!! <br\/><\/p>",
-            "reviewer": "John Smith"
+            "stars": 5,
+            "heading": "Cortisol",
+            "text": "<p>Love it 🤗 After 2 1\/2 years won't ever be without it<br\/><\/p>",
+            "reviewer": "Suzanne D."
           }
         },
         "template--15940800970904__d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c-row-2": {
           "type": "row",
           "settings": {
             "stars": 5,
-            "heading": "Review title",
-            "text": "<p>Enter the review text<\/p>",
-            "reviewer": "John Smith"
+            "heading": "Not just for a good night's sleep!",
+            "text": "<p>When I first started taking Cortisol Control I was taking 2 capsules at night - sleeping well with dreams and waking totally refreshed.<br\/>Since then I developed a broader picture of stress than feeling \"uptight\" and also began taking 1 capsule around breakfast and 1 capsule at lunch time. I now feel like I am surrounded by a blanket of security all day long to deal with everyday life. Wow!<\/p>",
+            "reviewer": "Victor S."
           }
         },
         "template--15940800970904__d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c-row-3": {
           "type": "row",
           "settings": {
             "stars": 5,
-            "heading": "Review title",
-            "text": "<p>Enter the review text<\/p>",
-            "reviewer": "John Smith"
+            "heading": "Cortisol control",
+            "text": "<p>I started using Cortisol control about a year and a half ago, my sleep habits have never been better. Thanks to Dr.Martin and his teachings<\/p>",
+            "reviewer": "Stephie P."
           }
         }
       },
@@ -130,6 +130,7 @@
         "template--15940800970904__d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c-row-3"
       ],
       "settings": {
+        "star_size": "3rem",
         "heading_size": "h1",
         "text_style": "body",
         "desktop_content_position": "middle",
