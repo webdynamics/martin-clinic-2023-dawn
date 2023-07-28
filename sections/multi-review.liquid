@@ -5,6 +5,10 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .stars {
+    color: #FFD700;
+    font-size: 1.5rem;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -53,13 +57,15 @@
 
           <div class="image-with-text__text-item grid__item">
             <div class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.image_height }} content-container{% unless no_content_background and no_content_styles %} gradient color-{{ section.settings.row_color_scheme }}{% endunless %}">
+                <div>
                 {% for i in (1..block.settings.stars) %}
-                <span>★</span>
+                <span class="stars">★</span>
                 {% endfor %}
                 {% assign empty_stars = 5 | minus: block.settings.stars %}
                 {% for i in (1..empty_stars) %}
-                <span>☆</span>
+                <span class="stars">☆</span>
                 {% endfor %}
+                </div>
               {%- if block.settings.caption -%}
                 <p class="image-with-text__text image-with-text__text--caption caption-with-letter-spacing caption-with-letter-spacing--medium">
                   {{ block.settings.caption | escape }}
