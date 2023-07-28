@@ -251,23 +251,71 @@
           "settings": {
             "text": "<p>Over 70% of people struggle to get a good night's sleep at least once weekly.<br\/><br\/>They can't fall asleep.<br\/><br\/>They can't stay asleep (they awaken in the middle of the night or way too early in the morning and spend too long fighting hard trying to get back to sleep).<br\/><br\/>The truth is…many struggles with both.<br\/><br\/>To make matters worse…<br\/><br\/>If they manage to fall asleep and stay asleep throughout the night…<br\/><br\/>They wake up feeling EXHAUSTED or IRRITABLE which can affect your relationships.<br\/><br\/><strong>How High Cortisol KILLS Your Sleep<\/strong><br\/><br\/>Your cortisol levels are supposed to be connected to your circadian rhythm…<br\/><br\/>This means your cortisol levels should be highest in the morning and lower at night.<br\/><br\/>This makes sense because you need more energy in the morning than at night when you're sleeping.<br\/><br\/>But, for many people — cortisol levels are high ALL THE TIME!<br\/><br\/>This KILLS your sleep.<\/p>"
           }
-        },
-        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-heading-1",
-        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-text-1",
-        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-button-1"
+        "template--15940800970904__9c407e2e-6bed-4040-9ff1-7fa05140eb73-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8ffad81d-aa07-4d11-9f3e-287b8ba26acf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__8ffad81d-aa07-4d11-9f3e-287b8ba26acf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "High Cortisol Is A Major Cause Of Feeling Anxious",
+            "heading_size": "h1"
+          }
+        },
+        "template--15940800970904__8ffad81d-aa07-4d11-9f3e-287b8ba26acf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cortisol is a stimulant.  <br\/><br\/>It gets your heart beating faster, your breathing gets quicker, and your muscles get tense.<br\/><br\/>Someone with anxiety feels nervous, restless, or tense. They have a sense of impending danger. They have an increased heart rate and breathing. They can feel weak or tired.<br\/><br\/>You may have noticed high cortisol and anxiety share many of the same symptoms. This is why high cortisol is the #1 cause of insomnia and anxiety in men and women over 40!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__8ffad81d-aa07-4d11-9f3e-287b8ba26acf-heading-1",
+        "template--15940800970904__8ffad81d-aa07-4d11-9f3e-287b8ba26acf-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "023dae9c-b629-4c5d-930f-d17546499b29": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15940800970904__023dae9c-b629-4c5d-930f-d17546499b29-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "High Cortisol Messes With Your Blood Sugar Levels",
+            "heading_size": "h1"
+          }
+        },
+        "template--15940800970904__023dae9c-b629-4c5d-930f-d17546499b29-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the main functions of cortisol is to <strong>RAISE YOUR BLOOD SUGAR LEVELS<\/strong>.  <br\/><br\/>When you're stressed, your body goes into the \"fight or flight\" mode, and it thinks it needs the energy to fight or get away quickly.<br\/><br\/>To get energy, your adrenal glands secrete cortisol, which causes a rise in your blood sugar levels.<br\/><br\/>Once your blood sugar levels rise, your body will secrete insulin to help lower it again.  <br\/><br\/>This yo-yo effect of high and low blood sugar levels <strong>leads to fatigue and intense sugar cravings…<\/strong><br\/><br\/>Making it near impossible to lose weight if your cortisol levels are too high.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15940800970904__023dae9c-b629-4c5d-930f-d17546499b29-heading-1",
+        "template--15940800970904__023dae9c-b629-4c5d-930f-d17546499b29-text-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -286,6 +334,8 @@
     "c80be14c-1d30-432f-923f-65b1ac0aa7ba",
     "8776270d-1998-4e62-a649-7348adc10126",
     "related-products",
-    "9c407e2e-6bed-4040-9ff1-7fa05140eb73"
+    "9c407e2e-6bed-4040-9ff1-7fa05140eb73",
+    "8ffad81d-aa07-4d11-9f3e-287b8ba26acf",
+    "023dae9c-b629-4c5d-930f-d17546499b29"
   ]
 }
