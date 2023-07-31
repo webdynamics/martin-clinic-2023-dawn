@@ -203,7 +203,7 @@
         "db69e6f6-b0ac-4bdf-96b8-f60abc29822a": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We’ve been around since 1911<\/strong> and we’re blessed to play a part in helping 100,000+ people feel fantastic again.<\/p><p><strong>Bottom line<\/strong> — if our stuff doesn’t work, it would make for uncomfortable follow up visits. Our patients deserve to overcome their symptoms and get back to living life to it’s fullest.<\/p><p>Here’s Why This Nutrient Is So Powerful And How It Saved My Wife:<\/p><p>The <strong>nightmare began<\/strong> in the month of June shortly after <strong>my wife<\/strong> (Rosie) turned 40.  At first, it started with allergies — swollen eyes, dry cough, runny nose, and sinus congestion.<\/p>"
+            "text": "<p><strong>We’ve been around since 1911<\/strong> and we’re blessed to play a part in helping 100,000+ people feel fantastic again.<\/p><p><strong>Bottom line<\/strong> — if our stuff doesn’t work, it would make for uncomfortable follow up visits. Our patients deserve to overcome their symptoms and get back to living life to it’s fullest.<\/p><h2><strong>Here’s Why This Nutrient Is So Powerful And How It Saved My Wife:<\/strong><\/h2><p>The <strong>nightmare began<\/strong> in the month of June shortly after <strong>my wife<\/strong> (Rosie) turned 40.  At first, it started with allergies — swollen eyes, dry cough, runny nose, and sinus congestion.<\/p>"
           }
         }
       },
@@ -221,6 +221,75 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb": {
+      "type": "rich-text",
+      "blocks": {
+        "ec3fbba0-5d8d-4439-bfc8-74151734e3ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dsc00211-copy-2.webp",
+            "image_full_width": false
+          }
+        },
+        "template--15942760497304__97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Her doctor told her it was allergies and gave her pills.<\/p><p>She was able to continue her normal routine that included jogging 3-5 miles every weekday, and longer runs on the weekend.<\/p><p>But, by August, the allergy pills were no longer working and her symptoms were getting much, much worse.<\/p><p>Even normal breathing became difficult — so she was forced to stop all activities.<\/p><p>Her doctor now told her she had asthma and gave her a few different types of inhalers.  But, the inhalers didn’t help.<\/p><p>This is when things got dangerous.<\/p><p>In October, <strong>she was rushed to the hospital semi-conscious<\/strong>.  Her oxygen levels had dropped because her lungs weren’t doing their jobs anymore.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ec3fbba0-5d8d-4439-bfc8-74151734e3ac",
+        "template--15942760497304__97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f9d48d69-6799-46ff-afc6-877d73a1ab36": {
+      "type": "rich-text",
+      "blocks": {
+        "f82f67a4-bc41-4e5e-82d9-27257ae82c36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambulance-paramedics.jpg",
+            "image_full_width": false
+          }
+        },
+        "template--15942760497304__f9d48d69-6799-46ff-afc6-877d73a1ab36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At this point, a specialist diagnosed her with Hypersensitivity Pneumonitis — a fancy way of saying she was allergic to almost everything and her lungs were paying the price.<\/p><p>The specialist gave her a lot more pills — <strong>and still, her quality of life evaporated.<\/strong><\/p><p>Soon after, she started to get sore all over.  Every joint and muscle ached.  She could hardly walk <strong>without PAIN and EXHAUSTION.<\/strong><\/p><p><\/p><p>She was tired all the time, but oddly enough, couldn’t sleep.  And when she could fall asleep, she woke up exhausted — almost like she didn’t sleep at all.<\/p><p>Nobody knew what was going on — <strong>and this went on for YEARS<\/strong>.<\/p><p>As you could imagine…she was FRUSTRATED.<\/p><p>Her health got progressively worse and eventually was able to see a neurologist — Who diagnosed her with <strong>CHRONIC FATIGUE SYNDROME<\/strong>.<\/p><p>She was relieved, she finally had a diagnosis. <\/p><p>But, when she asked about treatment, the neurologist said...<\/p><h2>“Come back in 10 years, we may be able to help you then”.<\/h2><p>It was at this moment I knew traditional medicine wasn’t going to help my wife.  I had to start looking at alternatives.<\/p><p>I began to extensively research Chronic Fatigue Syndrome and was shocked to learn how many women were suffering from the exact same symptoms across the world.<\/p><p>I was determined to find the cause.<\/p><p>While doing research, I came across some information about a nutrient I thought would help my wife. <\/p><p>As I dug deeper, it turns out this nutrient has a long, interesting history of saving lives.<\/p>"
+          }
+        },
+        "62a7c263-43ff-48cf-b1c7-428ea9236092": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why This Nutrient May Be The Missing Link You Need To Overcome Your Symptoms",
+            "heading_size": "h1",
+            "reversed": false
+          }
+        }
+      },
+      "block_order": [
+        "f82f67a4-bc41-4e5e-82d9-27257ae82c36",
+        "template--15942760497304__f9d48d69-6799-46ff-afc6-877d73a1ab36-text-1",
+        "62a7c263-43ff-48cf-b1c7-428ea9236092"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -229,6 +298,8 @@
     "related-products",
     "1ffd22ba-87b3-4327-9ac4-2be5d417c03e",
     "8380a32b-ae0a-4b76-94a8-a2b14be04f55",
-    "ec713ce6-4715-42a4-b933-35debf9c8062"
+    "ec713ce6-4715-42a4-b933-35debf9c8062",
+    "97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb",
+    "f9d48d69-6799-46ff-afc6-877d73a1ab36"
   ]
 }
