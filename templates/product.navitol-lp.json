@@ -410,12 +410,35 @@
           "settings": {
             "text": "<p>And, as I’ve already mentioned, <strong>most companies use the wrong nutrients <\/strong>(because they’re cheaper), a <strong>defective formula<\/strong> (They don’t know anything about nutrition or human physiology) and an <strong>incorrect dosage<\/strong> (They have zero experience with actual people with symptoms).<\/p><p>I knew what I wanted, but finding the perfect PINE BARK EXTRACT was harder than I ever imagined.<\/p>"
           }
+        },
+        "4d8ff2b4-040d-4b2a-a018-141e058a1e83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/depositphotos_37184449_s-2019.webp",
+            "image_full_width": false
+          }
+        },
+        "909196a1-c2df-4f8b-bae3-502451c48ad1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The first challenge was getting the RIGHT Pine Bark Extract.  Most of them on the market were junk.  They were poor quality and mainly from China.<\/p><p>That’s not what I wanted at all.<\/p><p>I was looking for a Pine Bark Extract that:<\/p><ul><li>100% natural.<\/li><li>From an unpolluted environment.<\/li><li>From a tree that got more than 300 days of sunlight.<\/li><li>From a specific type of Pine Tree — Pinus Radiata.<\/li><li>It had to be sustainable.<\/li><\/ul><p>After a long search, <strong>I finally found the perfect PINE BARK EXTRACT.<\/strong><\/p>"
+          }
+        },
+        "48296bc8-954a-465c-ba6a-5cb444fc7267": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/depositphotos_9307026_l-2015.webp",
+            "image_full_width": false
+          }
         }
       },
       "block_order": [
         "template--15942760497304__3f0ec12e-c899-42f1-9700-73a8f74b7be6-text-1",
         "9b9fd623-32df-493c-aaa0-d245016c9cc1",
-        "bee2bdf8-c692-4492-a97a-e362948fef8d"
+        "bee2bdf8-c692-4492-a97a-e362948fef8d",
+        "4d8ff2b4-040d-4b2a-a018-141e058a1e83",
+        "909196a1-c2df-4f8b-bae3-502451c48ad1",
+        "48296bc8-954a-465c-ba6a-5cb444fc7267"
       ],
       "settings": {
         "desktop_content_position": "center",
