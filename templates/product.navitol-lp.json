@@ -290,6 +290,104 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "bcbf9598-13dc-4e87-842f-2940dac988e9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15942760497304__bcbf9598-13dc-4e87-842f-2940dac988e9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over 500 years ago, a ship and crew led by the famous French explorer, Jacques Cartier, got stuck in ice near Quebec.<\/p><p>As time went on, his crew got deadly ill.  They were suffering from scurvy, a serious illness from not getting enough vitamin C.  Fortunately, scurvy isn’t a problem anymore.  But back then, it was deadly<\/p><p>When you go a few months with getting enough Vitamin C, you get extreme fatigue and weakness.  After the fatigue and weakness, you get significant pain in your arms and legs.  Your skin is then covered by small red-blue spots and soon your gums swell up and your teeth fall out.<\/p><p>At this point, you end up with liver failure and fatal heart problems.<\/p><p>All because of not getting enough Vitamin C!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__bcbf9598-13dc-4e87-842f-2940dac988e9-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/depositphotos_217983534_s-2019.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "38a216c9-7de7-4ed1-b89b-aa95fde0ff0a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15942760497304__38a216c9-7de7-4ed1-b89b-aa95fde0ff0a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As you can imagine, Jacques Cartier and his crew were in big trouble.  But, luckily for them, they crossed paths with a local indigenous man who taught them a life-saving skill.<\/p><p><strong>He showed them how to make tea using this nutrient<\/strong>.  Once Jacques Cartier and his crew started drinking the tea — <strong>they were cured.<\/strong><\/p><p>The local indigenous knew this nutrient contained a vital component they needed to keep healthy during the long winters.<\/p><p>Today, we know this nutrient naturally contains vitamin C, which is exactly what the crew needed to cure their scurvy.<\/p><p>But, the vitamin C content of the nutrient isn’t what makes it a ‘miracle’ nutrient — It’s something else.<\/p><p>But first, <strong>back to my wife’s miracle recovery.<\/strong><\/p><p>After extensive research into the nutrient, it was now time to get some for my wife.<\/p><p>It was expensive and hard to find, but I managed to get a few bottles.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__38a216c9-7de7-4ed1-b89b-aa95fde0ff0a-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/depositphotos_9942589_s-2019.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "33304a91-f348-492f-b738-e5f5fefd5f94": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942760497304__33304a91-f348-492f-b738-e5f5fefd5f94-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here’s where it gets exciting…",
+            "heading_size": "h1",
+            "reversed": false
+          }
+        },
+        "template--15942760497304__33304a91-f348-492f-b738-e5f5fefd5f94-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rosie started taking the nutrient on a Thursday.<\/p><p>By Sunday morning — <strong>she woke up amazed. <\/strong> <\/p><p>First, she was astonished she woke up because it meant she actually fell asleep.  She also didn’t feel quite as sick or fatigued.<\/p><p>She was skeptical, but continued to take the nutrient.  And soon, the ‘cloud’ she had over her brain for over two years was gone (She described it as trying to think through a heavy blanket covering her brain) <\/p><p>…but now, <strong>she had clear thoughts<\/strong>.<\/p><p>Her aches and pains were gone.  Her lungs felt clear.  Her allergies were much better.<\/p><p>And, her <strong>fatigue was GONE<\/strong>. <\/p><p>She FINALLY got her life back!<\/p><p>Needless to say, we were both stunned.<\/p><p>At this point, I should tell you the nutrient that saved my wife was the very same nutrient found in our <strong>NAVITOL<\/strong>.<\/p><p>And that nutrient is <strong>PINE BARK EXTRACT. <\/strong><\/p>"
+          }
+        },
+        "bc8b1c2e-be9a-4cee-80aa-70319ebf3d0a": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>PINE BARK EXTRACT = SUPER-NUTRIENT<\/strong>",
+            "heading_size": "h1",
+            "reversed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__33304a91-f348-492f-b738-e5f5fefd5f94-heading-1",
+        "template--15942760497304__33304a91-f348-492f-b738-e5f5fefd5f94-text-1",
+        "bc8b1c2e-be9a-4cee-80aa-70319ebf3d0a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -300,6 +398,9 @@
     "8380a32b-ae0a-4b76-94a8-a2b14be04f55",
     "ec713ce6-4715-42a4-b933-35debf9c8062",
     "97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb",
-    "f9d48d69-6799-46ff-afc6-877d73a1ab36"
+    "f9d48d69-6799-46ff-afc6-877d73a1ab36",
+    "bcbf9598-13dc-4e87-842f-2940dac988e9",
+    "38a216c9-7de7-4ed1-b89b-aa95fde0ff0a",
+    "33304a91-f348-492f-b738-e5f5fefd5f94"
   ]
 }
