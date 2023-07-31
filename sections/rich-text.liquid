@@ -34,7 +34,7 @@
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
-                {% if block.settings.reversed == true %} style="background: black; color: white; text-align: center;"{% endif %}
+                {% if block.settings.reversed != false %}style="background: black; color: white; text-align: center;"{% endif %}
               >
                 {{ block.settings.heading }}
               </h2>
