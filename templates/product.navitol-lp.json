@@ -397,10 +397,25 @@
           "settings": {
             "text": "<p>But, <strong>not just any Pine Bark Extract<\/strong>.  There’s a lot of crappy, counterfeit ones out there.<\/p><p>And, after witnessing how much it helped her, I knew PINE BARK EXTRACT could help millions of other people…<\/p><p>I had to find a way to make it available to everyone.  That was my new mission.<\/p><h2>How To Make Sure You’re Getting The Right Pine Bark Extract<\/h2><p>(It’s not as easy as you think)<\/p><p>You may not know this, but for ANY supplement to work, it has to have the…<\/p><ul><li>Right nutrients<\/li><li>Correct Formula<\/li><li>Proper Dosage<\/li><\/ul><p>If just one of those are missing, your urine will be more expensive than a pricey drink at Starbucks.<\/p>"
           }
+        },
+        "9b9fd623-32df-493c-aaa0-d245016c9cc1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/depositphotos_80817132_s-2019-1.webp",
+            "image_full_width": false
+          }
+        },
+        "bee2bdf8-c692-4492-a97a-e362948fef8d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And, as I’ve already mentioned, <strong>most companies use the wrong nutrients <\/strong>(because they’re cheaper), a <strong>defective formula<\/strong> (They don’t know anything about nutrition or human physiology) and an <strong>incorrect dosage<\/strong> (They have zero experience with actual people with symptoms).<\/p><p>I knew what I wanted, but finding the perfect PINE BARK EXTRACT was harder than I ever imagined.<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--15942760497304__3f0ec12e-c899-42f1-9700-73a8f74b7be6-text-1"
+        "template--15942760497304__3f0ec12e-c899-42f1-9700-73a8f74b7be6-text-1",
+        "9b9fd623-32df-493c-aaa0-d245016c9cc1",
+        "bee2bdf8-c692-4492-a97a-e362948fef8d"
       ],
       "settings": {
         "desktop_content_position": "center",
