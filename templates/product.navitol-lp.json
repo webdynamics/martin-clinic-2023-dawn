@@ -388,6 +388,28 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "3f0ec12e-c899-42f1-9700-73a8f74b7be6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942760497304__3f0ec12e-c899-42f1-9700-73a8f74b7be6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But, <strong>not just any Pine Bark Extract<\/strong>.  There’s a lot of crappy, counterfeit ones out there.<\/p><p>And, after witnessing how much it helped her, I knew PINE BARK EXTRACT could help millions of other people…<\/p><p>I had to find a way to make it available to everyone.  That was my new mission.<\/p><h2>How To Make Sure You’re Getting The Right Pine Bark Extract<\/h2><p>(It’s not as easy as you think)<\/p><p>You may not know this, but for ANY supplement to work, it has to have the…<\/p><ul><li>Right nutrients<\/li><li>Correct Formula<\/li><li>Proper Dosage<\/li><\/ul><p>If just one of those are missing, your urine will be more expensive than a pricey drink at Starbucks.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__3f0ec12e-c899-42f1-9700-73a8f74b7be6-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -401,6 +423,7 @@
     "f9d48d69-6799-46ff-afc6-877d73a1ab36",
     "bcbf9598-13dc-4e87-842f-2940dac988e9",
     "38a216c9-7de7-4ed1-b89b-aa95fde0ff0a",
-    "33304a91-f348-492f-b738-e5f5fefd5f94"
+    "33304a91-f348-492f-b738-e5f5fefd5f94",
+    "3f0ec12e-c899-42f1-9700-73a8f74b7be6"
   ]
 }
