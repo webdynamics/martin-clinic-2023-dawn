@@ -193,22 +193,25 @@
             "text": "<p>First off, this super-nutrient is available exclusively from MARTIN CLINIC.  <\/p><p>And, unlike <strong>other companies with ZERO experience dealing with real people<\/strong>, they end up using cheap nutrients, weak dosages, and the wrong formula.<\/p>"
           }
         },
-        "template--15942760497304__ec713ce6-4715-42a4-b933-35debf9c8062-button-1": {
-          "type": "button",
+        "48da6981-6ed5-4f88-8e70-0b65f917a386": {
+          "type": "image",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/dsc00326-copy.webp",
+            "image_full_width": false
+          }
+        },
+        "db69e6f6-b0ac-4bdf-96b8-f60abc29822a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We’ve been around since 1911<\/strong> and we’re blessed to play a part in helping 100,000+ people feel fantastic again.<\/p><p><strong>Bottom line<\/strong> — if our stuff doesn’t work, it would make for uncomfortable follow up visits. Our patients deserve to overcome their symptoms and get back to living life to it’s fullest.<\/p><p>Here’s Why This Nutrient Is So Powerful And How It Saved My Wife:<\/p><p>The <strong>nightmare began<\/strong> in the month of June shortly after <strong>my wife<\/strong> (Rosie) turned 40.  At first, it started with allergies — swollen eyes, dry cough, runny nose, and sinus congestion.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15942760497304__ec713ce6-4715-42a4-b933-35debf9c8062-heading-1",
         "template--15942760497304__ec713ce6-4715-42a4-b933-35debf9c8062-text-1",
-        "template--15942760497304__ec713ce6-4715-42a4-b933-35debf9c8062-button-1"
+        "48da6981-6ed5-4f88-8e70-0b65f917a386",
+        "db69e6f6-b0ac-4bdf-96b8-f60abc29822a"
       ],
       "settings": {
         "desktop_content_position": "center",
