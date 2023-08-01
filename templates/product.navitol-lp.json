@@ -570,6 +570,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "bee1892f-6acc-456f-bbe7-0e4c0315480b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942760497304__bee1892f-6acc-456f-bbe7-0e4c0315480b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>That way, you don’t have to take our word for any of this.<\/p><p>And, that’s how confident we are you will love this product.  There’s nothing else like it on the market.  And you can’t get it anywhere but from Martin Clinic.<\/p><p>We’re a small but rapidly growing clinic and company.  We have thousands of customers like you all across the country, from all walks of life, who love our products. <\/p><p>If you want to feel fantastic again, <strong>why not order your risk-free trial supply today?<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__bee1892f-6acc-456f-bbe7-0e4c0315480b-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -587,6 +609,7 @@
     "3f0ec12e-c899-42f1-9700-73a8f74b7be6",
     "79df4f8c-3fcd-456a-b148-373b054e1d31",
     "7409f3e3-1647-4648-be02-269134e6ea7d",
-    "4eb71720-aa7b-471b-9271-ed26756145b0"
+    "4eb71720-aa7b-471b-9271-ed26756145b0",
+    "bee1892f-6acc-456f-bbe7-0e4c0315480b"
   ]
 }
