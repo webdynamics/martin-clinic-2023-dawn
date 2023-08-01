@@ -448,6 +448,49 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "79df4f8c-3fcd-456a-b148-373b054e1d31": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now, it was time to address the dosage.<\/p><p>Pine Bark Extract works best when you get the proper dosage — which is at least 1mg of Pine Bark Extract for every pound you weigh.<\/p><p>That’s the <strong>minimum dosage I’ve found to be super-effective<\/strong>.<\/p><p>When my wife started taking Pine Bark Extract, each of the capsules only contained 20mg.<\/p><p>You can imagine how much of a pain that was to take everyday.<\/p><p>Not only were the bottles she took expensive, she had to take a lot of capsules everyday to get the minimum effective dosage.<\/p><p>I knew this wasn’t acceptable.<\/p><p>Plus — <strong>I wanted a much higher dosage than the 1mg per 1 pound of body weight for my patients<\/strong>. (Our Navitol contains 350mg of Pine Bark Extract per capsule!).<\/p><p>After finding the perfect Pine Bark Extract...<\/p>"
+          }
+        },
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "I was crushed to discover <strong>how much it would cost<\/strong> to bring to market with the proper dosage.",
+            "heading_size": "h1",
+            "reversed": false
+          }
+        },
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-text-1",
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-heading-1",
+        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -462,6 +505,7 @@
     "bcbf9598-13dc-4e87-842f-2940dac988e9",
     "38a216c9-7de7-4ed1-b89b-aa95fde0ff0a",
     "33304a91-f348-492f-b738-e5f5fefd5f94",
-    "3f0ec12e-c899-42f1-9700-73a8f74b7be6"
+    "3f0ec12e-c899-42f1-9700-73a8f74b7be6",
+    "79df4f8c-3fcd-456a-b148-373b054e1d31"
   ]
 }
