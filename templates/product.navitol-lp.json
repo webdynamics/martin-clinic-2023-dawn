@@ -592,6 +592,75 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "ac603ecf-d835-478e-b2bc-ab5907ad5e53": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-text-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-title-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-price-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-variant_picker-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-quantity_selector-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-buy_buttons-1",
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-share-1"
+      ],
+      "settings": {
+        "product": "navitol-ultra-strength",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -610,6 +679,7 @@
     "79df4f8c-3fcd-456a-b148-373b054e1d31",
     "7409f3e3-1647-4648-be02-269134e6ea7d",
     "4eb71720-aa7b-471b-9271-ed26756145b0",
-    "bee1892f-6acc-456f-bbe7-0e4c0315480b"
+    "bee1892f-6acc-456f-bbe7-0e4c0315480b",
+    "ac603ecf-d835-478e-b2bc-ab5907ad5e53"
   ]
 }
