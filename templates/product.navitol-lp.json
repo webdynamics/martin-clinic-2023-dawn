@@ -34,11 +34,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "99ae504f-8442-4214-8cea-711055c32ead": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "api_key": "pubkey-9764S3I0C5D42V1q9AUxl08d1vcw48.",
+            "store_hash": "50294",
+            "product_id": "151976201",
+            "width": "200",
+            "height": ""
           }
         },
         "title": {
@@ -73,30 +76,23 @@
           "type": "description",
           "settings": {
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
-        "vendor",
+        "99ae504f-8442-4214-8cea-711055c32ead",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
