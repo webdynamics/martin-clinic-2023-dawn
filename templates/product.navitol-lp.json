@@ -471,12 +471,79 @@
           "settings": {
             "text": "<p>How expensive was it? Originally, <strong>it was priced north of $100 for 60 capsules<\/strong> just to make the numbers work.<\/p><p>Now, considering how powerful and effective the dosage was, it would still be a steal at that price.  And, it was much cheaper than the one my wife was taking.<\/p><p>But, I knew it was too expensive to fit my mission of making Pine Bark Extract available to everyone.<\/p><p>So…<strong>I decided to deal directly with the manufacturer<\/strong> and cut out all middlemen from the equation.  I did it all myself.<\/p>"
           }
+        },
+        "1d57c1f4-99a6-49a3-9db0-bffd3b37f1a9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-us-copy_1.webp",
+            "image_full_width": false
+          }
+        },
+        "3b38cb15-6413-40a2-8bbb-f24034210a02": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It also means you won’t be paying the retail value of $100 for your 30-day supply of NAVITOL.<\/p><p>(Because I’m offering it to you direct, the <strong>final cost comes down to just $49.95<\/strong>)<\/p><p>I had now found the perfect Pine Bark Extract, and was able to manufacturer the right dosage — but, there was still one thing missing.<\/p>"
+          }
+        },
+        "33308b70-e854-4303-987e-6b059ff276b3": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Perfect formula",
+            "heading_size": "h1",
+            "reversed": false
+          }
         }
       },
       "block_order": [
         "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-text-1",
         "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-heading-1",
-        "7b5515f0-a071-401e-a64c-d773d81b3555"
+        "7b5515f0-a071-401e-a64c-d773d81b3555",
+        "1d57c1f4-99a6-49a3-9db0-bffd3b37f1a9",
+        "3b38cb15-6413-40a2-8bbb-f24034210a02",
+        "33308b70-e854-4303-987e-6b059ff276b3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7409f3e3-1647-4648-be02-269134e6ea7d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Today, There Is Absolutely No Risk To YouWHY OUR PINE BARK EXTRACT WORKS SO WELL",
+            "heading_size": "h1",
+            "reversed": false
+          }
+        },
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Pine Bark Extract is powerful on its own, and <strong>it’s easily absorbed<\/strong> into your bloodstream.<\/p><p>On the other hand, did you know most nutrients have poor absorption?<\/p><p><strong>Pine Bark Extract is water soluble<\/strong> — what your body doesn’t need, it excretes. <\/p><p>You’ll also noticed we added the right amount of <strong>vitamin C<\/strong> to NAVITOL.<\/p><p>One of Pine Bark Extracts remarkable benefits is its ability to improve the strength of vitamin C.<\/p><p>Pine Bark Extract and Vitamin C work hand in hand.<\/p><p>If you’ve had no success with other supplements to get better energy, or better sleep, or get a stronger and clearer brain, or even better circulation…<strong>It’s NOT your fault.<\/strong><\/p><p>That’s because most supplements on earth are missing one of the three things I’ve mentioned earlier.  All you end up with is expensive urine.<\/p><p>But Navitol is different.<\/p>"
+          }
+        },
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-heading-1",
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-text-1",
+        "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-button-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -501,6 +568,7 @@
     "38a216c9-7de7-4ed1-b89b-aa95fde0ff0a",
     "33304a91-f348-492f-b738-e5f5fefd5f94",
     "3f0ec12e-c899-42f1-9700-73a8f74b7be6",
-    "79df4f8c-3fcd-456a-b148-373b054e1d31"
+    "79df4f8c-3fcd-456a-b148-373b054e1d31",
+    "7409f3e3-1647-4648-be02-269134e6ea7d"
   ]
 }
