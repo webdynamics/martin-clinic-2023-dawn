@@ -28,7 +28,7 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                style="{% if block.settings.reversed != false %}background: black; color: white;{% endif %} {% if block.settings.centerheading != false %}text-align: center; "{% endif %}
+                style="{% if block.settings.reversed != false %}background: black; color: white;{% endif %} {% if block.settings.centerheading != false %}text-align: center;{% endif %}"
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
