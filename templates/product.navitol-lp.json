@@ -541,6 +541,35 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "4eb71720-aa7b-471b-9271-ed26756145b0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15942760497304__4eb71720-aa7b-471b-9271-ed26756145b0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If Navitol isn’t for you, <strong>you’ll get every single penny back<\/strong>.  Your decision to try Navitol is entirely risk-free.  <strong>You are protected by our 100% money-back guarantee.<\/strong><\/p><p>If you’re ever dissatisfied with Navitol, for any reason, just send it back to use with 30 days.  Even if you’ve opened the bottle!  Every penny you paid will be promptly returned, with no questions asked.<\/p><p>And as a thank you for trying Navitol, all of the FREE bonus (below) are your to keep.  They’re yours whether you return your supply of Navitol or not!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942760497304__4eb71720-aa7b-471b-9271-ed26756145b0-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/depositphotos_38327727_l-2015_99618992-1c60-421c-a965-3e7d3af6bfcc.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -557,6 +586,7 @@
     "33304a91-f348-492f-b738-e5f5fefd5f94",
     "3f0ec12e-c899-42f1-9700-73a8f74b7be6",
     "79df4f8c-3fcd-456a-b148-373b054e1d31",
-    "7409f3e3-1647-4648-be02-269134e6ea7d"
+    "7409f3e3-1647-4648-be02-269134e6ea7d",
+    "4eb71720-aa7b-471b-9271-ed26756145b0"
   ]
 }
