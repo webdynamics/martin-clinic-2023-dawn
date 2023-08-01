@@ -636,6 +636,16 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "df617966-1de9-4ab2-8e37-d946333f9d77": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "api_key": "",
+            "store_hash": "",
+            "product_id": "",
+            "width": "",
+            "height": ""
+          }
         }
       },
       "block_order": [
@@ -645,7 +655,8 @@
         "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-variant_picker-1",
         "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-quantity_selector-1",
         "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-buy_buttons-1",
-        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-share-1"
+        "template--15942760497304__ac603ecf-d835-478e-b2bc-ab5907ad5e53-share-1",
+        "df617966-1de9-4ab2-8e37-d946333f9d77"
       ],
       "settings": {
         "product": "navitol-ultra-strength",
