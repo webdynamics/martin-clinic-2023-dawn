@@ -8,7 +8,8 @@
           "settings": {
             "heading": "Are You Ready To Feel Fantastic Again?",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15942760497304__7b9ecf8b-682a-4c2b-a8f7-25efc232190d-text-1": {
@@ -180,7 +181,8 @@
           "settings": {
             "heading": "What Makes This So Different?",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15942760497304__ec713ce6-4715-42a4-b933-35debf9c8062-text-1": {
@@ -269,7 +271,8 @@
           "settings": {
             "heading": "Why This Nutrient May Be The Missing Link You Need To Overcome Your Symptoms",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         }
       },
@@ -353,7 +356,8 @@
           "settings": {
             "heading": "Here’s where it gets exciting…",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": true
           }
         },
         "template--15942760497304__33304a91-f348-492f-b738-e5f5fefd5f94-text-1": {
@@ -367,7 +371,8 @@
           "settings": {
             "heading": "<strong>PINE BARK EXTRACT = SUPER-NUTRIENT<\/strong>",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": true
           }
         }
       },
@@ -459,7 +464,8 @@
           "settings": {
             "heading": "I was crushed to discover <strong>how much it would cost<\/strong> to bring to market with the proper dosage.",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         },
         "7b5515f0-a071-401e-a64c-d773d81b3555": {
@@ -506,7 +512,8 @@
           "settings": {
             "heading": "The Perfect formula",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15942760497304__7409f3e3-1647-4648-be02-269134e6ea7d-text-1": {
@@ -520,7 +527,8 @@
           "settings": {
             "heading": "Today, There Is Absolutely No Risk To YouWHY OUR PINE BARK EXTRACT WORKS SO WELL",
             "heading_size": "h1",
-            "reversed": false
+            "reversed": false,
+            "centerheading": false
           }
         }
       },
