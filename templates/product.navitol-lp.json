@@ -466,22 +466,17 @@
             "reversed": false
           }
         },
-        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-button-1": {
-          "type": "button",
+        "7b5515f0-a071-401e-a64c-d773d81b3555": {
+          "type": "text",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>How expensive was it? Originally, <strong>it was priced north of $100 for 60 capsules<\/strong> just to make the numbers work.<\/p><p>Now, considering how powerful and effective the dosage was, it would still be a steal at that price.  And, it was much cheaper than the one my wife was taking.<\/p><p>But, I knew it was too expensive to fit my mission of making Pine Bark Extract available to everyone.<\/p><p>So…<strong>I decided to deal directly with the manufacturer<\/strong> and cut out all middlemen from the equation.  I did it all myself.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-text-1",
         "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-heading-1",
-        "template--15942760497304__79df4f8c-3fcd-456a-b148-373b054e1d31-button-1"
+        "7b5515f0-a071-401e-a64c-d773d81b3555"
       ],
       "settings": {
         "desktop_content_position": "center",
