@@ -1,15 +1,54 @@
 {
   "sections": {
+    "1691083639326b2669": {
+      "type": "apps",
+      "blocks": {
+        "a0149d0e-b3c1-47cf-a214-38811b9b6878": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "paragraph": "",
+            "html": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/7qx66h6i5l.jsonp\" async=\"\"><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async=\"\"><\/script><div class=\"wistia_responsive_padding\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\" style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed wistia_async_7qx66h6i5l seo=false videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/7qx66h6i5l\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\"><\/div><\/div><\/div><\/div>",
+            "custom_liquid": "",
+            "margin": "medium"
+          }
+        },
+        "f83e844a-39ef-44a3-a096-283131713260": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "icon": "",
+            "img_width": 200,
+            "img_height": 200,
+            "img_crop": "center",
+            "uk_text_align": "center",
+            "title": "MOST THYROID SUPPLEMENTS DON'T WORK BECAUSE YOUR THYROID IS COMPLEX",
+            "title_size": "h2",
+            "tagline": "",
+            "tagline_uk_size": "small",
+            "description": "",
+            "description_uk_size": "default",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_uk_color": "primary",
+            "btn_uk_size": "default",
+            "bg_color": "",
+            "max_width": "1200",
+            "scrollspy": "n",
+            "margin": "medium",
+            "padding": "no"
+          }
+        }
+      },
+      "block_order": [
+        "a0149d0e-b3c1-47cf-a214-38811b9b6878",
+        "f83e844a-39ef-44a3-a096-283131713260"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -34,7 +73,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -47,17 +87,50 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "9013b26b-4b94-4a01-a93a-3e6eed5b1fd6": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/checkout-comments\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "product_ids": "2760729349",
+            "style": "box",
+            "title": "",
+            "timeago": false,
+            "style_color_text": "",
+            "style_color_link": ""
+          }
+        },
+        "7d00f6a7-ca57-4465-a888-2318b9d8bd1e": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "title": "Real Reviews from Real Customers",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "",
+            "color_star": "",
+            "color_text": "",
+            "color_link": "",
+            "review_ids": "",
+            "product_ids": "2760729349",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "9013b26b-4b94-4a01-a93a-3e6eed5b1fd6",
+        "7d00f6a7-ca57-4465-a888-2318b9d8bd1e"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -83,6 +156,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -90,10 +164,102 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1691083870f2e17941": {
+      "type": "apps",
+      "blocks": {
+        "c779b42a-a30a-4c36-911a-be059af3d4d4": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "paragraph": "",
+            "html": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/lb9css8kzk.jsonp\" async=\"\"><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async=\"\"><\/script><div class=\"wistia_responsive_padding\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\" style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed wistia_async_lb9css8kzk seo=false videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/lb9css8kzk\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\"><\/div><\/div><\/div><\/div>",
+            "custom_liquid": "",
+            "margin": "medium"
+          }
+        },
+        "9c02d444-7a17-4fa6-bd62-e6429aeac556": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "max_width": 750,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "50px",
+            "pb": "0",
+            "container_pt": "",
+            "container_pb": ""
+          }
+        }
+      },
+      "block_order": [
+        "c779b42a-a30a-4c36-911a-be059af3d4d4",
+        "9c02d444-7a17-4fa6-bd62-e6429aeac556"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "acdb98a9-2af8-4c9b-857a-63d99cc2031e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Low Energy, Slow Weight Loss, and Rapid Aging?",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-heading-1",
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-text-1",
+        "template--15944666906776__acdb98a9-2af8-4c9b-857a-63d99cc2031e-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
+    "1691083639326b2669",
     "main",
-    "related-products"
+    "related-products",
+    "1691083870f2e17941",
+    "acdb98a9-2af8-4c9b-857a-63d99cc2031e"
   ]
 }
