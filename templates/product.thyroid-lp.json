@@ -302,6 +302,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e66693ab-ef75-420f-a8cc-8210ca74afc6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thyroid Support",
+            "heading_size": "h1"
+          }
+        },
+        "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>The Perfect Balance Of Thyroid Balancing Nutrients That Begin Working In As Little As 3 Days<\/h2><p>Our Thyroid Balance Formula is specifically designed to help you balance your thyroid naturally.<\/p><p>Once you start using it, you’ll notice a difference almost immediately. <\/p><p>The majority of our customers would agree, there simply is no better feeling than NOT having to think about your thyroid problems.<\/p><p><br\/><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-heading-1",
+        "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thyroid-120-front-2023.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -310,6 +347,7 @@
     "related-products",
     "1691083870f2e17941",
     "acdb98a9-2af8-4c9b-857a-63d99cc2031e",
-    "eaeff637-5660-4d0c-98d5-6c4f501c917a"
+    "eaeff637-5660-4d0c-98d5-6c4f501c917a",
+    "e66693ab-ef75-420f-a8cc-8210ca74afc6"
   ]
 }
