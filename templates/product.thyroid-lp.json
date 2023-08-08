@@ -339,6 +339,37 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9f6db863-764d-4c39-aacf-5d76b4d61772": {
+      "type": "multi-review",
+      "blocks": {
+        "template--15944666906776__9f6db863-764d-4c39-aacf-5d76b4d61772-row-1": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "My Hair Has Greatly Improved!",
+            "text": "<p>My hair was falling out really bad and this is not a good problem for us ladies!<\/p><p>I am on my second bottle of Thyroid Balance and my hair has greatly improved,<\/p><p>falling very little...I am so happy, thank you Dr Martin!<\/p>",
+            "reviewer": "Betty M."
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__9f6db863-764d-4c39-aacf-5d76b4d61772-row-1"
+      ],
+      "settings": {
+        "star_size": "2rem",
+        "heading_size": "h1",
+        "text_style": "body",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "row_padding_top": 36,
+        "row_padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -348,6 +379,7 @@
     "1691083870f2e17941",
     "acdb98a9-2af8-4c9b-857a-63d99cc2031e",
     "eaeff637-5660-4d0c-98d5-6c4f501c917a",
-    "e66693ab-ef75-420f-a8cc-8210ca74afc6"
+    "e66693ab-ef75-420f-a8cc-8210ca74afc6",
+    "9f6db863-764d-4c39-aacf-5d76b4d61772"
   ]
 }
