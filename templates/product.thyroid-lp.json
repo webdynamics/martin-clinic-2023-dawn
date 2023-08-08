@@ -351,10 +351,20 @@
             "text": "<p>My hair was falling out really bad and this is not a good problem for us ladies!<\/p><p>I am on my second bottle of Thyroid Balance and my hair has greatly improved,<\/p><p>falling very little...I am so happy, thank you Dr Martin!<\/p>",
             "reviewer": "Betty M."
           }
+        },
+        "39bd37dd-8074-4e61-9ab3-f316f938fda5": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Fantastic Results!",
+            "text": "<p>My husband had a low thyroid reading and has Parkinson's so he feels tired during the day.  This has helped him have more energy to do his exercises and go for his walk!  I find I sleep better since taking it.<\/p>",
+            "reviewer": "Cecily B."
+          }
         }
       },
       "block_order": [
-        "template--15944666906776__9f6db863-764d-4c39-aacf-5d76b4d61772-row-1"
+        "template--15944666906776__9f6db863-764d-4c39-aacf-5d76b4d61772-row-1",
+        "39bd37dd-8074-4e61-9ab3-f316f938fda5"
       ],
       "settings": {
         "star_size": "2rem",
@@ -378,7 +388,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Selenium to support metabolism and protect from oxidative stress<\/p><p><\/p><p>Tyrosine which helps thyroid regeneration<\/p><p><\/p><p>L-Carnitine an amino acid which helps to regulate the thyroid<\/p>",
+            "text": "<h2><strong>Selenium<\/strong> to support metabolism and protect from oxidative stress<\/h2><h2><\/h2><h2><strong>Tyrosine<\/strong> which helps thyroid regeneration<\/h2><h2><\/h2><h2><strong>L-Carnitine<\/strong> an amino acid which helps to regulate the thyroid<\/h2>",
             "link_label": "",
             "link": ""
           }
@@ -397,7 +407,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Iodine to keep iodine levels normal in the body<\/p><p><\/p><p>Watermelo Extract to balance thyroid hormones<\/p><p><\/p><p>Resveratrol to balance TSH which you need<\/p>",
+            "text": "<h2><strong>Iodine<\/strong> to keep iodine levels normal in the body<\/h2><h2><\/h2><h2><strong>Watermelo Extract<\/strong> to balance thyroid hormones<\/h2><h2><\/h2><h2><strong>Resveratrol<\/strong> to balance TSH which you need<\/h2>",
             "link_label": "",
             "link": ""
           }
@@ -407,6 +417,9 @@
         "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-1",
         "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-2",
         "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-3"
+      ],
+      "custom_css": [
+        ".multicolumn-list h3,.multicolumn-list p {margin: 0 0 30px 0;}"
       ],
       "settings": {
         "title": "<strong>Clinically Proven And Personally Tested Ingredients<\/strong>",
