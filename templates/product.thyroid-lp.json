@@ -370,6 +370,60 @@
         "row_padding_top": 36,
         "row_padding_bottom": 36
       }
+    },
+    "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Selenium to support metabolism and protect from oxidative stress<\/p><p><\/p><p>Tyrosine which helps thyroid regeneration<\/p><p><\/p><p>L-Carnitine an amino acid which helps to regulate the thyroid<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thyroid-120-front-2023.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Iodine to keep iodine levels normal in the body<\/p><p><\/p><p>Watermelo Extract to balance thyroid hormones<\/p><p><\/p><p>Resveratrol to balance TSH which you need<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-1",
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-2",
+        "template--15944666906776__0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78-column-3"
+      ],
+      "settings": {
+        "title": "<strong>Clinically Proven And Personally Tested Ingredients<\/strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -380,6 +434,7 @@
     "acdb98a9-2af8-4c9b-857a-63d99cc2031e",
     "eaeff637-5660-4d0c-98d5-6c4f501c917a",
     "e66693ab-ef75-420f-a8cc-8210ca74afc6",
-    "9f6db863-764d-4c39-aacf-5d76b4d61772"
+    "9f6db863-764d-4c39-aacf-5d76b4d61772",
+    "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78"
   ]
 }
