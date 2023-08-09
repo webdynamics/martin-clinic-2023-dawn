@@ -768,24 +768,33 @@
         "padding_bottom": 36
       }
     },
-    "16916085389dfe36ad": {
+    "1691610450d0e6672d": {
       "type": "apps",
       "blocks": {
-        "4b835b37-37ae-49dd-b452-daa75f6d2363": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "ebdf37f9-a49f-47ba-bbd4-e8faf18994ea": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "Thyroid",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
+            "title": "Real Reviews from Real Customers",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "",
+            "color_star": "",
+            "color_text": "",
+            "color_link": "",
+            "review_ids": "",
+            "product_ids": "2760729349",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
           }
         }
       },
       "block_order": [
-        "4b835b37-37ae-49dd-b452-daa75f6d2363"
+        "ebdf37f9-a49f-47ba-bbd4-e8faf18994ea"
       ],
       "settings": {
         "include_margins": true
@@ -809,6 +818,6 @@
     "dc5de888-9f54-4ec8-8445-b308dc80b639",
     "483ad3f3-af74-4156-87d0-a95f6469b0fe",
     "f61f0ac9-08f5-4b17-bdb1-1c73405c3438",
-    "16916085389dfe36ad"
+    "1691610450d0e6672d"
   ]
 }
