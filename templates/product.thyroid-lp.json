@@ -645,6 +645,57 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "483ad3f3-af74-4156-87d0-a95f6469b0fe": {
+      "type": "multi-review",
+      "blocks": {
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-1": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Amazing!",
+            "text": "<p>Saw improvement within the first week taking it!  I have energy and no more dry hair and brittle nails.  Most importantly not feeling low and heart palpitations.  Thanks!<\/p>",
+            "reviewer": "Claudia G."
+          }
+        },
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-2": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "More Energy!",
+            "text": "<p>There is no doubt, for me, I have more energy when I take the Thyroid Balance Formula :)<\/p>",
+            "reviewer": "Carole L."
+          }
+        },
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-3": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Thyroid Miracle!",
+            "text": "<p>\"My hair has stopped falling out and I'm starting to lose the weight that crept around my middle.  Best of all I'm feeling so much better.  What a wonderful product.  Thank You!\"<\/p>",
+            "reviewer": "Rose R."
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-1",
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-2",
+        "template--15944666906776__483ad3f3-af74-4156-87d0-a95f6469b0fe-row-3"
+      ],
+      "settings": {
+        "star_size": "2rem",
+        "heading_size": "h1",
+        "text_style": "body",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "row_padding_top": 36,
+        "row_padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -661,6 +712,7 @@
     "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78",
     "97260a3c-d678-4a4f-9da9-ed913dc5d008",
     "1691515904307e1d26",
-    "dc5de888-9f54-4ec8-8445-b308dc80b639"
+    "dc5de888-9f54-4ec8-8445-b308dc80b639",
+    "483ad3f3-af74-4156-87d0-a95f6469b0fe"
   ]
 }
