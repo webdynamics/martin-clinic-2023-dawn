@@ -407,7 +407,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Iodine<\/strong> to keep iodine levels normal in the body<\/h2><h2><\/h2><h2><strong>Watermelo Extract<\/strong> to balance thyroid hormones<\/h2><h2><\/h2><h2><strong>Resveratrol<\/strong> to balance TSH which you need<\/h2>",
+            "text": "<h2><strong>Iodine<\/strong> to keep iodine levels normal in the body<\/h2><h2><\/h2><h2><strong>Watermelon Extract<\/strong> to balance thyroid hormones<\/h2><h2><\/h2><h2><strong>Resveratrol<\/strong> to balance TSH which you need<\/h2>",
             "link_label": "",
             "link": ""
           }
@@ -431,7 +431,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
