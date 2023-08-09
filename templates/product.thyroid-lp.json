@@ -71,44 +71,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "9013b26b-4b94-4a01-a93a-3e6eed5b1fd6": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/checkout-comments\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "product_ids": "2760729349",
-            "style": "box",
-            "title": "",
-            "timeago": false,
-            "style_color_text": "",
-            "style_color_link": ""
-          }
-        },
-        "7d00f6a7-ca57-4465-a888-2318b9d8bd1e": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "title": "Real Reviews from Real Customers",
-            "auto_play": false,
-            "take": 30,
-            "color_title": "",
-            "color_star": "",
-            "color_text": "",
-            "color_link": "",
-            "review_ids": "",
-            "product_ids": "2760729349",
-            "category": "",
-            "product_brand": "",
-            "tags": "",
-            "min_rating": "none",
-            "fill_empty": false,
-            "random": false,
-            "with_photos": false
-          }
         }
       },
       "block_order": [
@@ -117,17 +79,14 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share",
-        "9013b26b-4b94-4a01-a93a-3e6eed5b1fd6",
-        "7d00f6a7-ca57-4465-a888-2318b9d8bd1e"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
