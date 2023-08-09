@@ -767,6 +767,29 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16916085389dfe36ad": {
+      "type": "apps",
+      "blocks": {
+        "4b835b37-37ae-49dd-b452-daa75f6d2363": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "Thyroid",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "4b835b37-37ae-49dd-b452-daa75f6d2363"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -785,6 +808,7 @@
     "1691515904307e1d26",
     "dc5de888-9f54-4ec8-8445-b308dc80b639",
     "483ad3f3-af74-4156-87d0-a95f6469b0fe",
-    "f61f0ac9-08f5-4b17-bdb1-1c73405c3438"
+    "f61f0ac9-08f5-4b17-bdb1-1c73405c3438",
+    "16916085389dfe36ad"
   ]
 }
