@@ -437,6 +437,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "97260a3c-d678-4a4f-9da9-ed913dc5d008": {
+      "type": "rich-text",
+      "blocks": {
+        "45aa040f-cff7-45af-ba25-fd4869a85970": {
+          "type": "heading",
+          "settings": {
+            "heading": "These nutrients are all crucial for balancing your thyroid and all come with additional benefits to speed up your metabolism and help you burn fat faster.",
+            "heading_size": "h2",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15944666906776__97260a3c-d678-4a4f-9da9-ed913dc5d008-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why We Put Our Reputation In Every Bottle Of Thyroid Balance Formula",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15944666906776__97260a3c-d678-4a4f-9da9-ed913dc5d008-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our small town clinic opened its doors in 1911. <\/p><p>Since then we’ve provided a groundbreaking natural solution to our patients on the front lines of health.<\/p><p>If something doesn’t work, we don’t continue to use it. Period.<\/p><p>And that matters a lot to us.<\/p><p><strong>But here’s why that should matter to you...<\/strong><\/p><p>We treat REAL people every day in our clinic and they look to us for solutions.<\/p><p>They don’t want “maybe’s” or another lecture. They want results.<\/p><p>When other supplement manufacturers sell you something that doesn’t work, they can refund your money (maybe) and go about their business.<\/p><p>But when we give a customer something that doesn't work, we have to look them in the eye at the next appointment.<\/p><p>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "45aa040f-cff7-45af-ba25-fd4869a85970",
+        "template--15944666906776__97260a3c-d678-4a4f-9da9-ed913dc5d008-heading-1",
+        "template--15944666906776__97260a3c-d678-4a4f-9da9-ed913dc5d008-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -448,6 +490,7 @@
     "eaeff637-5660-4d0c-98d5-6c4f501c917a",
     "e66693ab-ef75-420f-a8cc-8210ca74afc6",
     "9f6db863-764d-4c39-aacf-5d76b4d61772",
-    "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78"
+    "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78",
+    "97260a3c-d678-4a4f-9da9-ed913dc5d008"
   ]
 }
