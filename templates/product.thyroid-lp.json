@@ -613,6 +613,38 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "dc5de888-9f54-4ec8-8445-b308dc80b639": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15944666906776__dc5de888-9f54-4ec8-8445-b308dc80b639-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Promise To You",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "template--15944666906776__dc5de888-9f54-4ec8-8445-b308dc80b639-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Either you love our Thyroid Balance Formula or you get your money back.<\/p><p>It’s that simple.<\/p><p>Plus, I’ll personally email you to offer you an apology for having wasted your time just like I would when I’m face to face with any of the patients in our clinic.<\/p><p>We can’t promise to be perfect, no one can. But when something’s not right, we work to make it right.<\/p><p>That’s why you’ll have a full 30 days to try Thyroid Balance Formula and see if it’s for you.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__dc5de888-9f54-4ec8-8445-b308dc80b639-heading-1",
+        "template--15944666906776__dc5de888-9f54-4ec8-8445-b308dc80b639-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -628,6 +660,7 @@
     "9f6db863-764d-4c39-aacf-5d76b4d61772",
     "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78",
     "97260a3c-d678-4a4f-9da9-ed913dc5d008",
-    "1691515904307e1d26"
+    "1691515904307e1d26",
+    "dc5de888-9f54-4ec8-8445-b308dc80b639"
   ]
 }
