@@ -696,6 +696,75 @@
         "row_padding_top": 36,
         "row_padding_bottom": 36
       }
+    },
+    "f61f0ac9-08f5-4b17-bdb1-1c73405c3438": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-text-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-title-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-price-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-variant_picker-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-quantity_selector-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-buy_buttons-1",
+        "template--15944666906776__f61f0ac9-08f5-4b17-bdb1-1c73405c3438-share-1"
+      ],
+      "settings": {
+        "product": "thyroid-balance-formula",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -713,6 +782,7 @@
     "97260a3c-d678-4a4f-9da9-ed913dc5d008",
     "1691515904307e1d26",
     "dc5de888-9f54-4ec8-8445-b308dc80b639",
-    "483ad3f3-af74-4156-87d0-a95f6469b0fe"
+    "483ad3f3-af74-4156-87d0-a95f6469b0fe",
+    "f61f0ac9-08f5-4b17-bdb1-1c73405c3438"
   ]
 }
