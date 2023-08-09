@@ -492,7 +492,7 @@
             "img_crop": "center",
             "uk_text_align": "center",
             "title": "Why We Make Our Own...",
-            "title_size": "h2",
+            "title_size": "h1",
             "tagline": "",
             "tagline_uk_size": "small",
             "description": "",
@@ -512,30 +512,43 @@
           "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/custom-html\/08c79414-ca28-4781-a647-2921b7943a0b",
           "settings": {
             "paragraph": "",
-            "html": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m.jsonp\" async=\"\"><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async=\"\"><\/script><div class=\"wistia_embed wistia_async_62u6mbbx0m seo=false videoFoam=false\" style=\"height:360px;position:relative;width:640px\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\"><\/div><\/div>",
+            "html": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m.jsonp\" async=\"\"><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async=\"\"><\/script><div class=\"wistia_responsive_padding\" style=\"padding:56.25% 0 0 0;position:relative;\"><div class=\"wistia_responsive_wrapper\" style=\"height:100%;left:0;position:absolute;top:0;width:100%;\"><div class=\"wistia_embed wistia_async_62u6mbbx0m seo=false videoFoam=true\" style=\"height:100%;position:relative;width:100%\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\"><\/div><\/div><\/div><\/div>",
             "custom_liquid": "",
             "margin": "medium"
+          }
+        },
+        "84f73157-2cc9-49a8-a494-87eaf3f62560": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/section-settings\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "fullwidth": false,
+            "max_width": 750,
+            "layout": "one",
+            "layout_mobile": "one",
+            "column_main": 50,
+            "column_gap": 0,
+            "row_gap": 0,
+            "bg_color": "",
+            "bg_image_repeat": "no",
+            "bg_image_position": "top",
+            "bg_parallax": "",
+            "mask_color": "",
+            "mask_opacity": 0.5,
+            "container_bg_color": "",
+            "text_color": "",
+            "pt": "20px",
+            "pb": "0",
+            "container_pt": "",
+            "container_pb": ""
           }
         }
       },
       "block_order": [
         "52a36b36-2acf-4406-86d3-287b1dd16871",
-        "42ba9d1b-bff9-40c6-b2ea-ee384ed9f6b9"
+        "42ba9d1b-bff9-40c6-b2ea-ee384ed9f6b9",
+        "84f73157-2cc9-49a8-a494-87eaf3f62560"
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "d7c2ec4a-b6b1-447b-8bd7-8d546c871a86": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".wistia_embed {display: flex; justify-content: center; align-items: center;}"
-      ],
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m.jsonp\" async><\/script><script src=\"https:\/\/fast.wistia.com\/assets\/external\/E-v1.js\" async><\/script><div class=\"wistia_embed wistia_async_62u6mbbx0m seo=false videoFoam=false\" style=\"height:360px;position:relative;width:640px\"><div class=\"wistia_swatch\" style=\"height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;\"><img src=\"https:\/\/fast.wistia.com\/embed\/medias\/62u6mbbx0m\/swatch\" style=\"filter:blur(5px);height:100%;object-fit:contain;width:100%;\" alt=\"\" aria-hidden=\"true\" onload=\"this.parentNode.style.opacity=1;\" \/><\/div><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
@@ -550,7 +563,6 @@
     "9f6db863-764d-4c39-aacf-5d76b4d61772",
     "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78",
     "97260a3c-d678-4a4f-9da9-ed913dc5d008",
-    "1691515904307e1d26",
-    "d7c2ec4a-b6b1-447b-8bd7-8d546c871a86"
+    "1691515904307e1d26"
   ]
 }
