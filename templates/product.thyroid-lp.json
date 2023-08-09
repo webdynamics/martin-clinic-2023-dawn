@@ -250,14 +250,46 @@
         "padding_bottom": 52
       }
     },
+    "de4e6707-61a1-4d4d-a7e4-4a1aec549580": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15944666906776__de4e6707-61a1-4d4d-a7e4-4a1aec549580-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 3 Secrets To Effective Thyroid Supplementation",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15944666906776__de4e6707-61a1-4d4d-a7e4-4a1aec549580-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>1. Optimize Key Nutrients<\/strong><\/h2><p>Your thyroid is your most important weight control hormone. <\/p><p>So how can you make sure it has what it needs to help regulate your waistline?<\/p><p>The simple answer would be with drugs. <\/p><p>Doctors can prescribe these, but they come with a hefty price tag and dangerous side effects. <\/p><p>The truth is, they should only be used in the most serious circumstances.<\/p><p>The majority of people with thyroid issues can fix their problems with some simple natural solutions.<\/p><p>For that reason I recommend that patients supplement with these nutrients:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__de4e6707-61a1-4d4d-a7e4-4a1aec549580-heading-1",
+        "template--15944666906776__de4e6707-61a1-4d4d-a7e4-4a1aec549580-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "eaeff637-5660-4d0c-98d5-6c4f501c917a": {
       "type": "multicolumn",
       "blocks": {
         "template--15944666906776__eaeff637-5660-4d0c-98d5-6c4f501c917a-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>1. Optimize Key Nutrients<\/strong>",
-            "text": "<p>Your thyroid is your most important weight control hormone. <\/p><p>So how can you make sure it has what it needs to help regulate your waistline?<\/p><p>The simple answer would be with drugs. <\/p><p>Doctors can prescribe these, but they come with a hefty price tag and dangerous side effects. <\/p><p>The truth is, they should only be used in the most serious circumstances.<\/p><p>The majority of people with thyroid issues can fix their problems with some simple natural solutions.<\/p><p>For that reason I recommend that patients supplement with these nutrients:<\/p><p><strong>Zinc<\/strong> - Low zinc levels may make your thyroid function improperly. Zinc is also a powerful anti inflammatory and it helps regulate the immune system. It's also great for your skin. <\/p><p><strong>Selenium<\/strong> - Selenium can help balance your immune system and your thyroid. Plus it has been shown to be effective in helping reduce antibody levels in Hashimoto's. <\/p><p><strong>Vitamin B6<\/strong> - Vitamin B6 helps stimulate proper thyroid function and it also helps create and maintain neurotransmitters in the brain. In addition it's required for normal and healthy brain development! <\/p>",
+            "title": "<strong>Zinc<\/strong>",
+            "text": "<p><\/p><p>Low zinc levels may make your thyroid function improperly. Zinc is also a powerful anti inflammatory and it helps regulate the immune system. It's also great for your skin. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -265,8 +297,8 @@
         "template--15944666906776__eaeff637-5660-4d0c-98d5-6c4f501c917a-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>2. Boost Iodine Levels<\/strong>",
-            "text": "<p>Iodine deficiency is the most common cause of thyroid problems worldwide.<\/p><p>Iodine is something the body doesn’t make on its own.<\/p><p>This is why dietary intake of iodine is important for thyroid health.<\/p><p>You need to make sure you’re getting adequate amounts of iodine from your daily diet so that your thyroid has the most basic building-blocks to make its key hormones.<\/p><p>What things should you add to your diet to boost iodine?<\/p><p>Try kale, organic yogurt and Strawberries.<\/p>",
+            "title": "<strong>Selenium<\/strong>",
+            "text": "<p>Selenium can help balance your immune system and your thyroid. Plus it has been shown to be effective in helping reduce antibody levels in Hashimoto's. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -274,8 +306,8 @@
         "template--15944666906776__eaeff637-5660-4d0c-98d5-6c4f501c917a-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>3. Take a Thyroid Focused Supplement <\/strong>",
-            "text": "<p>At the Martin Clinic we stay practical with our patients.<\/p><p>It can be hard to stick to a clean diet and remember everything you need to do to regulate your thyroid.<\/p><p>That’s why a supplement can be a big help - and a great shortcut. <\/p><h2><strong>But not all thyroid supplements are created equal. <\/strong><\/h2><p>Many supplements will be made of synthetic ingredients and other “filler” ingredients that aren’t reported on the label.<\/p><p><br\/><\/p><p>We’ve found it difficult to find something we can give to our patients with confidence.<\/p><p><br\/><\/p><p>So we did the next best thing, and we created our own!<\/p><p><br\/><\/p><p><strong>Introducing….<\/strong><\/p>",
+            "title": "<strong>Vitamin B6<\/strong>",
+            "text": "<p>Vitamin B6 helps stimulate proper thyroid function and it also helps create and maintain neurotransmitters in the brain. In addition it's required for normal and healthy brain development! <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -287,7 +319,7 @@
         "template--15944666906776__eaeff637-5660-4d0c-98d5-6c4f501c917a-column-3"
       ],
       "settings": {
-        "title": "The 3 Secrets To Effective Thyroid Supplementation",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -296,16 +328,46 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "a3e21215-ac6f-45e9-b1be-aa03405d34a0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15944666906776__a3e21215-ac6f-45e9-b1be-aa03405d34a0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>2. Boost Iodine Levels<\/strong><\/h2><p>Iodine deficiency is the most common cause of thyroid problems worldwide.Iodine is something the body doesn’t make on its own.This is why dietary intake of iodine is important for thyroid health.You need to make sure you’re getting adequate amounts of iodine from your daily diet so that your thyroid has the most basic building-blocks to make its key hormones.What things should you add to your diet to boost iodine?Try kale, organic yogurt and Strawberries.<\/p><h2><strong>3. Take a Thyroid Focused Supplement <\/strong><\/h2><p>At the Martin Clinic we stay practical with our patients.It can be hard to stick to a clean diet and remember everything you need to do to regulate your thyroid.That’s why a supplement can be a big help - and a great shortcut. But not all thyroid supplements are created equal. Many supplements will be made of synthetic ingredients and other “filler” ingredients that aren’t reported on the label.We’ve found it difficult to find something we can give to our patients with confidence.So we did the next best thing, and we created our own!<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15944666906776__a3e21215-ac6f-45e9-b1be-aa03405d34a0-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "e66693ab-ef75-420f-a8cc-8210ca74afc6": {
       "type": "image-with-text",
       "blocks": {
+        "04da4f64-e418-48bd-8bea-40046089f93f": {
+          "type": "caption",
+          "settings": {
+            "caption": "Introducing….",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
         "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-heading-1": {
           "type": "heading",
           "settings": {
@@ -322,6 +384,7 @@
         }
       },
       "block_order": [
+        "04da4f64-e418-48bd-8bea-40046089f93f",
         "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-heading-1",
         "template--15944666906776__e66693ab-ef75-420f-a8cc-8210ca74afc6-text-1"
       ],
@@ -558,7 +621,9 @@
     "related-products",
     "1691083870f2e17941",
     "acdb98a9-2af8-4c9b-857a-63d99cc2031e",
+    "de4e6707-61a1-4d4d-a7e4-4a1aec549580",
     "eaeff637-5660-4d0c-98d5-6c4f501c917a",
+    "a3e21215-ac6f-45e9-b1be-aa03405d34a0",
     "e66693ab-ef75-420f-a8cc-8210ca74afc6",
     "9f6db863-764d-4c39-aacf-5d76b4d61772",
     "0f79c6f7-5bf9-4d53-ba08-c9b8eebc7e78",
