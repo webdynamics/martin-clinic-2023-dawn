@@ -23,6 +23,11 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    .product__title {
+      font-weight: {{ block.settings.title_weight }};
+      font-size: {{ block.settings.title_size | append: '%' }};
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -613,7 +618,39 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "title_weight",
+          "options": [
+            {
+              "value": "lighter",
+              "label": "Light"
+            },
+            {
+              "value": "normal",
+              "label": "Regular"
+            },
+            {
+              "value": "bold",
+              "label": "Bold"
+            }
+          ],
+          "default": "normal",
+          "label": "Font weight"
+        },
+        {
+          "type": "range",
+          "id": "title_size",
+          "min": 90,
+          "max": 150,
+          "step": 10,
+          "unit": "%",
+          "default": 100,
+          "label": "Font size"
+        }
+      ]
     },
     {
       "type": "price",
