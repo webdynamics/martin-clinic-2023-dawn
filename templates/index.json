@@ -1,5 +1,50 @@
 {
   "sections": {
+    "d9c49b95-c16c-4576-b0a2-ab8233123abd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BEAT FATIGUE Once and For All<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is the <strong>MOST IMPORTANT video<\/strong> we've ever recorded on how to overcome fatigue.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Watch the FREE Video",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-heading-1",
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-text-1",
+        "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/camera.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -36,6 +81,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Beat_Fatigue_Once_And_For_All_4000_x_2067_px_1.png",
         "image_overlay_opacity": 0,
@@ -272,6 +318,7 @@
     }
   },
   "order": [
+    "d9c49b95-c16c-4576-b0a2-ab8233123abd",
     "image_banner",
     "d4737265-c783-4ef0-aadd-0233455c1906",
     "73b79261-308f-46a1-9cd1-efa6bcd3bf1b",
