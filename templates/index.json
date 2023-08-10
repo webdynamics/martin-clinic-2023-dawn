@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "Watch the FREE Video",
-            "button_link": ""
+            "button_link": "https:\/\/martinclinic.com\/pages\/on-demand-sign-up-beat-fatigue"
           }
         }
       },
@@ -128,13 +128,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/753458_MC-ClubGraphic_062320.png",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
