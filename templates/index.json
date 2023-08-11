@@ -50,17 +50,15 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "blah blah",
+            "heading": "<strong>BEAT FATIGUE Once and For All<\/strong>",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "This is the <strong>MOST IMPORTANT video<\/strong> we've ever recorded on how to overcome fatigue.",
             "text_style": "body"
           }
         },
@@ -81,12 +79,11 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Beat_Fatigue_Once_And_For_All_4000_x_2067_px_1.png",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/camera-sr-jr-wide.jpg",
+        "image_overlay_opacity": 30,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-left",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
