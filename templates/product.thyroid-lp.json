@@ -11,11 +11,11 @@
             "img_height": 200,
             "img_crop": "center",
             "uk_text_align": "center",
-            "title": "",
-            "title_size": "h2",
+            "title": "MOST THYROID SUPPLEMENTS DON'T WORK BECAUSE YOUR THYROID IS COMPLEX",
+            "title_size": "h1",
             "tagline": "",
             "tagline_uk_size": "large",
-            "description": "<h2><strong>MOST THYROID SUPPLEMENTS DON'T WORK BECAUSE YOUR THYROID IS COMPLEX<\/strong><\/h2>",
+            "description": "",
             "description_uk_size": "large",
             "btn_text": "",
             "btn_url": "",
@@ -42,6 +42,8 @@
         "title": {
           "type": "title",
           "settings": {
+            "title_weight": "normal",
+            "title_size": 100
           }
         },
         "price": {
@@ -300,7 +302,7 @@
         "template--15944666906776__a3e21215-ac6f-45e9-b1be-aa03405d34a0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>2. Boost Iodine Levels<\/strong><\/h2><p>Iodine deficiency is the most common cause of thyroid problems worldwide.Iodine is something the body doesn’t make on its own.This is why dietary intake of iodine is important for thyroid health.You need to make sure you’re getting adequate amounts of iodine from your daily diet so that your thyroid has the most basic building-blocks to make its key hormones.What things should you add to your diet to boost iodine?Try kale, organic yogurt and Strawberries.<\/p><h2><strong>3. Take a Thyroid Focused Supplement <\/strong><\/h2><p>At the Martin Clinic we stay practical with our patients.It can be hard to stick to a clean diet and remember everything you need to do to regulate your thyroid.That’s why a supplement can be a big help - and a great shortcut. But not all thyroid supplements are created equal. Many supplements will be made of synthetic ingredients and other “filler” ingredients that aren’t reported on the label.We’ve found it difficult to find something we can give to our patients with confidence.So we did the next best thing, and we created our own!<br\/><\/p>"
+            "text": "<h2><strong>2. Boost Iodine Levels<\/strong><\/h2><p>Iodine deficiency is the most common cause of thyroid problems worldwide.Iodine is something the body doesn’t make on its own.This is why dietary intake of iodine is important for thyroid health.You need to make sure you’re getting adequate amounts of iodine from your daily diet so that your thyroid has the most basic building-blocks to make its key hormones.What things should you add to your diet to boost iodine?Try kale, organic yogurt and Strawberries.<\/p><h2><strong>3. Take a Thyroid Focused Supplement <\/strong><\/h2><p>At the Martin Clinic we stay practical with our patients.It can be hard to stick to a clean diet and remember everything you need to do to regulate your thyroid.That’s why a supplement can be a big help - and a great shortcut.<\/p><p><strong>But not all thyroid supplements are created equal.<\/strong><\/p><p>Many supplements will be made of synthetic ingredients and other “filler” ingredients that aren’t reported on the label.We’ve found it difficult to find something we can give to our patients with confidence.So we did the next best thing, and we created our own!<br\/><\/p>"
           }
         }
       },
@@ -588,7 +590,7 @@
         "template--15944666906776__dc5de888-9f54-4ec8-8445-b308dc80b639-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Either you love our Thyroid Balance Formula or you get your money back.<\/p><p>It’s that simple.<\/p><p>Plus, I’ll personally email you to offer you an apology for having wasted your time just like I would when I’m face to face with any of the patients in our clinic.<\/p><p>We can’t promise to be perfect, no one can. But when something’s not right, we work to make it right.<\/p><p>That’s why you’ll have a full 30 days to try Thyroid Balance Formula and see if it’s for you.<br\/><\/p>"
+            "text": "<p>Either you <strong>love our Thyroid Balance Formula or you get your money back<\/strong>.<\/p><p>It’s that simple.<\/p><p>Plus, I’ll personally email you to offer you an apology for having wasted your time just like I would when I’m face to face with any of the patients in our clinic.<\/p><p>We can’t promise to be perfect, no one can. But when something’s not right, we work to make it right.<\/p><p>That’s why you’ll have a full 30 days to try Thyroid Balance Formula and see if it’s for you.<br\/><\/p>"
           }
         }
       },
@@ -727,33 +729,24 @@
         "padding_bottom": 36
       }
     },
-    "1691610450d0e6672d": {
+    "16917692416f924d9d": {
       "type": "apps",
       "blocks": {
-        "ebdf37f9-a49f-47ba-bbd4-e8faf18994ea": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "d3654678-c829-4f74-90c2-0b5868bf4e44": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
-            "title": "Real Reviews from Real Customers",
-            "auto_play": false,
-            "take": 30,
-            "color_title": "",
-            "color_star": "",
-            "color_text": "",
-            "color_link": "",
-            "review_ids": "",
-            "product_ids": "2760729349",
-            "category": "",
-            "product_brand": "",
-            "tags": "",
-            "min_rating": "none",
-            "fill_empty": false,
-            "random": false,
-            "with_photos": false
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
           }
         }
       },
       "block_order": [
-        "ebdf37f9-a49f-47ba-bbd4-e8faf18994ea"
+        "d3654678-c829-4f74-90c2-0b5868bf4e44"
       ],
       "settings": {
         "include_margins": true
@@ -777,6 +770,6 @@
     "dc5de888-9f54-4ec8-8445-b308dc80b639",
     "483ad3f3-af74-4156-87d0-a95f6469b0fe",
     "f61f0ac9-08f5-4b17-bdb1-1c73405c3438",
-    "1691610450d0e6672d"
+    "16917692416f924d9d"
   ]
 }
