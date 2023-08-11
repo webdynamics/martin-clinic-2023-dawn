@@ -30,6 +30,7 @@
         "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-text-1",
         "template--15923211567256__d9c49b95-c16c-4576-b0a2-ab8233123abd-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/camera.jpg",
         "height": "adapt",
@@ -131,11 +132,37 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16917543241769d9f9": {
+      "type": "apps",
+      "blocks": {
+        "82119bae-85d6-40ea-8f64-8fb5c130338a": {
+          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/divider\/08c79414-ca28-4781-a647-2921b7943a0b",
+          "settings": {
+            "style": "fade",
+            "color": "#EEEEEE",
+            "title": "DIVIDER",
+            "text_color": "#752182",
+            "text_bg_color": "#FFFFFF",
+            "bg_image_position": "center",
+            "img_height": "30px",
+            "repeat": "0",
+            "max_width": "600",
+            "margin": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "82119bae-85d6-40ea-8f64-8fb5c130338a"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "73b79261-308f-46a1-9cd1-efa6bcd3bf1b": {
@@ -176,7 +203,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -318,6 +345,7 @@
     "d9c49b95-c16c-4576-b0a2-ab8233123abd",
     "image_banner",
     "d4737265-c783-4ef0-aadd-0233455c1906",
+    "16917543241769d9f9",
     "73b79261-308f-46a1-9cd1-efa6bcd3bf1b",
     "90283501-b643-40aa-a79c-2d19534deaf3",
     "featured_collection",
