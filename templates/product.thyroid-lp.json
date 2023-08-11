@@ -1,39 +1,28 @@
 {
   "sections": {
-    "1691083639326b2669": {
-      "type": "apps",
+    "82f511ee-35ec-41b4-bb10-c33b28a85ff2": {
+      "type": "rich-text",
       "blocks": {
-        "f83e844a-39ef-44a3-a096-283131713260": {
-          "type": "shopify:\/\/apps\/posstack-easy-content-builder\/blocks\/section-title\/08c79414-ca28-4781-a647-2921b7943a0b",
+        "template--15944666906776__82f511ee-35ec-41b4-bb10-c33b28a85ff2-heading-1": {
+          "type": "heading",
           "settings": {
-            "icon": "",
-            "img_width": 200,
-            "img_height": 200,
-            "img_crop": "center",
-            "uk_text_align": "center",
-            "title": "MOST THYROID SUPPLEMENTS DON'T WORK BECAUSE YOUR THYROID IS COMPLEX",
-            "title_size": "h1",
-            "tagline": "",
-            "tagline_uk_size": "large",
-            "description": "",
-            "description_uk_size": "large",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_uk_color": "primary",
-            "btn_uk_size": "default",
-            "bg_color": "",
-            "max_width": "1200",
-            "scrollspy": "n",
-            "margin": "medium",
-            "padding": "no"
+            "heading": "MOST THYROID SUPPLEMENTS DON'T WORK BECAUSE YOUR THYROID IS COMPLEX",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         }
       },
       "block_order": [
-        "f83e844a-39ef-44a3-a096-283131713260"
+        "template--15944666906776__82f511ee-35ec-41b4-bb10-c33b28a85ff2-heading-1"
       ],
       "settings": {
-        "include_margins": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "main": {
@@ -754,7 +743,7 @@
     }
   },
   "order": [
-    "1691083639326b2669",
+    "82f511ee-35ec-41b4-bb10-c33b28a85ff2",
     "main",
     "related-products",
     "1691083870f2e17941",
