@@ -327,5 +327,17 @@ id="stamped-script-widget"
 src="https://cdn1.stamped.io/files/widget.min.js">
 </script>
 <!-- End Stamped -->
+<!-- Klaviyo -->
+<script async type="text/javascript"
+ src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=MvUqmM"></script>
+<script>
+ var _learnq = _learnq || [];
+ if ('{{ customer.email }}') {
+   _learnq.push(['identify', {
+       '$email' : '{{ customer.email }}'
+     }]);
+  }
+</script>
+<!-- End Klaviyo -->
   </body>
 </html>
