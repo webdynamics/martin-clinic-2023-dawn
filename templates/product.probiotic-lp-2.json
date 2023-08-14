@@ -270,6 +270,38 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "23762d6a-c997-441a-9467-932b157da079": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__23762d6a-c997-441a-9467-932b157da079-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>HUMANS EAT 5 GRAMS OF SMALL PLASTICS PARTICLES EVERY WEEK…WHICH IS THE WEIGHT OF A CREDIT CARD. <br\/><\/h3><p>These tiny plastics can change your gut bacteria composition<\/p><p>Wreaking havoc on your gut.<\/p><p>But it gets worse.<\/p><p>According to the researchers<\/p><p>The plastic particles you're eating cause an immune response and activate inflammation…<\/p><p>And they \"trigger chemical pathways involved in the FORMATION OF CANCER.\"<\/p><p>According to the study, the health effects of plastic…<\/p><p><strong>\"May be irreversible.\"<\/strong><\/p>"
+          }
+        },
+        "template--15949945569432__23762d6a-c997-441a-9467-932b157da079-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "LUCKILY, YOU CAN <span style=\"text-decoration:underline\"><strong>PUT THINGS RIGHT WITH PROBIOTICS<\/strong><\/span>.",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__23762d6a-c997-441a-9467-932b157da079-text-1",
+        "template--15949945569432__23762d6a-c997-441a-9467-932b157da079-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -278,6 +310,7 @@
     "03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9",
     "ffc5ac13-390f-43e4-a638-72e6ced7d9e1",
     "1691664783d28e4eda",
-    "9e84a68b-d0fa-426c-831a-433257d7c1f7"
+    "9e84a68b-d0fa-426c-831a-433257d7c1f7",
+    "23762d6a-c997-441a-9467-932b157da079"
   ]
 }
