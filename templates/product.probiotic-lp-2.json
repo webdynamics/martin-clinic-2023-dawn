@@ -302,6 +302,241 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "380fb3dc-0afe-435d-8356-11c95e7e158d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__380fb3dc-0afe-435d-8356-11c95e7e158d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Probiotics are the fancy word for friendly bacteria. It means \"pro-life.\"<\/p><p>Probiotics help you digest your food, boost your immune system, and control yeast and harmful bacteria (like those that cause excessive gas and ulcers).<\/p><p>I want you to know probiotics do so much more than keep your gut healthy.<\/p><p>They keep your whole body healthy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__380fb3dc-0afe-435d-8356-11c95e7e158d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "07405c31-e452-461b-a155-93f4ebc7331a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As I said earlier, your gut contains over 80 trillion bacteria.<\/p><p>But…so do your lungs, skin, heart, joints….and brain.<\/p><p>And, it turns out…<\/p><p>There's communication going on between the bacteria in your gut and the bacteria in your lungs, brain, skin, joints, heart, and liver…<\/p><p>(Researchers call it crosstalk)<br\/>Meaning…<\/p><p>Whatever affects the bacteria in your gut…<\/p><p>Also affects the bacteria everywhere else in your body.<\/p>"
+          }
+        },
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>IT'S TIME TO <\/strong><span style=\"text-decoration:underline\"><strong>PUT BACK<\/strong><\/span><strong> THE HEALTHY INTESTINAL BACTERIA MODERN LIFE TAKES OUT WITH <\/strong><span style=\"text-decoration:underline\"><strong>DAILY PROBIOTICS<\/strong><\/span>",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-text-1",
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-heading-1",
+        "template--15949945569432__07405c31-e452-461b-a155-93f4ebc7331a-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe": {
+      "type": "multi-review",
+      "blocks": {
+        "template--15949945569432__1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe-row-1": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "",
+            "text": "<p>My husband and I take probiotics everyday. I can’t imagine being without them.<\/p><p>So good for your digestive system. I had gut issues before, but not anymore. Thanks Martin clinic<\/p>",
+            "reviewer": "Anne H. "
+          }
+        },
+        "template--15949945569432__1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe-row-2": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "",
+            "text": "<p>\"My health would be still be suffering without them.  My partner and I noticed we don’t get the flu anymore. If there’s one supplement I will be taking for life it’s Dr. Martins probiotic complex. They have the best quality and value.\"<\/p>",
+            "reviewer": "David M."
+          }
+        },
+        "c9d5dcc0-a8b2-4959-b0d7-a78dd997f228": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "",
+            "text": "<p>\"LOVE THESE PROBIOTICS - MY GUT HAS BEEN SO MUCH BETTER SINCE USING THIS PRODUCT.\"<\/p>",
+            "reviewer": "Shirley P."
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe-row-1",
+        "template--15949945569432__1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe-row-2",
+        "c9d5dcc0-a8b2-4959-b0d7-a78dd997f228"
+      ],
+      "settings": {
+        "star_size": "2rem",
+        "heading_size": "h1",
+        "text_style": "body",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "row_padding_top": 36,
+        "row_padding_bottom": 36
+      }
+    },
+    "f62f4a56-c9c8-435c-a5cc-6a2ced016e0a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__f62f4a56-c9c8-435c-a5cc-6a2ced016e0a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EACH CAPSULE OF PROBIOTIC COMPLEX IS PACKED WITH A FULL <strong>50 BILLION PROBIOTICS<\/strong>",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__f62f4a56-c9c8-435c-a5cc-6a2ced016e0a-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "481d1870-a817-40bc-9b02-5d84f3b835c2": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-title-1",
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-price-1",
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-variant_picker-1",
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-quantity_selector-1",
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-buy_buttons-1",
+        "template--15949945569432__481d1870-a817-40bc-9b02-5d84f3b835c2-share-1"
+      ],
+      "settings": {
+        "product": "probiotic-complex",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d8f5dfbd-7351-4c17-b9e2-afe70bf283b0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__d8f5dfbd-7351-4c17-b9e2-afe70bf283b0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<span style=\"text-decoration:underline\">OUR PROMISE TO YOU<\/span>",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15949945569432__d8f5dfbd-7351-4c17-b9e2-afe70bf283b0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EACH CAPSULE OF PROBIOTIC COMPLEX IS PACKED WITH A FULL 50 BILLION PROBIOTICS<\/p><p>EITHER YOU LOVE OUR PROBIOTIC COMPLEX AND IT WORKS FOR YOU OR YOU GET YOUR MONEY BACK.<\/p><p>PLUS, I’LL PERSONALLY EMAIL YOU TO OFFER YOU AN APOLOGY FOR HAVING WASTED YOUR TIME JUST LIKE I WOULD WITH ANY OF THE PATIENTS IN OUR CLINIC.<\/p><p>WE CAN’T PROMISE TO BE PERFECT, NO ONE CAN. BUT WHEN SOMETHING'S NOT RIGHT, WE WORK TO MAKE IT RIGHT.<\/p><p>THAT’S WHY YOU’LL HAVE A FULL 30 DAYS TO TRY PROBIOTIC COMPLEX AND SEE IF IT’S FOR YOU.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__d8f5dfbd-7351-4c17-b9e2-afe70bf283b0-heading-1",
+        "template--15949945569432__d8f5dfbd-7351-4c17-b9e2-afe70bf283b0-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -311,6 +546,12 @@
     "ffc5ac13-390f-43e4-a638-72e6ced7d9e1",
     "1691664783d28e4eda",
     "9e84a68b-d0fa-426c-831a-433257d7c1f7",
-    "23762d6a-c997-441a-9467-932b157da079"
+    "23762d6a-c997-441a-9467-932b157da079",
+    "380fb3dc-0afe-435d-8356-11c95e7e158d",
+    "07405c31-e452-461b-a155-93f4ebc7331a",
+    "1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe",
+    "f62f4a56-c9c8-435c-a5cc-6a2ced016e0a",
+    "481d1870-a817-40bc-9b02-5d84f3b835c2",
+    "d8f5dfbd-7351-4c17-b9e2-afe70bf283b0"
   ]
 }
