@@ -14,6 +14,8 @@
         "title": {
           "type": "title",
           "settings": {
+            "title_weight": "normal",
+            "title_size": 100
           }
         },
         "price": {
@@ -95,6 +97,107 @@
         "padding_bottom": 28
       }
     },
+    "03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THERE IS NO COMPARISON",
+            "heading_size": "h0",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "6f792499-e63c-4075-a75c-6a1815e01741": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/probiotic-comparison-1.webp",
+            "image_full_width": false
+          }
+        },
+        "3eefefd2-b6a6-4bfc-bda5-2f3b9b039348": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stop Paying Higher Prices For Lower Quality Probiotics!",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9-heading-1",
+        "6f792499-e63c-4075-a75c-6a1815e01741",
+        "3eefefd2-b6a6-4bfc-bda5-2f3b9b039348"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ffc5ac13-390f-43e4-a638-72e6ced7d9e1": {
+      "type": "multirow",
+      "blocks": {
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rg-edit-of-1-pill.webp",
+            "caption": "",
+            "heading": "#1 OUR PROBIOTICS CONTAIN 50 BILLION PROBIOTICS PER CAPSULE",
+            "text": "<p>What's so special about that?<\/p><p><br\/><\/p><p>One of the most important factors to consider when choosing which probiotic to use is ensuring you're taking enough of them PER SERVING to fully colonize your gut…<\/p><p><br\/><\/p><p>For maximum protection, healing power, and general wellness benefits.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lactobacillus-acidophilus.webp",
+            "caption": "",
+            "heading": "#2 OUR PROBIOTICS CONTAIN 11 CHOSEN STRAINS",
+            "text": "<p>50 BILLION probiotics are impressive.<\/p><p>But not if it's made up of the wrong types of strains or enough different ones.<\/p><p>Most probiotics on the market contain about 4 different strains of probiotics in unequal quantities.<\/p><p>Our Probiotics contain 11 chosen strains that are proven probiotics, not just random bacteria.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dr-martin-sr.webp",
+            "caption": "",
+            "heading": "#3  THEY WERE FORMULATED FOR PATIENTS IN A REAL CLINIC",
+            "text": "<p>Most supplement companies use white-label generic products for two reasons.  They know little about health and they don’t have any experience dealing with people who have actual health problems.<\/p><p>Our formulas are designed based on 45 years of clinical experience dealing with real patients in a real clinic.  Our supplements had to help, otherwise follow-up visits with patients would have been awkward.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-1",
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-2",
+        "template--15949945569432__ffc5ac13-390f-43e4-a638-72e6ced7d9e1-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1691664783d28e4eda": {
       "type": "apps",
       "blocks": {
@@ -117,11 +220,64 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "9e84a68b-d0fa-426c-831a-433257d7c1f7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15949945569432__9e84a68b-d0fa-426c-831a-433257d7c1f7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY TAKE A DAILY PROBIOTIC?",
+            "heading_size": "h1",
+            "reversed": true,
+            "centerheading": false
+          }
+        },
+        "template--15949945569432__9e84a68b-d0fa-426c-831a-433257d7c1f7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The New York Post recently published this shocking article:<\/p>"
+          }
+        },
+        "19ca53c2-e59b-4234-b842-6cdfa72166e4": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"YOU'RE EATING A CREDIT CARD'S WORTH OF PLASTIC A WEEK — AND IT'S KILLING YOUR GUT.\"",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "76566049-97df-4789-a415-4a63a1e51c50": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/credit_card_dust.webp",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15949945569432__9e84a68b-d0fa-426c-831a-433257d7c1f7-heading-1",
+        "template--15949945569432__9e84a68b-d0fa-426c-831a-433257d7c1f7-text-1",
+        "19ca53c2-e59b-4234-b842-6cdfa72166e4",
+        "76566049-97df-4789-a415-4a63a1e51c50"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1691664783d28e4eda"
+    "03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9",
+    "ffc5ac13-390f-43e4-a638-72e6ced7d9e1",
+    "1691664783d28e4eda",
+    "9e84a68b-d0fa-426c-831a-433257d7c1f7"
   ]
 }

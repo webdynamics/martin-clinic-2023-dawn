@@ -13,6 +13,8 @@
         "title": {
           "type": "title",
           "settings": {
+            "title_weight": "normal",
+            "title_size": 100
           }
         },
         "price": {
@@ -62,10 +64,10 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
@@ -101,7 +103,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Why Do People Feel Better On Our Probiotics?<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15921791664280__441bff99-447b-41dd-a781-d6a9ab99a8d6-1687178674c57b6b25-1": {
@@ -268,7 +272,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Luckily, you can put things right with probiotics.<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__b83e2de2-291d-45d2-83ab-29363dfac14d-1687789671ebcec29b-2": {
@@ -422,7 +428,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>The truth is \"most\" Probiotics will fail you<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__700ee158-ed20-4202-b03e-3e5d0482b945-1687798799afb070e2-1": {
@@ -435,7 +443,9 @@
           "type": "heading",
           "settings": {
             "heading": "<em><strong>The 3 Secrets to Probiotic Supplementation<\/strong><\/em>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         }
       },
@@ -518,7 +528,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>How to get the right strains, the right amount and the right quality for the lowest price possible<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__ebad8055-4333-4f5e-b16c-c4618e11cfc2-text-1": {
@@ -570,7 +582,9 @@
           "type": "heading",
           "settings": {
             "heading": "Each capsule of probiotic complex is packed with a full <strong>50 Billion Probiotics<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__323d83a7-b124-4d22-9ee3-e12ae57cb5c3-text-1": {
@@ -615,7 +629,9 @@
           "type": "heading",
           "settings": {
             "heading": "Finally! a full spectrum, multi-strain probiotic designed by doctors who know what they’re doing",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "bdb17a01-f3b4-4aa0-b73d-ec65edefb424": {
@@ -660,7 +676,9 @@
           "type": "heading",
           "settings": {
             "heading": "Welcome to an advanced probiotic formula",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__b5fe30d3-ec73-4837-98f1-bdb62d8baf21-text-1": {
@@ -697,7 +715,9 @@
           "type": "heading",
           "settings": {
             "heading": "Our promise to you",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         },
         "template--15923211337880__30f1628c-de2c-46d3-b677-4ec1003ee754-text-1": {
@@ -727,7 +747,9 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Our #1 doctor formulated probiotic is now available to help you win the war of good gut health<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
           }
         }
       },
