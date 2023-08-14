@@ -198,29 +198,6 @@
         "padding_bottom": 36
       }
     },
-    "1691664783d28e4eda": {
-      "type": "apps",
-      "blocks": {
-        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "9e84a68b-d0fa-426c-831a-433257d7c1f7": {
       "type": "rich-text",
       "blocks": {
@@ -537,6 +514,29 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1691664783d28e4eda": {
+      "type": "apps",
+      "blocks": {
+        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -544,7 +544,6 @@
     "related-products",
     "03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9",
     "ffc5ac13-390f-43e4-a638-72e6ced7d9e1",
-    "1691664783d28e4eda",
     "9e84a68b-d0fa-426c-831a-433257d7c1f7",
     "23762d6a-c997-441a-9467-932b157da079",
     "380fb3dc-0afe-435d-8356-11c95e7e158d",
@@ -552,6 +551,7 @@
     "1a1d66a7-a4f0-4c71-9ebb-c6f2bbbcaabe",
     "f62f4a56-c9c8-435c-a5cc-6a2ced016e0a",
     "481d1870-a817-40bc-9b02-5d84f3b835c2",
-    "d8f5dfbd-7351-4c17-b9e2-afe70bf283b0"
+    "d8f5dfbd-7351-4c17-b9e2-afe70bf283b0",
+    "1691664783d28e4eda"
   ]
 }
