@@ -14,6 +14,8 @@
         "title": {
           "type": "title",
           "settings": {
+            "title_weight": "normal",
+            "title_size": 100
           }
         },
         "price": {
@@ -117,11 +119,462 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "6e35a439-6d78-41af-a2e3-9bd4990109bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__6e35a439-6d78-41af-a2e3-9bd4990109bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "HERE'S WHY PEOPLE PREFER OUR VITAMIN B12",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__6e35a439-6d78-41af-a2e3-9bd4990109bd-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "84d8120a-c8d3-4c6e-88c5-b12a20e6c168": {
+      "type": "rich-text",
+      "blocks": {
+        "5d5e1ef0-99fa-4e8b-adab-b5d93b84d146": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b12-comparison.webp",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "5d5e1ef0-99fa-4e8b-adab-b5d93b84d146"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "733d6b2d-4724-40a7-8b13-2615531ad0f8": {
+      "type": "multirow",
+      "blocks": {
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/synthetic.webp",
+            "caption": "",
+            "heading": "#1 We Use a Natural Form of Vitamin B12",
+            "text": "<p>Many companies use nutrient in forms that aren't easily absorbed by the body<\/p><p>IIt's like the gasoline found in coal. Sure, every lump of coal technically contains gasoline — but you can't just use coal to fuel your car. <\/p><p>The gas is there but not in a form your vehicle can use. <\/p><p>Many supplements may boast a wide range of nutrients. Still, if those nutrients aren't in a form your body can absorb and use, they're as helpful as coal in a gas tank, and you end up with expensive urine.<\/p><p>The SAME IS TRUE OF B12.<\/p><p><strong>99% of supplement companies use a cheap form<\/strong> of vitamin B12 called cyanocobalamin.<\/p><p>Cyanocobalamin is synthetic. It doesn't exist in nature. It's a lab creation.<\/p><p>Vitamin B12 should be in the form of METHYLCOBALAMIN…otherwise, you don't absorb it well.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/synthetic-1.webp",
+            "caption": "",
+            "heading": "#2 We Use a Sublingual Dissolving Tablet",
+            "text": "<p>You can't swallow B12.<\/p><p>What I mean by that is…if your current B12 supplement is in a pill or capsule…then it's essentially useless.<\/p><p>Remember…you need both the stomach acid and intrinsic factor to properly get B12.<\/p><p>When you swallow a pill or capsule with B12, it doesn't stay in the stomach long enough.<\/p><p>So…the best way to get Vitamin B12 is in a SUBLINGUAL tablet that dissolves under your tongue.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/synthetic-2.webp",
+            "caption": "",
+            "heading": "#3 We Use The Right Dosage",
+            "text": "<p>Imagine wanting to try skydiving, so you want to hire someone to teach you how to safely jump out of a plane. Now imagine the expert you're considering hiring tells you he knows everything about using the right equipment and technique, but he's never actually jumped out of an airplane.<\/p><p>The expert knows everything theoretically but has no experience jumping out of an airplane. He doesn't know what it's like to stand on the edge of the plane, feeling the rush of the wind, or even how to safely land without serious injury.<\/p><p>The supplement industry has many \"theoretical experts\" who understand supplements on paper but have never been in practice, seen actual patients, or followed up to see if their supplements genuinely work.<\/p><p>How, then, can these paper experts know anything about a supplement's proper dosage and effectiveness without firsthand clinical experience?<\/p><p>We're not just paper experts; our 45 years of clinical experience have given us real insights into creating dosages that benefit those with specific health concerns.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-1",
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-2",
+        "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-3"
+      ],
+      "custom_css": [
+        ".media > img {object-fit: contain;}"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "12841c2f-361e-46d1-94da-ce895e230822": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__12841c2f-361e-46d1-94da-ce895e230822-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still Think Low B12 Is Harmless?",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__12841c2f-361e-46d1-94da-ce895e230822-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consider this case study from Harvard University: <\/p><p>Over the course of two months, a 62-year-old man developed a creeping numbness in his hands.<\/p><p>Maybe you’ve felt that sensation before and just brushed it off.<\/p><p>It started as a “pins and needles” feeling.<\/p><p>Then he started having trouble walking, and blurred vision when he got up too fast.<\/p><p>Next came the joint pain, shortness of breath, and soon even a daily nap wasn’t enough to recover his energy.<\/p><p>So, like anyone else would, he went to the doctor.<\/p><p>They tried every test imaginable.<\/p><p>Blood tests, heart tests, MRI scans, you name it. They all came back negative.<\/p><p>According to the science he was healthy as a whistle, but he sure didn’t feel that way.<\/p><p>Over time, it got worse.<\/p><p>Depression, paranoia and delusions, <strong>memory loss<\/strong>, incontinence, loss of taste and smell, and more.<\/p><p>And it wasn’t until a friend recommended an all natural energy boosting supplement that he finally realized what his true problem was.<\/p><p><strong>A lack of B12.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__12841c2f-361e-46d1-94da-ce895e230822-heading-1",
+        "template--15950971764888__12841c2f-361e-46d1-94da-ce895e230822-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4c25ca03-73f8-491b-a73b-1fa673d40596": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__4c25ca03-73f8-491b-a73b-1fa673d40596-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Most Overlooked Nutrient Deficiency In Modern Times",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__4c25ca03-73f8-491b-a73b-1fa673d40596-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Studies say that nearly 40% of the population is B12 Deficient…<\/p><p>But in our small local clinic we see <strong>nearly 70%<\/strong> of our patients suffering from a B12 deficiency.<\/p><p>They come in to see us and they’re worn down, burnt out and slipping into “old age” faster and faster every year.<\/p><p>And that’s just the “tip of the iceberg”. They’re also experiencing:<\/p>"
+          }
+        },
+        "ec36bfbd-bd27-48e6-8109-3352b267f031": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/copy_of_b12_formula_-_google_docs.webp",
+            "image_full_width": false
+          }
+        },
+        "5d1a4129-5e1f-4eb6-ba39-e31d5cbdf3bd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The worst part is that a B12 deficiency is hard to diagnose.<\/p><p>That’s why so many people with the issues listed above will try solution after solution with no clear results.<\/p><p>When that happens, it usually means you’re <strong>dangerously low on B12<\/strong>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__4c25ca03-73f8-491b-a73b-1fa673d40596-heading-1",
+        "template--15950971764888__4c25ca03-73f8-491b-a73b-1fa673d40596-text-1",
+        "ec36bfbd-bd27-48e6-8109-3352b267f031",
+        "5d1a4129-5e1f-4eb6-ba39-e31d5cbdf3bd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7e32984a-c705-429f-9356-9f9d22ed2672": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__7e32984a-c705-429f-9356-9f9d22ed2672-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is B12 And What Does It Do?",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__7e32984a-c705-429f-9356-9f9d22ed2672-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vitamin B12 (cobalamin) is extremely important. <\/p><p>Your body needs it to create red blood cells and grow tissue. <\/p><p>It’s needed to protect your heart, protect against blood clots and strokes.<\/p><p>It’s also a major player in your DNA for nerve and brain protection.<\/p><p>And when it comes to natural all day energy, B12 really shines.<\/p>"
+          }
+        },
+        "f861409a-2327-4081-a2dd-ddbaf1f48a23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/copy_of_b12_formula_-_google_docs-2.webp",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__7e32984a-c705-429f-9356-9f9d22ed2672-heading-1",
+        "template--15950971764888__7e32984a-c705-429f-9356-9f9d22ed2672-text-1",
+        "f861409a-2327-4081-a2dd-ddbaf1f48a23"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2cb9ee98-e12a-4e5b-a673-9852941cc963": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__2cb9ee98-e12a-4e5b-a673-9852941cc963-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "6 Sign You’re Low On Vitamin B12",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__2cb9ee98-e12a-4e5b-a673-9852941cc963-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>The Tingling Sensation:<\/h3><p>Also known as neuropathy, it’s often described as a tingling sensation in your fingers, toes, and even your face. It’s caused by improper nerve function - a major warning sign of low B12.<\/p><h3>The Swollen Tongue<\/h3><p>Ever had the feeling that your tongue is too big for your mouth? If your tongue is enlarged, smooth and swollen, you’ve likely got low B12<\/p><h3>The “I’m Always Tired” Feeling”:<\/h3><p>If you’re already up to 1 nap per day and still don’t have the “get up and go” my best bet is that your body is begging for more B12<\/p><h3>The Brain Fog:<\/h3><p>Lack of focus, trouble thinking, or constant forgetfulness are some of the top signs we look for in our clinic when patients are low on B12<\/p><h3>The “Tipsy Turvey” Walk<\/h3><p>A massive B12 red flag that most doctors miss, is imbalance. If you’re feeling clumsy or someone says “you’re just not walking right”, then it’s time to consider your B12 levels.<\/p><h3>The Non-Stop Ringing<\/h3><p>If B12 is too low for too long, you’ll begin to notice a slight ringing in your ears. Your doctor will tell you it’s related to hearing loss, but more often than not, the quick fix is boosting B12<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__2cb9ee98-e12a-4e5b-a673-9852941cc963-heading-1",
+        "template--15950971764888__2cb9ee98-e12a-4e5b-a673-9852941cc963-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1a7b0497-09ec-45f7-a724-e533dea6dd51": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__1a7b0497-09ec-45f7-a724-e533dea6dd51-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "But there’s one big problem with B12.",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "template--15950971764888__1a7b0497-09ec-45f7-a724-e533dea6dd51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You see, B12 is a water-soluble vitamin. That means your body doesn’t keep it.<\/p><p>And as you age your body also makes less of it.<\/p><p>That means it must be replaced, especially if you’re over 50.<\/p>"
+          }
+        },
+        "c104c0fd-bec5-4ed2-a65c-9654538c415e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting B12 From Food Will Help, But It’s Not Enough",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "c1ad8119-7500-46c1-ad17-5b4b39545d33": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A normally functioning stomach and digestive system are crucial to the absorption of B12<\/p><p>But if you’re low on B12, your digestive system probably isn’t working correctly.<\/p><p>It’s the ultimate catch 22.<\/p><p>We saw this day in and day out in our clinic and we knew we had to find a solution.<\/p>"
+          }
+        },
+        "e00ca57c-9372-4dd1-be08-9d50b76026de": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing A Better And More Effective Way Of Absorbing B12",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "967c6ef2-81b6-42eb-9889-2237f87a9988": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Sublingual VITAMIN B12 5000<\/h2>"
+          }
+        },
+        "4dc0e99e-0eec-42e0-a802-593455120894": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b12-4000-front-2023.png",
+            "image_full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__1a7b0497-09ec-45f7-a724-e533dea6dd51-heading-1",
+        "template--15950971764888__1a7b0497-09ec-45f7-a724-e533dea6dd51-text-1",
+        "c104c0fd-bec5-4ed2-a65c-9654538c415e",
+        "c1ad8119-7500-46c1-ad17-5b4b39545d33",
+        "e00ca57c-9372-4dd1-be08-9d50b76026de",
+        "967c6ef2-81b6-42eb-9889-2237f87a9988",
+        "4dc0e99e-0eec-42e0-a802-593455120894"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8ef9aedc-a474-4007-813d-18110d095502": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__8ef9aedc-a474-4007-813d-18110d095502-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Most B12 Supplements Are Missing This Crucial Piece Of The Puzzle",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "abf7f25e-93ba-41b6-921d-812078c1b980": {
+          "type": "heading",
+          "settings": {
+            "heading": "And It’s Why Most B12 Vitamins Won’t Work!",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__8ef9aedc-a474-4007-813d-18110d095502-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s called <strong>Methylcobalamin<\/strong> and it’s the single most important thing to include with a B12 supplement.<\/p><p>The truth is just because a supplement has B12 in it, doesn’t mean it’s going to work inside your body.<\/p><p>Without Methylcobalamin you can take all the B12 you want and your body won’t keep any of it.<\/p><p>Like pouring your morning coffee into a glass with a hole in the bottom…<\/p><p>You’ll get some of it, but not all that you should be getting.<\/p><p>That’s why the B12 inside of our custom formulation isn’t just any run of the mill B12.<\/p><p>It’s packed with<strong> 5000 MCU of B12 Methylcobalamin<\/strong> for premium absorption.<\/p><p>That means you get the best B12 on the market, and your body absorbs more of it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__8ef9aedc-a474-4007-813d-18110d095502-heading-1",
+        "abf7f25e-93ba-41b6-921d-812078c1b980",
+        "template--15950971764888__8ef9aedc-a474-4007-813d-18110d095502-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "37fe42a8-6c76-436c-bea1-7e1ba975674a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__37fe42a8-6c76-436c-bea1-7e1ba975674a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Put Our Reputation Into Every Bottle Of The B12 5000 Formula ",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": true
+          }
+        },
+        "template--15950971764888__37fe42a8-6c76-436c-bea1-7e1ba975674a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our small town clinic opened its doors in 1911. <\/p><p>Since then we’ve provided a groundbreaking natural solution to our patients on the front lines of health.<\/p><p> If something doesn’t work, we don’t continue to use it. Period.<\/p><p> And that matters a lot to us.<\/p><p>But here’s why that should matter to you...<\/p><p>We treat REAL people every day in our clinic and they look to us for solutions.<\/p><p>They don’t want “maybe’s” or another lecture. They want results.<\/p><p>When other supplement manufacturers sell you something that doesn’t work, they can refund your money (maybe) and go about their business.<\/p><p>But when we give a customer something that doesn't work, we have to look them in the eye at the next appointment.<\/p><p>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__37fe42a8-6c76-436c-bea1-7e1ba975674a-heading-1",
+        "template--15950971764888__37fe42a8-6c76-436c-bea1-7e1ba975674a-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "51349891-e1de-40c1-9f8e-d47cf5562b32": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15950971764888__51349891-e1de-40c1-9f8e-d47cf5562b32-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR PROMISE TO YOU",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "template--15950971764888__51349891-e1de-40c1-9f8e-d47cf5562b32-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our small town clinic opened its doors in 1911. <\/p><p>Since then we’ve provided a groundbreaking natural solution to our patients on the front lines of health.<\/p><p>If something doesn’t work, we don’t continue to use it. Period.<\/p><p>And that matters a lot to us.<\/p><p>But here’s why that should matter to you...<\/p><p>We treat REAL people every day in our clinic and they look to us for solutions.<\/p><p>They don’t want “maybe’s” or another lecture. They want results.<\/p><p>When other supplement manufacturers sell you something that doesn’t work, they can refund your money (maybe) and go about their business.<\/p><p>But when we give a customer something that doesn't work, we have to look them in the eye at the next appointment.<\/p><p>We put our reputations as practitioners on the line every day and we do the same for each and every one of our products! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__51349891-e1de-40c1-9f8e-d47cf5562b32-heading-1",
+        "template--15950971764888__51349891-e1de-40c1-9f8e-d47cf5562b32-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1691664783d28e4eda"
+    "1691664783d28e4eda",
+    "6e35a439-6d78-41af-a2e3-9bd4990109bd",
+    "84d8120a-c8d3-4c6e-88c5-b12a20e6c168",
+    "733d6b2d-4724-40a7-8b13-2615531ad0f8",
+    "12841c2f-361e-46d1-94da-ce895e230822",
+    "4c25ca03-73f8-491b-a73b-1fa673d40596",
+    "7e32984a-c705-429f-9356-9f9d22ed2672",
+    "2cb9ee98-e12a-4e5b-a673-9852941cc963",
+    "1a7b0497-09ec-45f7-a724-e533dea6dd51",
+    "8ef9aedc-a474-4007-813d-18110d095502",
+    "37fe42a8-6c76-436c-bea1-7e1ba975674a",
+    "51349891-e1de-40c1-9f8e-d47cf5562b32"
   ]
 }
