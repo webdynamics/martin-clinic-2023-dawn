@@ -97,29 +97,6 @@
         "padding_bottom": 28
       }
     },
-    "1691664783d28e4eda": {
-      "type": "apps",
-      "blocks": {
-        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
-          "settings": {
-            "animation": true,
-            "tags_exclude": "",
-            "tags_include": "",
-            "search": "",
-            "linkify": true,
-            "use_metafields": false,
-            "sku_tagtype": "sku"
-          }
-        }
-      },
-      "block_order": [
-        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "6e35a439-6d78-41af-a2e3-9bd4990109bd": {
       "type": "rich-text",
       "blocks": {
@@ -559,12 +536,136 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "d697df49-1470-4f8f-b5c6-f0a37211f14a": {
+      "type": "multi-review",
+      "blocks": {
+        "template--15950971764888__d697df49-1470-4f8f-b5c6-f0a37211f14a-row-1": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "No More Naps",
+            "text": "<p><em>I am finding that I no longer need a daily nap to get me through the day<\/em><\/p>",
+            "reviewer": "Jodie G."
+          }
+        },
+        "template--15950971764888__d697df49-1470-4f8f-b5c6-f0a37211f14a-row-2": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Makes Great Things Happen!",
+            "text": "<p><em>This is a great addition to my bodies energy production.  Gives my lifestyle the boost it needs to make great things happen.<\/em><\/p>",
+            "reviewer": "Ed L."
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__d697df49-1470-4f8f-b5c6-f0a37211f14a-row-1",
+        "template--15950971764888__d697df49-1470-4f8f-b5c6-f0a37211f14a-row-2"
+      ],
+      "settings": {
+        "star_size": "2rem",
+        "heading_size": "h1",
+        "text_style": "body",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "row_padding_top": 36,
+        "row_padding_bottom": 36
+      }
+    },
+    "c3109487-4ac1-4376-bad9-ebdf70a94469": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-title-1",
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-price-1",
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-variant_picker-1",
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-quantity_selector-1",
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-buy_buttons-1",
+        "template--15950971764888__c3109487-4ac1-4376-bad9-ebdf70a94469-share-1"
+      ],
+      "settings": {
+        "product": "vitamin-b12",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1691664783d28e4eda": {
+      "type": "apps",
+      "blocks": {
+        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "635981d6-d76b-4d82-bbf7-ce9f3b8fe7a6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1691664783d28e4eda",
     "6e35a439-6d78-41af-a2e3-9bd4990109bd",
     "84d8120a-c8d3-4c6e-88c5-b12a20e6c168",
     "733d6b2d-4724-40a7-8b13-2615531ad0f8",
@@ -575,6 +676,9 @@
     "1a7b0497-09ec-45f7-a724-e533dea6dd51",
     "8ef9aedc-a474-4007-813d-18110d095502",
     "37fe42a8-6c76-436c-bea1-7e1ba975674a",
-    "51349891-e1de-40c1-9f8e-d47cf5562b32"
+    "51349891-e1de-40c1-9f8e-d47cf5562b32",
+    "d697df49-1470-4f8f-b5c6-f0a37211f14a",
+    "c3109487-4ac1-4376-bad9-ebdf70a94469",
+    "1691664783d28e4eda"
   ]
 }
