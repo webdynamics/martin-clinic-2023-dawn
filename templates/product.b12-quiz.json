@@ -188,10 +188,10 @@
         "template--15950971764888__733d6b2d-4724-40a7-8b13-2615531ad0f8-row-3"
       ],
       "custom_css": [
-        ".media > img {object-fit: contain;}"
+
       ],
       "settings": {
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
