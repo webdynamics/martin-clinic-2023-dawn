@@ -1,0 +1,8 @@
+{
+  "parent": "product.b12-quiz.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+  }
+}
