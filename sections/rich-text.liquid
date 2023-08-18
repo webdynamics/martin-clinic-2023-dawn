@@ -364,28 +364,12 @@
           "label": "Choose an image"
         },
         {
-          "type": "checkbox",
-          "id": "image_full_width",
-          "default": false,
-          "label": "Full width"
-        },
-        {
-          "type": "select",
+          "type": "range",
           "id": "img_width",
-          "options": [
-            {
-              "value": "250",
-              "label": "250px"
-            },
-            {
-              "value": "400",
-              "label": "400px"
-            },
-            {
-              "value": "600",
-              "label": "600px"
-            }
-          ],
+          "min": "200",
+          "max": "950",
+          "step": "50",
+          "unit": "px",
           "default": "400",
           "label": "Image width"
         }
