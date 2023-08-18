@@ -22,6 +22,8 @@
     text-align: {{ block.settings.img_position }};
     padding-top: {{ block.settings.img_padding_top }}px;
     padding-bottom: {{ block.settings.img_padding_bottom }}px;
+    padding-left: {{ block.settings.img_padding_left }}px;
+    padding-right: {{ block.settings.img_padding_right }}px;
   }
 
   #rich-text-image_{{block.id}} img {
@@ -426,6 +428,26 @@
           "unit": "px",
           "default": 0,
           "label": "Padding bottom"
+        },
+        {
+          "type": "range",
+          "id": "img_padding_left",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "default": 0,
+          "label": "Padding left"
+        },
+        {
+          "type": "range",
+          "id": "img_padding_right",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "default": 0,
+          "label": "Padding right"
         }
       ]
     }
