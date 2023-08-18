@@ -165,10 +165,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/copy_of_b12_formula_-_google_docs.webp",
-            "img_width": 40,
-            "img_position": "left",
-            "img_padding_top": 25,
-            "img_padding_bottom": 50
+            "img_width": 50,
+            "img_position": "center",
+            "img_padding_top": 45,
+            "img_padding_bottom": 50,
+            "img_padding_left": 0,
+            "img_padding_right": 0
           }
         }
       },
