@@ -13,7 +13,10 @@
     }
   }
 
-  .rich-text-image {
+  {% for block in section.blocks %}
+  {% if block.type == 'image' %}
+
+  #rich-text-image_{{block.id}} {
     margin: 0 auto;
     max-width: 100%;
     text-align: {{ block.settings.img_position }};
@@ -21,9 +24,13 @@
     padding-bottom: {{ block.settings.img_padding_bottom }}px;
   }
 
-  .rich-text-image img {
+  #rich-text-image_{{block.id}} img {
     width: {{ block.settings.img_width }}%;
   }
+
+  {% endif %}
+  {% endfor %}
+
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -102,7 +109,7 @@
               </div>
             {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-            <div class="rich-text-image">
+            <div id="rich-text-image_{{block.id}}">
               {{
                 block.settings.image
                | image_url: width: 858
