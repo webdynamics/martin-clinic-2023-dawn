@@ -131,11 +131,67 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "5c4625b7-04d5-4990-9178-d274bb73e460": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        },
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "ff90ce5f-8e60-4dea-a096-b47229f87de3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/copy_of_b12_formula_-_google_docs.webp",
+            "img_width": 40,
+            "img_position": "left",
+            "img_padding_top": 25,
+            "img_padding_bottom": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-heading-1",
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-text-1",
+        "template--15952455565464__5c4625b7-04d5-4990-9178-d274bb73e460-button-1",
+        "ff90ce5f-8e60-4dea-a096-b47229f87de3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "1691664783d28e4eda"
+    "1691664783d28e4eda",
+    "5c4625b7-04d5-4990-9178-d274bb73e460"
   ]
 }
