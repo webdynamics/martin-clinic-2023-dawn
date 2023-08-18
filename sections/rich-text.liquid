@@ -100,7 +100,7 @@
               {{
                 block.settings.image
                | image_url: width: 858
-               | image_tag: loading: 'lazy', sizes: '(min-width:1600px) 858px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)'
+               | image_tag: loading: 'lazy', sizes: '(min-width:1600px) 858px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)', width:
               }}
 
             </div>
@@ -368,6 +368,26 @@
           "id": "image_full_width",
           "default": false,
           "label": "Full width"
+        },
+        {
+          "type": "select",
+          "id": "img_width"
+          "options": [
+            {
+              "value": "250",
+              "label": "250px"
+            },
+            {
+              "value": "400",
+              "label": "400px"
+            },
+            {
+              "value": "600",
+              "label": "600px"
+            }
+          ],
+          "default": "400",
+          "label": "Image width"
         }
       ]
     }
@@ -384,6 +404,9 @@
         },
         {
           "type": "button"
+        },
+        {
+          "type": "image"
         }
       ]
     }
