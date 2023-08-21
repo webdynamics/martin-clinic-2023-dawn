@@ -11,11 +11,14 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    .media>img {
+  }
+  {% for block in section.blocks %}
+    .media>img.img_block_{{ block.id }} {
       object-fit: {{ block.settings.image_fit }};
       object-position: {{ block.settings.image_position }};
     }
-  }
+
+  {% endfor %}
 {%- endstyle -%}
 
 {%- liquid
@@ -66,11 +69,12 @@
                   (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
                   (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
-                {{
+                {% comment %} {{
                   block.settings.image
                   | image_url: width: 1500
                   | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
-                }}
+                }} {% endcomment %}
+                <img src="{{ block.settings.image | img_url: '1500x' }}" alt="{{ block.settings.image.alt | escape }}" loading="lazy" sizes="{{ sizes }}" class="lazyload{% if block.settings.image.aspect_ratio > 1 %} landscape{% else %} portrait{% endif %} id="img_block_{{ block.id }}">
               {%- else -%}
                 {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
               {%- endif -%}
