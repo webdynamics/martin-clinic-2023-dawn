@@ -13,7 +13,7 @@
     }
   }
     .media>img {
-      object-fit: {{ sections.settings.image_fit }};
+      object-fit: {{ section.settings.image_fit }};
       object-position: {{ section.settings.image_position }};
     }
 {%- endstyle -%}
@@ -355,7 +355,7 @@
           "label": "Contain"
         }
       ],
-      "default": "cover",
+      "default": "contain",
       "label": "Image fit"
     },
     {
