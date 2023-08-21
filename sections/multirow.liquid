@@ -12,13 +12,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  {% for block in section.blocks %}
-    .media>img#img_block_{{ block.id }} {
-      object-fit: {{ block.settings.image_fit }};
-      object-position: {{ block.settings.image_position }};
+    .media>img {
+      object-fit: {{ sections.settings.image_fit }};
+      object-position: {{ section.settings.image_position }};
     }
-
-  {% endfor %}
 {%- endstyle -%}
 
 {%- liquid
@@ -345,7 +342,44 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ],
+      "default": "cover",
+      "label": "Image fit"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center",
+      "label": "Image position"
     }
+
   ],
   "blocks": [
     {
@@ -356,52 +390,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multirow.blocks.row.settings.image.label"
-        },
-        {
-          "type": "select",
-          "id": "image_fit",
-          "options": [
-            {
-              "value": "cover",
-              "label": "Cover"
-            },
-            {
-              "value": "contain",
-              "label": "Contain"
-            }
-          ],
-          "default": "cover",
-          "label": "Image fit"
-        },
-        {
-          "type": "select",
-          "id": "image_position",
-          "options": [
-            {
-              "value": "top",
-              "label": "Top"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "bottom",
-              "label": "Bottom"
-            }
-          ],
-          "default": "center",
-          "label": "Image position"
-        },
-        {
-          "type": "range",
-          "id": "image_padding",
-          "min": 0,
-          "max": 100,
-          "step": 5,
-          "unit": "px",
-          "label": "Image padding",
-          "default": 0
         },
         {
           "type": "text",
