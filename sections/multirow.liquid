@@ -13,7 +13,7 @@
     }
   }
   {% for block in section.blocks %}
-    .media>img.img_block_{{ block.id }} {
+    .media>img#img_block_{{ block.id }} {
       object-fit: {{ block.settings.image_fit }};
       object-position: {{ block.settings.image_position }};
     }
