@@ -113,12 +113,12 @@
             {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
             <div id="rich-text-image_{{block.id}}">
-              {{
+              {% comment %} {{
                 block.settings.image
                | image_url: width: 858
                | image_tag: loading: 'lazy', sizes: '(min-width:1600px) 858px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)'
-              }}
-
+              }} {% endcomment %}
+              <img src="{{ block.settings.image | img_url: '858x' }}" alt="{{ block.settings.image.alt | escape }} data-block-id="{{ block.id }}"  />
             </div>
             {%- endif -%}
           {%- endcase -%}
