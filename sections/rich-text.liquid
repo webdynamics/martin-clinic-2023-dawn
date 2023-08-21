@@ -14,7 +14,7 @@
   }
 
   {% for block in section.blocks %}
-  {% if block.type == 'block_image' %}
+  {% if block.type == 'image' %}
 
   #rich-text-image_{{block.id}} {
     margin: 0 auto;
@@ -111,10 +111,10 @@
                 {%- endif -%}
               </div>
             {%- when 'image' -%}
-            {%- if block.settings.block_image != blank -%}
+            {%- if block.settings.image != blank -%}
             <div id="rich-text-image_{{block.id}}">
               {{
-                block.settings.block_image
+                block.settings.image
                | image_url: width: 858
                | image_tag: loading: 'lazy', sizes: '(min-width:1600px) 858px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)'
               }}
@@ -376,7 +376,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "block_image",
+          "id": "image",
           "label": "Choose an image"
         },
         {
