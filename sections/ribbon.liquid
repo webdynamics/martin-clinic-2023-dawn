@@ -1,0 +1,194 @@
+{% style %}
+.ribbon-banner {
+    position: relative;
+    width: 100%;
+    height: {{ section.settings.ribbon_height }}px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+}
+.ribbon-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: {{ section.settings.ribbon_height }}%;
+    background-color: {{ section.settings.ribbon_background_color }};
+    opacity: calc({{ section.settings.ribbon_opacity }} / 100);
+    z-index: -1;
+}
+.ribbon-banner__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: {{ section.settings.ribbon_padding_top }}% 0 {{ section.settings.ribbon_padding_bottom }}% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon-banner__inner > * {
+    margin: 0 20px;
+}
+{% endstyle %}
+
+<div id="ribbon-{{ section.id }}" class="ribbon-banner">
+    <div class="ribbon-banner__inner">
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'text' %}
+                <div class="ribbon-banner__text" style="font-size: {{ block.settings.ribbon_font_size }}px; font-weight: {{ block.settings.ribbon_font_weight }}; color: {{ block.settings.ribbon_font_color }};">
+                {{ block.settings.text }}
+                </div>
+            {% when 'image' %}
+                <div class="ribbon-banner__image">
+                <img src="{{ block.settings.image | img_url: '320' }}" alt="{{ block.settings.image.alt }}">
+                </div>
+        {% endcase %}
+    {% endfor %}
+        
+        
+    </div>
+</div>
+{% schema %}
+    {
+    	"name": "Ribbon banner",
+    	"tag": "section",
+    	"class": "section",
+    	"disabled_on": {
+    		"groups": ["header", "footer"]
+    	},
+
+    	"settings": [{
+    			"type": "color",
+    			"id": "ribbon_background_color",
+    			"label": "Background color",
+    			"default": "#000000"
+    		},
+    		{
+    			"type": "range",
+    			"id": "ribbon_opacity",
+    			"label": "Opacity",
+    			"min": 0,
+    			"max": 100,
+    			"step": 1,
+    			"default": 50
+    		},
+    		{
+    			"type": "range",
+    			"id": "ribbon_height",
+    			"label": "Height",
+    			"min": 0,
+    			"max": 100,
+    			"step": 1,
+    			"default": 50
+    		},
+    		{
+    			"type": "range",
+    			"id": "ribbon_padding_top",
+    			"label": "Top padding",
+    			"min": 0,
+    			"max": 100,
+    			"step": 1,
+    			"default": 0
+    		},
+    		{
+    			"type": "range",
+    			"id": "ribbon_padding_bottom",
+    			"label": "Bottom padding",
+    			"min": 0,
+    			"max": 100,
+    			"step": 1,
+    			"default": 0
+    		}
+    	],
+
+    	"blocks": [{
+    			"type": "text",
+    			"name": "Text copy",
+    			"limit": 1,
+    			"settings": [{
+    					"type": "inline_richtext",
+    					"id": "text",
+    					"default": "Enter a message for display.",
+    					"label": "Ribbon banner text"
+    				},
+    				{
+    					"type": "range",
+    					"id": "ribbon_font_size",
+    					"min": 12,
+    					"max": 60,
+    					"step": 2,
+                        "unit": "px",
+    					"label": "Font size",
+    					"default": 18
+    				},
+    				{
+    					"type": "range",
+    					"id": "ribbon_font_weight",
+    					"min": 300,
+    					"max": 800,
+    					"step": 100,
+    					"label": "Font weight",
+    					"default": 400
+    				},
+    				{
+    					"type": "color",
+    					"id": "ribbon_font_color",
+    					"label": "Font color",
+    					"default": "#ffffff"
+    				}
+    			]
+    		},
+    		{
+    			"type": "image",
+    			"name": "Image",
+    			"limit": 1,
+    			"settings": [{
+    					"type": "image_picker",
+    					"id": "image",
+    					"label": "Image"
+    				},
+    				{
+    					"type": "range",
+    					"id": "image_height",
+    					"label": "Height",
+    					"min": 0,
+    					"max": 100,
+    					"step": 1,
+    					"default": 50
+    				},
+    				{
+    					"type": "range",
+    					"id": "image_padding_top",
+    					"label": "Top padding",
+    					"min": 0,
+    					"max": 100,
+    					"step": 1,
+    					"default": 0
+    				},
+    				{
+    					"type": "range",
+    					"id": "image_padding_bottom",
+    					"label": "Bottom padding",
+    					"min": 0,
+    					"max": 100,
+    					"step": 1,
+    					"default": 0
+    				}
+    			]
+    		}
+    	],
+
+    	"presets": [{
+    		"name": "Ribbon banner",
+    		"blocks": [{
+    				"type": "text"
+    			},
+    			{
+    				"type": "image"
+    			}
+    		]
+    	}]
+    }
+{% endschema %}
