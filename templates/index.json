@@ -96,15 +96,6 @@
     "03b7b268-d92d-4512-bb85-6cfaf48cb8f2": {
       "type": "testimonials",
       "blocks": {
-        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2": {
-          "type": "row",
-          "settings": {
-            "stars": 5,
-            "heading": "Probiotic Complex",
-            "text": "<p>I compared it to so many other brands and it stands alone.<\/p>",
-            "reviewer": "Julie M."
-          }
-        },
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-3": {
           "type": "row",
           "settings": {
@@ -112,6 +103,15 @@
             "heading": "Navitol Ultra Strength",
             "text": "<p>Navitol Ultra has changed my life... Thank you for giving me my life back<\/p>",
             "reviewer": "Louise M"
+          }
+        },
+        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Probiotic Complex",
+            "text": "<p>I compared it to so many other brands and it stands alone.<\/p>",
+            "reviewer": "Julie M."
           }
         },
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1": {
@@ -125,8 +125,8 @@
         }
       },
       "block_order": [
-        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2",
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-3",
+        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2",
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1"
       ],
       "settings": {
