@@ -35,7 +35,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner__text {font-size: 16px;}"
+
       ],
       "settings": {
         "display_class": "show",
