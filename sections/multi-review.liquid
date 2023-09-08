@@ -24,12 +24,26 @@
 h2.image-with-text__heading {
   margin-top: 0;
 }
+.hideMobile {
+  display: none;
+}
+.hideDesktop {
+  display: block;
+}
+
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+        .hideMobile {
+      display: block;
+    }
+    .hideDesktop {
+      display: none;
+    }
+
   }
 {%- endstyle -%}
 
@@ -61,7 +75,7 @@ h2.image-with-text__heading {
   endunless
 -%}
 
-<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} {{ section.settings.display_class }}">
   <div class="multirow__inner page-width">
     {%- for block in section.blocks -%}
       <div
@@ -108,6 +122,26 @@ h2.image-with-text__heading {
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "radio",
+      "id": "display_class",
+      "options": [
+        {
+          "value": "hideMobile",
+          "label": "Hide on mobile"
+        },
+        {
+          "value": "hideDesktop",
+          "label": "Hide on desktop"
+        },
+        {
+          "value": "show",
+          "label": "Show on all devices"
+        }
+      ],
+      "default": "show",
+      "label": "Hide this section on"
+    },
     {
       "type": "select",
       "id": "star_size",

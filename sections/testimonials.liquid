@@ -64,10 +64,23 @@ margin: 20px auto;
   object-fit: cover;
 }
 
+.hideMobile {
+  display: none;
+}
+.hideDesktop {
+  display: block;
+}
+
 @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .hideMobile {
+      display: block;
+    }
+    .hideDesktop {
+      display: none;
     }
   
 }
@@ -107,7 +120,7 @@ margin: 20px auto;
   endunless
 -%}
 
-<div class="swiper mySwiper">
+<div class="swiper mySwiper {{ section.settings.display_class }}">
   <div class="swiper-wrapper">
     {%- for block in section.blocks -%}
       <div class="swiper-slide" {{ block.shopify_attributes }}>
@@ -176,6 +189,26 @@ margin: 20px auto;
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "radio",
+      "id": "display_class",
+      "options": [
+        {
+          "value": "hideMobile",
+          "label": "Hide on mobile"
+        },
+        {
+          "value": "hideDesktop",
+          "label": "Hide on desktop"
+        },
+        {
+          "value": "show",
+          "label": "Show on all devices"
+        }
+      ],
+      "default": "show",
+      "label": "Hide this section on"
+    },
     {
       "type": "select",
       "id": "star_size",

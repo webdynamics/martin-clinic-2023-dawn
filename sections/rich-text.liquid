@@ -5,12 +5,26 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+    .hideMobile {
+  display: none;
+}
+.hideDesktop {
+  display: block;
+}
+
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+        .hideMobile {
+      display: block;
+    }
+    .hideDesktop {
+      display: none;
+    }
+
   }
 
   {% for block in section.blocks %}
@@ -36,7 +50,7 @@
 
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} {{ section.settings.display_class }}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
@@ -137,6 +151,26 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "radio",
+      "id": "display_class",
+      "options": [
+        {
+          "value": "hideMobile",
+          "label": "Hide on mobile"
+        },
+        {
+          "value": "hideDesktop",
+          "label": "Hide on desktop"
+        },
+        {
+          "value": "show",
+          "label": "Show on all devices"
+        }
+      ],
+      "default": "show",
+      "label": "Hide this section on"
+    },
     {
       "type": "select",
       "id": "desktop_content_position",

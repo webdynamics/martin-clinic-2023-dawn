@@ -10,6 +10,12 @@
         content: '';
         display: block;
       }
+      .hideMobile {
+          display: none;
+        }
+        .hideDesktop {
+          display: block;
+        }
     }
 
     @media screen and (min-width: 750px) {
@@ -19,6 +25,13 @@
         content: '';
         display: block;
       }
+      .hideMobile {
+          display: block;
+        }
+        .hideDesktop {
+          display: none;
+        }
+
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -60,7 +73,7 @@
 -%}
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {{ section.settings.display_class }}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
@@ -177,6 +190,26 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "radio",
+      "id": "display_class",
+      "options": [
+        {
+          "value": "hideMobile",
+          "label": "Hide on mobile"
+        },
+        {
+          "value": "hideDesktop",
+          "label": "Hide on desktop"
+        },
+        {
+          "value": "show",
+          "label": "Show on all devices"
+        }
+      ],
+      "default": "show",
+      "label": "Hide this section on"
+    },
     {
       "type": "image_picker",
       "id": "image",

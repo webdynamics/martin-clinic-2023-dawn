@@ -38,6 +38,7 @@
 
       ],
       "settings": {
+        "display_class": "show",
         "image": "shopify:\/\/shop_images\/BGtest.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -67,7 +68,7 @@
           "type": "text",
           "settings": {
             "text": "Get the Energy & Health You Deserve!",
-            "ribbon_font_size": 42,
+            "ribbon_font_size": 30,
             "ribbon_font_weight": 600,
             "ribbon_font_color": "#ffffff"
           }
@@ -84,6 +85,7 @@
         ".ribbon-banner::before {top: 20px; height: 80px;}"
       ],
       "settings": {
+        "display_class": "hideMobile",
         "ribbon_background_color": "#000000",
         "ribbon_opacity": 30,
         "ribbon_height": 100,
@@ -94,15 +96,6 @@
     "03b7b268-d92d-4512-bb85-6cfaf48cb8f2": {
       "type": "testimonials",
       "blocks": {
-        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1": {
-          "type": "row",
-          "settings": {
-            "stars": 5,
-            "heading": "Cortisol Control Formula",
-            "text": "<p>2 weeks in and I can't believe how good I feel.<\/p>",
-            "reviewer": "Shannon C."
-          }
-        },
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2": {
           "type": "row",
           "settings": {
@@ -120,14 +113,24 @@
             "text": "<p>Navitol Ultra has changed my life... Thank you for giving me my life back<\/p>",
             "reviewer": "Louise M"
           }
+        },
+        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1": {
+          "type": "row",
+          "settings": {
+            "stars": 5,
+            "heading": "Cortisol Control Formula",
+            "text": "<p>2 weeks in and I can't believe how good I feel.<\/p>",
+            "reviewer": "Shannon C."
+          }
         }
       },
       "block_order": [
-        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1",
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-2",
-        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-3"
+        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-3",
+        "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1"
       ],
       "settings": {
+        "display_class": "show",
         "star_size": "2rem",
         "heading_size": "h1",
         "desktop_content_position": "middle",
@@ -138,86 +141,6 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "background_image": "shopify:\/\/shop_images\/MC_bg_purple.jpg"
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "2e093d41-b9b7-4920-a16c-d2f1a0eb240f": {
-      "type": "hero-banner",
-      "blocks": {
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "⭐️⭐️⭐️⭐️⭐️ 142,256+ Happy Customers",
-            "text_style": "body"
-          }
-        },
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Finally! Supplements formulated for REAL patients from our 45 years of clinical experience",
-            "heading_size": 60,
-            "heading-weight": 650,
-            "heading_color": "#ffffff"
-          }
-        },
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-text-1",
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-heading-1",
-        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Dr-Martin-Sr-transparent-bg.png",
-        "image_overlay_opacity": 0,
-        "hero_height": 45,
-        "desktop_content_position": "middle-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-c10a4059-9c7e-4411-bac9-71b17bbb8d38",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "7227e3e9-cda2-4556-b814-a034d6097394": {
@@ -260,6 +183,7 @@
         "1d3cf268-8436-4600-914a-275d57f378ae"
       ],
       "settings": {
+        "display_class": "show",
         "image": "shopify:\/\/shop_images\/Products-kitchen.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -272,6 +196,86 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Take Control of Your Health",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-selling-products",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "2e093d41-b9b7-4920-a16c-d2f1a0eb240f": {
+      "type": "hero-banner",
+      "blocks": {
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "⭐️⭐️⭐️⭐️⭐️ 142,256+ Happy Customers",
+            "text_style": "body"
+          }
+        },
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Finally! Supplements formulated for REAL patients from our 45 years of clinical experience",
+            "heading_size": 60,
+            "heading-weight": 650,
+            "heading_color": "#ffffff"
+          }
+        },
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-text-1",
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-heading-1",
+        "template--15958949986456__2e093d41-b9b7-4920-a16c-d2f1a0eb240f-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_class": "show",
+        "image": "shopify:\/\/shop_images\/Dr-Martin-Sr-transparent-bg.png",
+        "image_overlay_opacity": 0,
+        "hero_height": 45,
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-c10a4059-9c7e-4411-bac9-71b17bbb8d38",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "4700d91c-033c-4086-9c51-a098941f987b": {
@@ -328,7 +332,7 @@
         "button_link": "",
         "color_scheme": "accent-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -338,9 +342,9 @@
     "image_banner",
     "4337e570-4615-4632-bc62-470f093f44aa",
     "03b7b268-d92d-4512-bb85-6cfaf48cb8f2",
+    "7227e3e9-cda2-4556-b814-a034d6097394",
     "featured_collection",
     "2e093d41-b9b7-4920-a16c-d2f1a0eb240f",
-    "7227e3e9-cda2-4556-b814-a034d6097394",
     "4700d91c-033c-4086-9c51-a098941f987b"
   ]
 }

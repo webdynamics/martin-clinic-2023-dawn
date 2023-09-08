@@ -30,9 +30,23 @@
 .ribbon-banner__inner > * {
     margin: 0 20px;
 }
+      .hideMobile {
+          display: none;
+        }
+        .hideDesktop {
+          display: block;
+        }
+     @media (min-width: 768px) {
+          .hideMobile {
+            display: block;
+          }
+          .hideDesktop {
+            display: none;
+          }
+        }
 {% endstyle %}
 
-<div id="ribbon-{{ section.id }}" class="ribbon-banner">
+<div id="ribbon-{{ section.id }}" class="ribbon-banner  {{ section.settings.display_class }}">
     <div class="ribbon-banner__inner">
     {% for block in section.blocks %}
         {% case block.type %}
@@ -59,7 +73,28 @@
     		"groups": ["header", "footer"]
     	},
 
-    	"settings": [{
+    	"settings": [
+            {
+            "type": "radio",
+            "id": "display_class",
+            "options": [
+                {
+                "value": "hideMobile",
+                "label": "Hide on mobile"
+                },
+                {
+                "value": "hideDesktop",
+                "label": "Hide on desktop"
+                },
+                {
+                "value": "show",
+                "label": "Show on all devices"
+                }
+            ],
+            "default": "show",
+            "label": "Hide this section on"
+            },
+            {
     			"type": "color",
     			"id": "ribbon_background_color",
     			"label": "Background color",
