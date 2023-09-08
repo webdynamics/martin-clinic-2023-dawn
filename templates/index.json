@@ -13,7 +13,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "OUR SUPPLEMENTS ARE FORMULATED FROM EXPERIENCE. NOT GUESSWORK.",
+            "heading": "OUR SUPPLEMENTS ARE FORMULATED FROM EXPERIENCE. NOT GUESSWORK",
             "heading_size": "h0"
           }
         },
@@ -47,7 +47,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-c10a4059-9c7e-4411-bac9-71b17bbb8d38",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
