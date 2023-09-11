@@ -323,7 +323,7 @@
 }
 
 .banner__box {
-  padding: 2.5rem 2.0rem;
+  padding: 2.5rem 0.75rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -348,6 +348,10 @@
 
   .banner--desktop-transparent .content-container:after {
     display: none;
+  }
+
+  .banner__box {
+    padding: 3rem 4rem;
   }
 }
 
