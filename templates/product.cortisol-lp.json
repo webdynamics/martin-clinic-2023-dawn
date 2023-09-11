@@ -1,5 +1,10 @@
 {
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -13,8 +18,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_weight": "normal",
-            "title_size": 100
           }
         },
         "price": {
@@ -175,8 +178,7 @@
         "2306781b-c04f-4254-a1ec-052a2781537a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cortisol-healthy-1.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/cortisol-healthy-1.webp"
           }
         }
       },
@@ -208,8 +210,7 @@
         "9f76917b-ad49-4479-b5a3-3479d87706fe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-reverse-curve.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/the-reverse-curve.webp"
           }
         }
       },
@@ -486,9 +487,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "main",
     "f27f2826-97a1-4319-aeb7-af401dca1568",
     "d457ef8f-4b5c-4f42-97fc-6ae2ad15dc6c",
@@ -501,6 +508,7 @@
     "af9b9627-ce80-4f98-bbee-f5894616e714",
     "ab4a53a6-0949-4643-815c-b86ca5526cc3",
     "fbb3b142-a264-4158-a2bc-202024462e4f",
-    "16920211964edc1af9"
+    "16920211964edc1af9",
+    "zp-product-footer-content"
   ]
 }

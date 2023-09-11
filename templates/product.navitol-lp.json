@@ -1,5 +1,10 @@
 {
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "7b9ecf8b-682a-4c2b-a8f7-25efc232190d": {
       "type": "rich-text",
       "blocks": {
@@ -195,8 +200,7 @@
         "48da6981-6ed5-4f88-8e70-0b65f917a386": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dsc00326-copy.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/dsc00326-copy.webp"
           }
         },
         "db69e6f6-b0ac-4bdf-96b8-f60abc29822a": {
@@ -227,8 +231,7 @@
         "ec3fbba0-5d8d-4439-bfc8-74151734e3ac": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dsc00211-copy-2.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/dsc00211-copy-2.webp"
           }
         },
         "template--15942760497304__97cab8cf-fc58-4b4d-89de-7c8a96aaa3fb-text-1": {
@@ -257,8 +260,7 @@
         "f82f67a4-bc41-4e5e-82d9-27257ae82c36": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ambulance-paramedics.jpg",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/ambulance-paramedics.jpg"
           }
         },
         "template--15942760497304__f9d48d69-6799-46ff-afc6-877d73a1ab36-text-1": {
@@ -403,8 +405,7 @@
         "9b9fd623-32df-493c-aaa0-d245016c9cc1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/depositphotos_80817132_s-2019-1.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/depositphotos_80817132_s-2019-1.webp"
           }
         },
         "bee2bdf8-c692-4492-a97a-e362948fef8d": {
@@ -416,8 +417,7 @@
         "4d8ff2b4-040d-4b2a-a018-141e058a1e83": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/depositphotos_37184449_s-2019.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/depositphotos_37184449_s-2019.webp"
           }
         },
         "909196a1-c2df-4f8b-bae3-502451c48ad1": {
@@ -429,8 +429,7 @@
         "48296bc8-954a-465c-ba6a-5cb444fc7267": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/depositphotos_9307026_l-2015.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/depositphotos_9307026_l-2015.webp"
           }
         }
       },
@@ -478,8 +477,7 @@
         "1d57c1f4-99a6-49a3-9db0-bffd3b37f1a9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about-us-copy_1.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/about-us-copy_1.webp"
           }
         },
         "3b38cb15-6413-40a2-8bbb-f24034210a02": {
@@ -692,9 +690,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "7b9ecf8b-682a-4c2b-a8f7-25efc232190d",
     "main",
     "related-products",
@@ -712,6 +716,7 @@
     "4eb71720-aa7b-471b-9271-ed26756145b0",
     "bee1892f-6acc-456f-bbe7-0e4c0315480b",
     "ac603ecf-d835-478e-b2bc-ab5907ad5e53",
-    "16910828175f9740dd"
+    "16910828175f9740dd",
+    "zp-product-footer-content"
   ]
 }
