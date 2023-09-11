@@ -1,5 +1,10 @@
 {
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -13,8 +18,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_weight": "normal",
-            "title_size": 100
           }
         },
         "price": {
@@ -542,8 +545,7 @@
         "a25b7fe0-b524-46c2-b7fc-25ff386fa0fd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/probiotic_strains.webp",
-            "image_full_width": true
+            "image": "shopify:\/\/shop_images\/probiotic_strains.webp"
           }
         },
         "567da47b-d55c-4ad4-85da-91fc72dc16a0": {
@@ -596,8 +598,7 @@
         "84db2f9c-b597-453d-9888-ed128cf4f892": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yogurt.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/yogurt.webp"
           }
         },
         "0c8fe972-a3f9-48fc-bbd8-8d6ac1fd1f33": {
@@ -637,8 +638,7 @@
         "bdb17a01-f3b4-4aa0-b73d-ec65edefb424": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FirstClinic.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/FirstClinic.webp"
           }
         },
         "template--15923211337880__7ca12ded-d910-4377-90ac-d60dc423c290-text-1": {
@@ -825,9 +825,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "main",
     "related-products",
     "441bff99-447b-41dd-a781-d6a9ab99a8d6",
@@ -844,6 +850,7 @@
     "b5fe30d3-ec73-4837-98f1-bdb62d8baf21",
     "30f1628c-de2c-46d3-b677-4ec1003ee754",
     "a979d089-e526-43c6-ae2b-39ef96289c3e",
-    "71d2a372-dec3-4eac-9ede-f33aa25f25b8"
+    "71d2a372-dec3-4eac-9ede-f33aa25f25b8",
+    "zp-product-footer-content"
   ]
 }

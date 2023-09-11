@@ -1,5 +1,10 @@
 {
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -25,8 +30,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_weight": "normal",
-            "title_size": 100
           }
         },
         "price": {
@@ -188,12 +191,19 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "main",
     "related-products",
     "1691664783d28e4eda",
-    "5c4625b7-04d5-4990-9178-d274bb73e460"
+    "5c4625b7-04d5-4990-9178-d274bb73e460",
+    "zp-product-footer-content"
   ]
 }

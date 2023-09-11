@@ -1,5 +1,10 @@
 {
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -14,8 +19,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_weight": "normal",
-            "title_size": 100
           }
         },
         "price": {
@@ -112,8 +115,7 @@
         "6f792499-e63c-4075-a75c-6a1815e01741": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/probiotic-comparison-1.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/probiotic-comparison-1.webp"
           }
         },
         "3eefefd2-b6a6-4bfc-bda5-2f3b9b039348": {
@@ -228,8 +230,7 @@
         "76566049-97df-4789-a415-4a63a1e51c50": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/credit_card_dust.webp",
-            "image_full_width": false
+            "image": "shopify:\/\/shop_images\/credit_card_dust.webp"
           }
         }
       },
@@ -537,9 +538,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "main",
     "related-products",
     "03a9b2e1-0d58-43c9-acf1-a01aeb8d70e9",
@@ -552,6 +559,7 @@
     "f62f4a56-c9c8-435c-a5cc-6a2ced016e0a",
     "481d1870-a817-40bc-9b02-5d84f3b835c2",
     "d8f5dfbd-7351-4c17-b9e2-afe70bf283b0",
-    "1691664783d28e4eda"
+    "1691664783d28e4eda",
+    "zp-product-footer-content"
   ]
 }
