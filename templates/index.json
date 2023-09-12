@@ -164,7 +164,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "https:\/\/martinclinic.com\/pages\/shop-all"
+            "button_link": "\/pages\/shop-all"
           }
         },
         "1d3cf268-8436-4600-914a-275d57f378ae": {
