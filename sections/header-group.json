@@ -41,6 +41,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "li.tmenu_item a.tmenu_item_link {font-size: 20px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "menu-2023",
