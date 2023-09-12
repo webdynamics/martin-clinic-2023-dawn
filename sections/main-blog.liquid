@@ -13,6 +13,11 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    {% if section.settings.layout == 'grid' %}
+      .blog-articles {
+        grid-template-columns: {{ section.settings.grid_columns }};
+      }
+    {% endif %}
   }
 {%- endstyle -%}
 
@@ -76,6 +81,30 @@
       "default": "collage",
       "label": "t:sections.main-blog.settings.layout.label",
       "info": "t:sections.main-blog.settings.layout.info"
+    },
+    {
+      "type": "select",
+      "id": "grid_columns",
+      "options": [
+        {
+          "value": "1fr",
+          "label": "1"
+        },
+        {
+          "value": "1fr 1fr",
+          "label": "2"
+        },
+        {
+          "value": "1fr 1fr 1fr",
+          "label": "3"
+        },
+        {
+          "value": "1fr 1fr 1fr 1fr",
+          "label": "4"
+        }
+      ],
+      "default": "1fr 1fr 1fr",
+      "label": "Desktop Grid Columns"
     },
     {
       "type": "checkbox",
