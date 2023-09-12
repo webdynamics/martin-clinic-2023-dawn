@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "https:\/\/martinclinic.com\/collections\/martin-clinic-supplements",
+            "button_link_1": "https:\/\/martinclinic.com\/collections\/martin-clinic-supplementshttps:\/\/martinclinic.com\/pages\/shop-all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -164,7 +164,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/martin-clinic-supplements"
+            "button_link": "https:\/\/martinclinic.com\/pages\/shop-all"
           }
         },
         "1d3cf268-8436-4600-914a-275d57f378ae": {
