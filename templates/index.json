@@ -130,7 +130,8 @@
         "template--15958949986456__03b7b268-d92d-4512-bb85-6cfaf48cb8f2-row-1"
       ],
       "custom_css": [
-        ".swiper-slide .review {font-size: 2rem;}"
+        ".swiper-slide .review {font-size: 2rem;}",
+        ".swiper-slide h2 {font-size: 1.5rem;}"
       ],
       "settings": {
         "display_class": "show",
