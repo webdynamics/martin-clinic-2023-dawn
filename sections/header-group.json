@@ -42,7 +42,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "li.tmenu_item a.tmenu_item_link {font-size: 20px;}"
+        "li.tmenu_item a.tmenu_item_link {font-size: 16px;}"
       ],
       "settings": {
         "logo_position": "middle-left",
