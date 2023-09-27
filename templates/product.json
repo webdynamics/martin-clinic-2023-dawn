@@ -139,6 +139,15 @@
       "type": "product-footer-content-zipifypages",
       "settings": {
       }
+    },
+    "38e6271b-ac7c-4edb-831e-193ef13a1847": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>#shopify-section-announcement-bar { display: none; } <\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -146,6 +155,7 @@
     "main",
     "related-products",
     "1691664783d28e4eda",
-    "zp-product-footer-content"
+    "zp-product-footer-content",
+    "38e6271b-ac7c-4edb-831e-193ef13a1847"
   ]
 }
