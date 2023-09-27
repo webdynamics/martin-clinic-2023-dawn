@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free CAN Shipping on Orders over $100",
             "link": ""
@@ -14,6 +15,7 @@
         },
         "adb5e9de-5329-4557-80f0-5801fddcbb56": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "NEW Book - Sun Steak Steel",
             "link": ""
@@ -21,16 +23,25 @@
         },
         "f6e0aaab-62ca-4708-8237-bd8ff034039a": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Fix Your Hormones in our new Masterclass",
             "link": ""
+          }
+        },
+        "4990998e-3c4e-43b7-9cf3-7bff8bff2de3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Want to Know Where to Start? Take Our Quiz!",
+            "link": "https:\/\/martinclinic.com\/pages\/quiz-lets-get-started?utm_campaign=smart-bar&utm_medium=popup&utm_source=Quiz&utm_content=where-to-start-quiz&utm_term=existing-list"
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "adb5e9de-5329-4557-80f0-5801fddcbb56",
-        "f6e0aaab-62ca-4708-8237-bd8ff034039a"
+        "f6e0aaab-62ca-4708-8237-bd8ff034039a",
+        "4990998e-3c4e-43b7-9cf3-7bff8bff2de3"
       ],
       "settings": {
         "color_scheme": "accent-2",
