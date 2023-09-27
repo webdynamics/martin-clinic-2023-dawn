@@ -139,6 +139,15 @@
       "type": "product-footer-content-zipifypages",
       "settings": {
       }
+    },
+    "6bfc86c1-32bc-4167-bd00-59d422125652": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>div.utility-bar { display: none; } <\/style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -146,6 +155,7 @@
     "main",
     "related-products",
     "1691664783d28e4eda",
-    "zp-product-footer-content"
+    "zp-product-footer-content",
+    "6bfc86c1-32bc-4167-bd00-59d422125652"
   ]
 }
