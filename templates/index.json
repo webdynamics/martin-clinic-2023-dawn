@@ -59,7 +59,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Products.png",
-            "image_height": 50,
+            "image_height": 180,
             "image_padding_top": 0,
             "image_padding_bottom": 0
           }
@@ -80,8 +80,8 @@
       ],
       "custom_css": [
         ".ribbon-banner {margin-top: -100px;}",
-        ".ribbon-banner__image > img:nth-child(1) {height: 120px;}",
         ".ribbon-banner {height: 120px;}",
+        ".ribbon-banner__image > img:nth-child(1) {height: 120px;}",
         ".ribbon-banner::before {top: 20px; height: 80px;}"
       ],
       "settings": {
