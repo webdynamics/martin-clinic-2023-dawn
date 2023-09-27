@@ -69,10 +69,20 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "ad11230b-ac1b-4149-952a-f997be6fd620": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if template.name == 'product' %}\n<style> .announcement-bar { display: none; } <?style>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "ad11230b-ac1b-4149-952a-f997be6fd620"
   ]
 }
