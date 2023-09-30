@@ -683,7 +683,7 @@
 </section>
 <!-- product-recommendations.liquid -->
 <div class="recommended-products">
-  {% for product in section.product.related_products %}
+  {% for product in product.related_products %}
     <div class="recommended-product">
       <a href="{{ product.url }}">
         <img src="{{ product.featured_image | product_img_url: 'medium' }}" alt="{{ product.title }}" />
