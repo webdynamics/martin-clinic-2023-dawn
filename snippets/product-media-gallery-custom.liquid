@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="{{ 'swiper.css'  | asset_url}}">
+<style>
+  .image-column-slider {
+    overflow: hidden
+  }
+  .Product__Gallery.Product__Gallery--withThumbnails {
+    display: none;
+  }
+  .thumbslider .swiper-slide-thumb-active img {
+    border: 2px solid black;
+  }
+  .thumbslider img {
+    width: 70px;
+    height: 70px;
+    object
+  }
+  :root {
+    --swiper-navigation-size: 15px;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    color: black;
+  }
+  .thumbslider {
+    margin-top: 15px;
+  }
+  .thumbslider .swiper-wrapper {
+    padding: 0 27px;
+  }
+</style>
+<div class="image-column-slider swiper ">
+  <div class="swiper-wrapper">
+    {%- for image in product.images -%}
+      <div class="swiper-slide">
+        <img src="{{ image | img_url:'master' }}">
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<div thumbsSlider="" class="thumbslider swiper ">
+  <div class="swiper-wrapper">
+    {%- for image in product.images -%}
+      <div class="swiper-slide">
+        <img src="{{ image | img_url:'master' }}">
+      </div>
+    {% endfor %}
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+<script src="{{'swiper.js' |asset_url}}"></script>
+<script>
+
+
+
+  var swiper = new Swiper(".thumbslider", {
+    loop: true,
+    spaceBetween: 15,
+    slidesPerView: 8,
+    freeMode: true,
+    watchSlidesProgress: true
+  });
+  var swiper2 = new Swiper(".image-column-slider", {
+    loop: true,
+    spaceBetween: 10,
+    autoHeight: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    thumbs: {
+      swiper: swiper
+    }
+  });
+</script>
