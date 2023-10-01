@@ -36,8 +36,8 @@
   <div class="swiper-wrapper">
     {%- for media in product.media -%}
       <div class="swiper-slide">
-        {% if product.media_type == 'image' %}
-          <img src="{{ product.media_url }}" alt="{{ product.title }}" />
+        {% if media.media_type == 'image' %}
+          <img src="{{ media.media_url }}" alt="{{ product.title }}" />
         {% else %}
           <template>
             {%- liquid
