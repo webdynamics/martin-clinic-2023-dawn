@@ -32,6 +32,7 @@
     padding: 0 27px;
   }
 </style>
+
 <div class="image-column-slider swiper ">
   <div class="swiper-wrapper">
     {%- for media in product.media -%}
@@ -73,7 +74,9 @@
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
 </div>
+<div class="zoom"></div>
 <script src="{{'swiper.js' |asset_url}}"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/164071/Drift.min.js"></script>
 <script>
 
 
@@ -96,5 +99,16 @@
     thumbs: {
       swiper: swiper
     }
+  });
+
+// zoom js
+  var paneContainer = document.querySelector('.zoom');
+
+  $(".swiper-slide").each(function() {
+
+    new Drift($(this).find("img")[0], {
+      paneContainer: paneContainer,
+      inlinePane: false
+    });
   });
 </script>
