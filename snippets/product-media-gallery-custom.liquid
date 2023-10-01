@@ -34,9 +34,29 @@
 </style>
 <div class="image-column-slider swiper ">
   <div class="swiper-wrapper">
-    {%- for image in product.images -%}
+    {%- for media in product.media -%}
       <div class="swiper-slide">
-        <img src="{{ image | img_url:'master' }}">
+        {% if product.media_type == 'image' %}
+          <img src="{{ product.media_url }}" alt="{{ product.title }}" />
+        {% else %}
+          <template>
+            {%- liquid
+            case media.media_type
+            when 'external_video'
+              assign video_class = 'js-' | append: media.host
+              if media.host == 'youtube'
+                echo media | external_video_url: autoplay: true, loop: loop, playlist: media.external_id | external_video_tag: class: video_class, loading: "lazy"
+              else
+                echo media | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy"
+              endif
+            when 'video'
+              echo media | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none"
+            when 'model'
+              echo media | media_tag: image_size: "2048x", toggleable: true
+            endcase
+          -%}
+          </template>
+        {% endif %}
       </div>
     {%- endfor -%}
   </div>
