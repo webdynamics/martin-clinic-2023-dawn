@@ -77,6 +77,7 @@
     min-width: 538px;
     overflow: hidden;
     position: absolute;
+    display: block !important;
     top: 1px;
     width: 100%;
     z-index: 10;
