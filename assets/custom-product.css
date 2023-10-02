@@ -69,4 +69,15 @@
         width: 100% ;
     }
 }
-
+/* zoom container */
+.zoom{
+    height: 100%;
+    left: calc(100% + 30px);
+    min-height: 538px;
+    min-width: 538px;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    z-index: 10;
+}
