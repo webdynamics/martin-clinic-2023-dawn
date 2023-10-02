@@ -99,6 +99,9 @@
     font-family: 'Lato';
 }
 /* quantity */
+label.quantity__label.form__label {
+    display: none;
+}
 .quantity {
     width: 96px;
     min-height: auto;
