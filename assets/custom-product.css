@@ -74,8 +74,7 @@
     height: 100%;
     left: 10px;
     height: 538px; 
-    min-width: 538px;
-    width: 535px;
+    min-width: 538px; 
     overflow: hidden;
     position: absolute;
     display: block !important;
