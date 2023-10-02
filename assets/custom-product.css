@@ -1,11 +1,13 @@
 @media screen and (min-width: 990px){
     .grid__item.product__media-wrapper {
         width: 50% !important;
+        max-width: 50% !important;
         padding: 0 15px;
     }
     
     .product__info-wrapper {
         width: 50% !important;
+        max-width: 50% !important;
         padding: 0 15px;
         padding-left: 15px;
     }
