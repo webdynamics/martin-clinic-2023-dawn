@@ -25,3 +25,10 @@
         width: 100% ;
     }
 }
+.product--medium .thumbnail-list {
+    display: flex;
+}
+
+.slider__slide {
+    width: 45px;
+}
