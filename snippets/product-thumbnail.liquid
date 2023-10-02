@@ -104,6 +104,7 @@
       </svg>
     </div>
     <div class="product__media media media--transparent">
+      {% assign imgMaster = media.preview_image | img_url:"master"  %} 
       {{ media.preview_image | image_url: width: 1946 | image_tag:
         class: image_class,
         loading: lazy,
