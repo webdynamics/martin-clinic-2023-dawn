@@ -86,3 +86,54 @@
 .drift-bounding-box.drift-open {
     display: block;
 }
+
+/* product title and price */
+.product__title h1 {
+    font-family: 'Lato';
+}
+.price--large {
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.product__title h1 {
+    font-family: 'Lato';
+}
+/* quantity */
+.quantity {
+    width: 96px;
+    min-height: auto;
+    border: 1px solid #80808057;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+quantity-input.quantity button,quantity-input.quantity input {
+    width: 33.33%;
+    aspect-ratio: 1;
+    height: auto;
+    margin: 0;
+    /* border: 0 !important; */
+}
+
+button.quantity__button {
+    background: #00000008 !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+
+button.quantity__button:hover {
+    background: #474b4747 !important;
+    transition: .3s;
+}
+ 
+.quantity:before {
+    display: noe;
+}
+
+.quantity:before {
+    display: none !important;
+}
+
+.quantity:after {
+    display: none;
+}
