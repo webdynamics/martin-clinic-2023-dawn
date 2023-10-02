@@ -14,9 +14,9 @@ thumbnailItems.forEach(item => {
 var paneContainer = document.querySelector('.zoom');
 var body = document.querySelector('body');
 
-$(".drifttrigger").each(function() {
+$(".product__media-item ").each(function() {
 
-  new Drift($(this).find("img"), {
+  new Drift($(this).find("img")[0], {
     paneContainer: paneContainer,
     inlinePane: false,
     hoverBoundingBox: true,
