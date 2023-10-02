@@ -37,6 +37,7 @@
 .product-form__submit.button { 
     border-radius: 20px;
     font-family: 'Lato';
+    text-transform: capitalize;
     color: #FFFFFF;
     font-style: normal;
     font-size: 30px;
