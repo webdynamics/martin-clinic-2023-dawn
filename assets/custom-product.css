@@ -21,4 +21,7 @@
         width: 100% !important;
         margin: 0 !important;
     }
+    .product__media-list .product__media-item {
+        width: 100% ;
+    }
 }
