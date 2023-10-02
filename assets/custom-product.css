@@ -19,6 +19,7 @@
     .product-form__buttons{
         max-width: 100%;
     }
+}
 /* Slider */
 .product--medium .thumbnail-list {
     display: flex;
