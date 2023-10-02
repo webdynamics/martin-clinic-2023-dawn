@@ -80,5 +80,5 @@
     display: block !important;
     top: 1px;
     width: 100%;
-    z-index: 10;
+    z-index: 999999;
 }
