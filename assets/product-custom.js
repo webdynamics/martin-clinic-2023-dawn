@@ -16,7 +16,7 @@ var body = document.querySelector('body');
 
 $(".drifttrigger").each(function() {
 
-  new Drift($(this).find("img")[0], {
+  new Drift($(this).find("img"), {
     paneContainer: paneContainer,
     inlinePane: false,
     hoverBoundingBox: true,
