@@ -14,7 +14,7 @@ thumbnailItems.forEach(item => {
 var paneContainer = document.querySelector('.zoom');
 var body = document.querySelector('body');
 
-$(".product__media ").each(function() {
+$(".product__media-item").each(function() {
 
   new Drift($(this).find("img")[0], {
     paneContainer: paneContainer,
