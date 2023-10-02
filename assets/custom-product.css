@@ -1,5 +1,7 @@
 
-/* product main grid  */
+/* lato Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+/* product main grid desktop  */
 
 @media screen and (min-width: 990px){
     .grid__item.product__media-wrapper {
@@ -13,6 +15,9 @@
         max-width: 50% !important;
         padding: 0 15px;
         padding-left: 15px;
+    }
+    .product-form__buttons{
+        max-width: 100%;
     }
 /* Slider */
 .product--medium .thumbnail-list {
@@ -28,7 +33,28 @@
 .thumbnail[aria-current]{
     box-shadow: none;
 }
+/* ATC Button */
+.product-form__submit.button { 
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #92278F;
+    border: none;
+    padding: 15px 48px;
+    transition: .3s;
+}
 
+.product-form__submit.button:before,.product-form__submit.button:after {
+    display: none;
+}
+
+.product-form__submit.button:hover {
+    opacity: .75;
+}
 /* Slider Mobile */
 @media screen and (max-width: 749px){
     .slider.slider--mobile { 
