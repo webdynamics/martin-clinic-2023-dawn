@@ -1,6 +1,6 @@
  
 // all thumbnails  
-const thumbnailItems = document.querySelectorAll('.slider__slide .thumbnail-list__item');
+const thumbnailItems = document.querySelectorAll('.thumbnail-list__item slider__slide');
 
 //  mouseover event listener to each of the thumbnail items
 thumbnailItems.forEach(item => {
