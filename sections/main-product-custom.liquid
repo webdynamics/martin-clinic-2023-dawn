@@ -594,6 +594,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="{{ 'drift.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-custom.js' | asset_url }}" ></script>
+  <script>
+    // zoom js
+  var paneContainer = document.querySelector('.zoom');
+  var body = document.querySelector('body');
+
+  $(".swiper-slide").each(function() {
+
+    new Drift($(this).find("img")[0], {
+      paneContainer: paneContainer,
+      inlinePane: false,
+      hoverBoundingBox: true,
+	// If true, a bounding box will show the area currently being previewed
+	// during touch events
+	touchBoundingBox: true,
+	// A DOM element to append the bounding box to.
+	boundingBoxContainer: body,
+      
+    });
+  });
+
+  </script>
   {%- if product.media.size > 0 -%}
     <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
