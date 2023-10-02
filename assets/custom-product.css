@@ -73,7 +73,7 @@
 .zoom{
     height: 100%;
     left: 10px;
-    min-height: 538px;
+    height: 538px; 
     min-width: 538px;
     overflow: hidden;
     position: absolute;
