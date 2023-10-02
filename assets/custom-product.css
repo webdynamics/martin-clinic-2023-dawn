@@ -82,3 +82,6 @@
     width: 100%;
     z-index: 999999;
 } 
+.drift-bounding-box.drift-open {
+    display: block;
+}
