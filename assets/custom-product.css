@@ -12,3 +12,13 @@
         padding-left: 15px;
     }
 }
+
+@media screen and (max-width: 749px){
+    .slider.slider--mobile { 
+        scroll-padding-left: 0 !important;
+      }
+      .product-media-container {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
