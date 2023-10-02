@@ -10,4 +10,21 @@ thumbnailItems.forEach(item => {
     });
 }); 
    
- 
+// zoom js
+var paneContainer = document.querySelector('.zoom');
+var body = document.querySelector('body');
+
+$(".product__media-item ").each(function() {
+
+  new Drift($(this).find("img")[0], {
+    paneContainer: paneContainer,
+    inlinePane: false,
+    hoverBoundingBox: true,
+  // If true, a bounding box will show the area currently being previewed
+  // during touch events
+  touchBoundingBox: true,
+  // A DOM element to append the bounding box to.
+  boundingBoxContainer: body,
+    
+  });
+});
