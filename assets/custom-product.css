@@ -35,3 +35,6 @@
 .product-media-container {
     border-color: #B3B3B3;
 }
+.thumbnail[aria-current]{
+    box-shadow: none;
+}
