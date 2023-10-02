@@ -72,7 +72,7 @@
 /* zoom container */
 .zoom{
     height: 100%;
-    left: calc(100% + 30px);
+    left: 10px;
     min-height: 538px;
     min-width: 538px;
     overflow: hidden;
