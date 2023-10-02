@@ -94,6 +94,32 @@
         "padding_bottom": 12
       }
     },
+    "7e0d37f9-a98a-40bd-9e36-a1f190236676": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15972630266008__7e0d37f9-a98a-40bd-9e36-a1f190236676-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "reversed": false,
+            "centerheading": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15972630266008__7e0d37f9-a98a-40bd-9e36-a1f190236676-heading-1"
+      ],
+      "settings": {
+        "display_class": "show",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -154,6 +180,7 @@
   "order": [
     "zp-product-header-content",
     "main",
+    "7e0d37f9-a98a-40bd-9e36-a1f190236676",
     "related-products",
     "1691664783d28e4eda",
     "zp-product-footer-content",
