@@ -4,7 +4,7 @@ const thumbnailItems = document.querySelectorAll('.thumbnail-list__item slider__
 
 //  mouseover event listener to each of the thumbnail items
 thumbnailItems.forEach(item => {
-    item.addEventListener('mouseover', () => {
+    item.addEventListener('mouseenter', () => {
         // Trigger a click event on the hovered element
         console.log("click")
         item.click();
