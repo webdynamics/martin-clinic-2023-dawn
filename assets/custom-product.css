@@ -1,0 +1,9 @@
+@media screen and (min-width: 990px){
+    .grid__item.product__media-wrapper {
+        width: 50%;
+    }
+    
+    .product__info-wrapper {
+        width: 50%;
+    }
+}
