@@ -49,7 +49,9 @@
     padding: 15px 48px;
     transition: .3s;
 }
-
+.buy-button {
+    margin-bottom: 0;
+}
 .product-form__submit.button:before,.product-form__submit.button:after {
     display: none;
 }
@@ -190,6 +192,10 @@ product-form.product-form {
     font-family: 'Lato';
     color: black;
 }
+.testimonial-with-icon p {
+    margin: 0;
+    margin-bottom: 5px;
+}
 .review-icon svg { 
     width: 35px;
     height: 35px;
@@ -203,6 +209,7 @@ product-form.product-form {
     align-items: center;
     gap: 15px;
 }
+
 /* mobile hiding class */
 .mobile{
     display: none;
