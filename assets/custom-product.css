@@ -141,3 +141,14 @@ button.quantity__button:hover {
 .quantity:after {
     display: none;
 }
+.mobile{
+    display: none;
+}
+@media screen and (max-width: 749px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
