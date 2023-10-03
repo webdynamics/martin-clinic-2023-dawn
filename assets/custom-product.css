@@ -112,6 +112,7 @@ button.slider-button.slider-button--prev {
     left: 10px;
     height: auto; 
     min-width: 100%;
+    background: white;
     aspect-ratio: 1;
     overflow: hidden;
     position: absolute;
