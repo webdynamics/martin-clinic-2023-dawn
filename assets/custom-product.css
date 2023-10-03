@@ -76,8 +76,9 @@
 .zoom{
     height: 100%;
     left: 10px;
-    height: 538px; 
-    min-width: 538px; 
+    height: auto; 
+    min-width: 100%;
+    aspect-ratio: 1;
     overflow: hidden;
     position: absolute;
     display: block !important;
