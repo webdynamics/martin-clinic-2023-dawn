@@ -93,6 +93,10 @@ button.slider-button.slider-button--prev {
     .product__media-list .product__media-item {
         width: 100% ;
     }
+    .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 /* zoom container */
 .zoom{
