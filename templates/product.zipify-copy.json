@@ -8,15 +8,8 @@
     "main": {
       "type": "main-product-custom",
       "blocks": {
-        "00558412-db39-42c7-a8bc-06066385f79b": {
-          "type": "testimonial",
-          "settings": {
-            "text": "\"The high DHA changed my health forever, besides the numbers on bloodwork , my energy level is up, my eyesight is improving, my Blood pressure stays normal.\" Carla G ~ DHA Upgraded Customer"
-          }
-        },
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "\"The high DHA changed my health forever, besides the numbers on bloodwork , my <strong>energy level<\/strong> is up, my <strong>eyesight<\/strong> is improving, my <strong>Blood pressure<\/strong> stays normal.\"<strong> <\/strong>Carla G ~ DHA Upgraded Customer",
             "text_style": "body"
@@ -37,7 +30,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "mobile": false
           }
         },
         "price": {
@@ -75,16 +67,9 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "b67f525a-5bf7-4f7d-a820-07565f7f8b12": {
-          "type": "title",
-          "settings": {
-            "mobile": true
-          }
         }
       },
       "block_order": [
-        "00558412-db39-42c7-a8bc-06066385f79b",
         "vendor",
         "abfb8bbe-b6a4-4d81-8a9c-32fdd7abff8a",
         "title",
@@ -93,8 +78,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "b67f525a-5bf7-4f7d-a820-07565f7f8b12"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": false,
