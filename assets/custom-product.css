@@ -105,6 +105,26 @@ button.slider-button.slider-button--prev {
         margin-left: 0;
         margin-right: 0;
     }
+    /* dots */
+    .thumbnail-list__item.slider__slide {
+        width: 10px !important;
+        height: 10px;
+        border-radius: 100%;
+        overflow: hidden;
+      }
+      .thumbnail-list__item.slider__slide img {
+        display: none;
+      }
+        .thumbnail {
+        background: grey !important;
+      }
+      .thumbnail[aria-current] {
+        background: black !important;
+      }
+      
+      .thumbnail-slider .thumbnail-list.slider {
+        justify-content: center;
+      }
 }
 /* zoom container */
 .zoom{
