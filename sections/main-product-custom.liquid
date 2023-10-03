@@ -90,17 +90,9 @@
               >
                 {{- block.settings.text -}}
               </p>
-            {%- when 'titleres' -%}
-              <div class="product__title mobile" {{ block.shopify_attributes }}>
-                <h1>{{ product.title | escape }}</h1>
-                <a href="{{ product.url }}" class="product__title">
-                  <h2 class="h1">
-                    {{ product.title | escape }}
-                  </h2>
-                </a>
-              </div>
+            
               {%- when 'title' -%}
-              <div class="product__title desktop" {{ block.shopify_attributes }}>
+              <div class="product__title {%if block.settings.mobile == false%} desktop{%else%}mobile{%endif%}" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
@@ -108,6 +100,26 @@
                   </h2>
                 </a>
               </div>
+              {%- when 'testimonial' -%}
+                <div class="testimonial-with-icon">
+                  <p>
+                    {{block.settings.text}}
+                  </p>
+                </div>
+                {%- when 'featured_content' -%}
+                  <div class="featured_content">
+                    <ul>
+                    <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
+                    <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
+                    <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
+                    <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
+                  </ul>
+                {% for item in product %}
+                  <ul>
+                    <li></li>
+                  </ul>
+                {%endfor%}
+                  </div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
@@ -742,17 +754,57 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
-    },
+      "limit": 2,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "mobile",
+          "default": false,
+          "label": "Show Only on Mobile"
+        } 
+      ]
+    }, 
     {
-      "type": "titleres",
-      "name": "Title Mobile",
-      "limit": 1
+      "type": "featured_content",
+      "name": "Featured Text",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "mobile",
+          "default": false,
+          "label": "Show Only on Mobile"
+        } 
+      ]
     },
     {
       "type": "testimonial",
       "name": "Review text with Icon",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text", 
+          "label": "Text"
+        } 
+      ]
+    }, 
+    {
+      "type": "trustbox",
+      "name": "Trust Box",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text", 
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "img", 
+          "label": "Image"
+        } 
+      ]
     },
     {
       "type": "price",
