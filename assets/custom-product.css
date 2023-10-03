@@ -183,6 +183,13 @@ button.quantity__button:hover {
 product-form.product-form {
     margin-bottom: 12px !important;
 }
+/* testimonial with Icon */
+.testimonial-with-icon {
+    font-size: 20px;
+    line-height: 1.44;
+    font-family: 'Lato';
+    color: black;
+}
 /* mobile hiding class */
 .mobile{
     display: none;
