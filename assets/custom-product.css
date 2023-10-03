@@ -35,7 +35,26 @@
     box-shadow: none;
 }
 
+.slider-counter.caption {
+    display: none;
+}
 
+slider-component.slider-mobile-gutter button.slider-button { 
+    position: absolute;
+    top: 50%; 
+    display: block !important;
+} 
+slider-component.slider-mobile-gutter {
+    position: relative;
+}
+
+button.slider-button.slider-button--next {
+    right: 0;
+}
+
+button.slider-button.slider-button--prev {
+    left: 0;
+}
  
 /* ATC Button */
 .product-form__submit.button { 
@@ -92,8 +111,7 @@
     height: 100%;
     left: 10px;
     height: auto; 
-    min-width: 100%;
-    background: white;
+    min-width: 100%; 
     aspect-ratio: 1;
     overflow: hidden;
     position: absolute;
