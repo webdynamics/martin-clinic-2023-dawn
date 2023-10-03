@@ -141,6 +141,20 @@ button.quantity__button:hover {
 .quantity:after {
     display: none;
 }
+/* feature content */
+
+.featured_content li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato';
+    line-height: 1.53;
+}
+
+.featured_content ul {
+    padding-left: 0;
+}
+/* mobile hiding class */
 .mobile{
     display: none;
 }
