@@ -100,14 +100,19 @@
                   </h2>
                 </a>
               </div>
-              {%- when 'testimonial' -%}
+              {%- when 'trustbox' -%}
+                <div class="trustbox">
+                  <p>{{block.settings.text}}</p>
+                  <img src="{{block.settings.img | img_url: 'master'}}" alt="">
+                </div>
+                {%- when 'testimonial' -%}
                 <div class="testimonial-with-icon">
                   <p>
                     {{block.settings.text}}
                   </p>
                 </div>
                 {%- when 'featured_content' -%}
-                  <div class="featured_content">
+                  <div class="featured_content {%if block.settings.mobile == false%} desktop{%else%}mobile{%endif%}">
                     <ul>
                     <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
                     <li>✓ Contains 2700mg of DHA per dose (two capsules)</li>
@@ -778,7 +783,7 @@
       ]
     },
     {
-      "type": "testimonial",
+      "type": "testimonial", 
       "name": "Review text with Icon",
       "limit": 1,
       "settings": [
