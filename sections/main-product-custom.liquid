@@ -110,6 +110,9 @@
                   <p>
                     {{block.settings.text}}
                   </p>
+                  <div class="review-icon"> 
+                    {%render "star.liquid"%} 5.0
+                  </div>
                 </div>
                 {%- when 'featured_content' -%}
                   <div class="featured_content {%if block.settings.mobile == false%} desktop{%else%}mobile{%endif%}">
