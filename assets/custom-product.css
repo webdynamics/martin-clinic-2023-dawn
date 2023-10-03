@@ -190,6 +190,11 @@ product-form.product-form {
     font-family: 'Lato';
     color: black;
 }
+.review-icon svg { 
+    width: 35px;
+    height: 35px;
+    margin:0 -5px;
+}
 /* mobile hiding class */
 .mobile{
     display: none;
