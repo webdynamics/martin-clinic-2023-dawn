@@ -149,6 +149,9 @@
       "block_order": [
         "template--15972630266008__7e0d37f9-a98a-40bd-9e36-a1f190236676-heading-1"
       ],
+      "custom_css": [
+        "h2{font-family:\"lato\"}"
+      ],
       "settings": {
         "display_class": "show",
         "desktop_content_position": "center",
