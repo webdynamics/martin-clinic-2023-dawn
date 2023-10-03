@@ -99,6 +99,10 @@
 .product__title h1 {
     font-family: 'Lato';
 }
+.product__title.desktop {
+    margin-bottom: 0;
+}
+
 /* quantity */
 label.quantity__label.form__label {
     display: none;
@@ -143,6 +147,13 @@ button.quantity__button:hover {
 }
 /* feature content */
 
+.featured_content.desktop {
+    margin-top: 0;
+}
+
+.featured_content ul {
+    margin-top: 5px;
+}
 .featured_content li {
     list-style: none;
     color: black;
