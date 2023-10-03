@@ -35,7 +35,7 @@
     box-shadow: none;
 }
 
-.slider-counter.caption {
+/* .slider-counter.caption {
     display: none;
 }
 
@@ -54,7 +54,7 @@ button.slider-button.slider-button--next {
 
 button.slider-button.slider-button--prev {
     left: 0;
-}
+} */
  
 /* ATC Button */
 .product-form__submit.button { 
