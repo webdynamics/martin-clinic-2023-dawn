@@ -154,6 +154,24 @@ button.quantity__button:hover {
 .featured_content ul {
     padding-left: 0;
 }
+/* trustbox */
+.trustbox {
+    margin-top: 0px !important;
+    text-align: center;
+}
+
+.trustbox p {
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+product-form.product-form {
+    margin-bottom: 12px !important;
+}
 /* mobile hiding class */
 .mobile{
     display: none;
