@@ -139,10 +139,10 @@
         "template--15972630266008__7e0d37f9-a98a-40bd-9e36-a1f190236676-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.featured_review_heading.value }}",
+            "heading": "<strong>What are people saying about DHA Upgraded?<\/strong>",
             "heading_size": "h1",
             "reversed": false,
-            "centerheading": false
+            "centerheading": true
           }
         }
       },
