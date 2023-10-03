@@ -195,6 +195,14 @@ product-form.product-form {
     height: 35px;
     margin:0 -5px;
 }
+.icon-wrapper{
+    height:35px
+}
+.review-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 /* mobile hiding class */
 .mobile{
     display: none;
