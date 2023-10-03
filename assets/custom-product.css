@@ -42,6 +42,7 @@
 slider-component.slider-mobile-gutter button.slider-button { 
     position: absolute;
     top: 50%; 
+    display: block !important;
 } 
 slider-component.slider-mobile-gutter {
     position: relative;
