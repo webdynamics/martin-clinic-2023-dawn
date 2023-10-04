@@ -56,7 +56,7 @@ button.slider-button.slider-button--prev {
     left: 0;
 }  
 slider-component.thumbnail-slider button.slider-button{
-    display: :none !important;
+    display: none !important;
 }
 /* ATC Button */
 .product-form__submit.button { 
