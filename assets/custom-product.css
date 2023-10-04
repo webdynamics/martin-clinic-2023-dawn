@@ -329,6 +329,10 @@ button#ProductSubmitButton- {
 .sticky-atc-wrapper.mobile.sticky-hidden {
     transform: translateY(100%);
 }
+/* section ATC */
+.section-atc{
+    
+}
 /* mobile hiding class */
 .mobile{
     display: none;
