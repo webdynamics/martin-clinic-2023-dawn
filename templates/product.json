@@ -18,6 +18,7 @@
         },
         "abfb8bbe-b6a4-4d81-8a9c-32fdd7abff8a": {
           "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-single-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
           "settings": {
             "api_key": "pubkey-9764S3I0C5D42V1q9AUxl08d1vcw48",
             "store_hash": "50294",
@@ -30,7 +31,6 @@
         "title": {
           "type": "title",
           "settings": {
-            "mobile": false
           }
         },
         "price": {
