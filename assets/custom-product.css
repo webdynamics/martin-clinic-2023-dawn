@@ -137,6 +137,9 @@ slider-component.thumbnail-slider button.slider-button{
       .thumbnail-slider .thumbnail-list.slider {
         justify-content: center;
       }
+      slider-component.slider-mobile-gutter.mobile-carousel .slider-buttons {
+        display: block !important;
+    }
 }
 /* zoom container */
 .zoom{
