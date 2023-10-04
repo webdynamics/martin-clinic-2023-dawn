@@ -28,3 +28,28 @@ $(".product__media-item ").each(function() {
     
   });
 });
+
+// sticky atc
+
+(function() {
+  'use strict';
+  
+  const stickyContainer = document.querySelector('.sticky-atc-wrapper');
+  const observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.1
+  }); 
+  document.querySelectorAll('.product__info-wrapper .product-form__submit.button').forEach(target => {
+    observer.observe(target);
+  })
+  
+  function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        stickyContainer.classList.add('sticky-hidden');
+      }
+      else {
+        stickyContainer.classList.remove('sticky-hidden');
+      }
+    })
+  }
+})()  
