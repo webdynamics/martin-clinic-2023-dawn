@@ -330,6 +330,9 @@ product-form.product-form.stickyatc {
     transform: translateY(100%);
 }
 /* section ATC */
+.product-form.product-form.section-atc{ 
+    padding: 30px 1.28%;
+}
 .product-form.product-form.section-atc button#ProductSubmitButton- {
     width: 30%;
     margin: 0 auto;
