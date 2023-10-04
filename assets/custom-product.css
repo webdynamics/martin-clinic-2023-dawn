@@ -90,7 +90,13 @@ button.slider-button.slider-button--prev {
     opacity: .75;
 }
 /* Slider Mobile */
-@media screen and (max-width: 749px){
+@media screen and (max-width: 749px){ 
+
+        .drift-zoom-pane.drift-open, .drift-zoom-pane {
+          display: none;
+        }
+      
+  
     .slider.slider--mobile { 
         scroll-padding-left: 0 !important;
       }
