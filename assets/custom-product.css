@@ -42,7 +42,7 @@
 slider-component.slider-mobile-gutter button.slider-button { 
     position: absolute;
     top: 50%; 
-    display: block !important;
+    display: block ;
 } 
 slider-component.slider-mobile-gutter {
     position: relative;
@@ -55,9 +55,7 @@ button.slider-button.slider-button--next {
 button.slider-button.slider-button--prev {
     left: 0;
 }  
-.thumbnail-slider--no-slide .slider-button {
-    display: none !important;
-}
+ 
 /* ATC Button */
 .product-form__submit.button { 
     border-radius: 20px;
