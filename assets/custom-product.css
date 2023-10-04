@@ -96,7 +96,9 @@ button.slider-button.slider-button--prev {
           display: none;
         }
       
-  
+        .product__media.media.media--transparent {
+            pointer-events: none;
+        }
     .slider.slider--mobile { 
         scroll-padding-left: 0 !important;
       }
