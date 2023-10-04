@@ -35,7 +35,7 @@
     box-shadow: none;
 }
 
-/* .slider-counter.caption {
+ .slider-counter.caption {
     display: none;
 }
 
@@ -54,7 +54,7 @@ button.slider-button.slider-button--next {
 
 button.slider-button.slider-button--prev {
     left: 0;
-} */
+}  
  
 /* ATC Button */
 .product-form__submit.button { 
@@ -109,7 +109,7 @@ button.slider-button.slider-button--prev {
     .thumbnail-list__item.slider__slide {
         width: 10px !important;
         height: 10px;
-        border-radius: 100%;
+        border-radius: 100%; 
         overflow: hidden;
       }
       .thumbnail-list__item.slider__slide img {
