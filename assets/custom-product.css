@@ -306,7 +306,7 @@ product-form.product-form.stickyatc {
     margin: 0 !important;
 }
 
-button#ProductSubmitButton- {
+.sticky-atc-wrapper button#ProductSubmitButton- {
     margin-bottom: 0;
     font-size: 12px;
 }
@@ -331,7 +331,7 @@ button#ProductSubmitButton- {
 }
 /* section ATC */
 .section-atc{
-    
+
 }
 /* mobile hiding class */
 .mobile{
