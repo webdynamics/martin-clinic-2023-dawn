@@ -81,7 +81,7 @@
       ],
       "settings": {
         "enable_sticky_info": false,
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
