@@ -311,7 +311,7 @@ product-form.product-form.stickyatc {
     font-size: 12px;
 }
 
-.sticky-atc-wrapper.mobile {
+.sticky-atc-wrapper {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -326,7 +326,7 @@ product-form.product-form.stickyatc {
     box-shadow: 1px 1px 13px #0000003d;
     transition: transform .2s linear;
 }
-.sticky-atc-wrapper.mobile.sticky-hidden {
+.sticky-atc-wrapper.sticky-hidden {
     transform: translateY(100%);
 }
 /* section ATC */
