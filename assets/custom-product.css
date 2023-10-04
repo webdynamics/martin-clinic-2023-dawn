@@ -156,7 +156,9 @@ slider-component.thumbnail-slider button.slider-button{
 .drift-bounding-box.drift-open {
     display: block;
 }
-
+.drift-zoom-pane {
+    background: white;
+}
 /* product title and price */
 .product__title h1 {
     font-family: 'Lato';
