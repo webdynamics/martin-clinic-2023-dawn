@@ -316,6 +316,7 @@ button#ProductSubmitButton- {
     bottom: 0;
     left: 0;
     width: 100%;
+    transform: translateY(100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -323,6 +324,7 @@ button#ProductSubmitButton- {
     z-index: 999;
     background: white;
     box-shadow: 1px 1px 13px #0000003d;
+    transition: transform .2s linear;
 }
 
 /* mobile hiding class */
