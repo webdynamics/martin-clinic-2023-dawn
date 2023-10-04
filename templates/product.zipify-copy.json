@@ -206,16 +206,23 @@
     },
     "zp-product-footer-content": {
       "type": "product-footer-content-zipifypages",
+      "disabled": true,
       "settings": {
       }
     },
     "38e6271b-ac7c-4edb-831e-193ef13a1847": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<style>#shopify-section-announcement-bar { display: none; } <\/style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "7b0b66a4-d092-4300-9636-e958cc296cb3": {
+      "type": "add-to-cart",
+      "settings": {
       }
     }
   },
@@ -226,6 +233,7 @@
     "related-products",
     "1691664783d28e4eda",
     "zp-product-footer-content",
-    "38e6271b-ac7c-4edb-831e-193ef13a1847"
+    "38e6271b-ac7c-4edb-831e-193ef13a1847",
+    "7b0b66a4-d092-4300-9636-e958cc296cb3"
   ]
 }
