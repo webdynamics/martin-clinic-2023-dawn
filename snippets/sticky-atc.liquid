@@ -1,7 +1,7 @@
-<div class="sticky-atc-wrapper">
+<div class="sticky-atc-wrapper mobile">
     <div class="product-info-sticky">
         <h2>{{product.selected_or_first_available_variant.title}}</h2>
-        <h4>{{product.selected_or_first_available_variant.price}}</h4>
+        <h4>{{product.selected_or_first_available_variant.price | money}}</h4>
     </div>
     <product-form class="product-form stickyatc" data-hide-errors="{{ gift_card_recipient_feature_active }}">
       <div class="product-form__error-message-wrapper" role="alert" hidden>
