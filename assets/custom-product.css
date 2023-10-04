@@ -72,6 +72,7 @@ button.slider-button.slider-button--prev {
     transition: .3s;
 }
 @media screen and (max-width: 749px){
+
 .product-form__submit.button {
     font-size: 16px;
     text-transform: uppercase;
@@ -89,6 +90,7 @@ button.slider-button.slider-button--prev {
 .product-form__submit.button:hover {
     opacity: .75;
 }
+
 /* Slider Mobile */
 @media screen and (max-width: 749px){ 
 
